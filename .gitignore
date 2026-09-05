@@ -3,18 +3,24 @@ backend/venv/
 backend/__pycache__/
 backend/app/__pycache__/
 backend/app/*/__pycache__/
-backend/cache/
 *.pyc
 *.pyo
 *.pyd
 .pytest_cache/
+
+# Local scratch databases. The shipped dataset (backend/opentyref1.db) is
+# committed on purpose so the repo is runnable and inspectable without a
+# 30-minute ingestion run — see DATASETS.md.
 *.db
-backend/pitwall.db
+!backend/opentyref1.db
+
+# FastF1 HTTP/pickle cache — regenerates on first run, don't ship it.
+backend/cache/
 
 # Node / React Native / Expo
 node_modules/
-pitwall-ai/node_modules/
-pitwall-ai/.expo/
+opentyref1/node_modules/
+opentyref1/.expo/
 .expo/
 dist/
 web-build/
@@ -25,3 +31,7 @@ web-build/
 .DS_Store
 Thumbs.db
 *.log
+
+# Machine-local Claude Code settings (shared settings.json stays tracked)
+.claude/settings.local.json
+**/.claude/settings.local.json

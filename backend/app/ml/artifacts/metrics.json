@@ -1,0 +1,84 @@
+{
+  "featureSet": "minimal",
+  "targetMode": "relative",
+  "features": [
+    "compound",
+    "circuit",
+    "driver_id",
+    "tyre_life",
+    "lap_number",
+    "track_temp"
+  ],
+  "metrics": {
+    "model": {
+      "mae": 0.8929,
+      "rmse": 1.2046,
+      "r2": 0.9775
+    },
+    "baseline_driver_circuit_median": {
+      "mae": 4.0961,
+      "rmse": 5.4198,
+      "r2": 0.5451
+    },
+    "baseline_race_median_lap": {
+      "mae": 1.1629,
+      "rmse": 1.4938,
+      "r2": 0.9654
+    },
+    "headline_baseline": "baseline_race_median_lap",
+    "mae_improvement_seconds": 0.27,
+    "beats_baseline": true,
+    "best_iteration": 16,
+    "feature_set": "minimal",
+    "target_mode": "relative"
+  },
+  "comparison": {
+    "minimal / absolute": {
+      "mae": 3.5864,
+      "rmse": 4.6314,
+      "r2": 0.6678
+    },
+    "conditions / absolute": {
+      "mae": 3.6498,
+      "rmse": 4.5931,
+      "r2": 0.6733
+    },
+    "full / absolute": {
+      "mae": 3.5823,
+      "rmse": 4.8068,
+      "r2": 0.6422
+    },
+    "minimal / relative": {
+      "mae": 0.8929,
+      "rmse": 1.2046,
+      "r2": 0.9775
+    },
+    "conditions / relative": {
+      "mae": 0.8807,
+      "rmse": 1.1903,
+      "r2": 0.9781
+    },
+    "full / relative": {
+      "mae": 0.86,
+      "rmse": 1.1714,
+      "r2": 0.9788
+    }
+  },
+  "feature_importance": {
+    "compound": 0.0913,
+    "circuit": 0.1224,
+    "driver_id": 0.185,
+    "tyre_life": 0.0778,
+    "lap_number": 0.4217,
+    "track_temp": 0.1018
+  },
+  "training_rows": 40012,
+  "training_races": 58,
+  "validation_races": 12,
+  "holdout_races": 12,
+  "years": [
+    2023,
+    2026
+  ],
+  "trained_at": "2026-08-30T08:24:36+00:00"
+}

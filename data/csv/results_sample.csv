@@ -1,0 +1,2001 @@
+id,race_id,driver_id,constructor_id,number,position,points,grid,laps,status,qualifying_position
+1,2023_1,max_verstappen,red_bull,1,1,25.0,1,57,Finished,1
+2,2023_1,perez,red_bull,11,2,18.0,2,57,Finished,2
+3,2023_1,alonso,aston_martin,14,3,15.0,5,57,Finished,5
+4,2023_1,sainz,ferrari,55,4,12.0,4,57,Finished,4
+5,2023_1,hamilton,mercedes,44,5,10.0,7,57,Finished,7
+6,2023_1,stroll,aston_martin,18,6,8.0,8,57,Finished,8
+7,2023_1,russell,mercedes,63,7,6.0,6,57,Finished,6
+8,2023_1,bottas,alfa,77,8,4.0,12,57,Finished,12
+9,2023_1,gasly,alpine,10,9,2.0,20,57,Finished,20
+10,2023_1,albon,williams,23,10,1.0,15,57,Finished,15
+11,2023_1,tsunoda,alphatauri,22,11,0.0,14,57,Finished,14
+12,2023_1,sargeant,williams,2,12,0.0,16,56,Lapped,16
+13,2023_1,kevin_magnussen,haas,20,13,0.0,17,56,Lapped,17
+14,2023_1,de_vries,alphatauri,21,14,0.0,19,56,Lapped,19
+15,2023_1,hulkenberg,haas,27,15,0.0,10,56,Lapped,10
+16,2023_1,zhou,alfa,24,16,0.0,13,56,Lapped,13
+17,2023_1,norris,mclaren,4,17,0.0,11,55,Lapped,11
+18,2023_1,ocon,alpine,31,18,0.0,9,41,Retired,9
+19,2023_1,leclerc,ferrari,16,19,0.0,3,39,Retired,3
+20,2023_1,piastri,mclaren,81,20,0.0,18,13,Retired,18
+21,2023_2,perez,red_bull,11,1,25.0,1,50,Finished,1
+22,2023_2,max_verstappen,red_bull,1,2,19.0,15,50,Finished,15
+23,2023_2,alonso,aston_martin,14,3,15.0,2,50,Finished,3
+24,2023_2,russell,mercedes,63,4,12.0,3,50,Finished,4
+25,2023_2,hamilton,mercedes,44,5,10.0,7,50,Finished,8
+26,2023_2,sainz,ferrari,55,6,8.0,4,50,Finished,5
+27,2023_2,leclerc,ferrari,16,7,6.0,12,50,Finished,2
+28,2023_2,ocon,alpine,31,8,4.0,6,50,Finished,7
+29,2023_2,gasly,alpine,10,9,2.0,9,50,Finished,10
+30,2023_2,kevin_magnussen,haas,20,10,1.0,13,50,Finished,13
+31,2023_2,tsunoda,alphatauri,22,11,0.0,16,50,Finished,16
+32,2023_2,hulkenberg,haas,27,12,0.0,10,50,Finished,11
+33,2023_2,zhou,alfa,24,13,0.0,11,50,Finished,12
+34,2023_2,de_vries,alphatauri,21,14,0.0,18,50,Finished,18
+35,2023_2,piastri,mclaren,81,15,0.0,8,50,Finished,9
+36,2023_2,sargeant,williams,2,16,0.0,20,50,Finished,20
+37,2023_2,norris,mclaren,4,17,0.0,19,50,Finished,19
+38,2023_2,bottas,alfa,77,18,0.0,14,49,Lapped,14
+39,2023_2,albon,williams,23,19,0.0,17,27,Retired,17
+40,2023_2,stroll,aston_martin,18,20,0.0,5,16,Retired,6
+41,2023_3,max_verstappen,red_bull,1,1,25.0,1,58,Finished,1
+42,2023_3,hamilton,mercedes,44,2,18.0,3,58,Finished,3
+43,2023_3,alonso,aston_martin,14,3,15.0,4,58,Finished,4
+44,2023_3,stroll,aston_martin,18,4,12.0,6,58,Finished,6
+45,2023_3,perez,red_bull,11,5,11.0,20,58,Finished,20
+46,2023_3,norris,mclaren,4,6,8.0,13,58,Finished,13
+47,2023_3,hulkenberg,haas,27,7,6.0,10,58,Finished,10
+48,2023_3,piastri,mclaren,81,8,4.0,16,58,Finished,16
+49,2023_3,zhou,alfa,24,9,2.0,17,58,Finished,17
+50,2023_3,tsunoda,alphatauri,22,10,1.0,12,58,Finished,12
+51,2023_3,bottas,alfa,77,11,0.0,19,58,Finished,19
+52,2023_3,sainz,ferrari,55,12,0.0,5,58,Finished,5
+53,2023_3,gasly,alpine,10,13,0.0,9,56,Retired,9
+54,2023_3,ocon,alpine,31,14,0.0,11,56,Retired,11
+55,2023_3,de_vries,alphatauri,21,15,0.0,15,56,Retired,15
+56,2023_3,sargeant,williams,2,16,0.0,18,56,Retired,18
+57,2023_3,kevin_magnussen,haas,20,17,0.0,14,52,Retired,14
+58,2023_3,russell,mercedes,63,18,0.0,2,17,Retired,2
+59,2023_3,albon,williams,23,19,0.0,8,6,Retired,8
+60,2023_3,leclerc,ferrari,16,20,0.0,7,0,Retired,7
+61,2023_4,perez,red_bull,11,1,25.0,3,51,Finished,3
+62,2023_4,max_verstappen,red_bull,1,2,18.0,2,51,Finished,2
+63,2023_4,leclerc,ferrari,16,3,15.0,1,51,Finished,1
+64,2023_4,alonso,aston_martin,14,4,12.0,6,51,Finished,6
+65,2023_4,sainz,ferrari,55,5,10.0,4,51,Finished,4
+66,2023_4,hamilton,mercedes,44,6,8.0,5,51,Finished,5
+67,2023_4,stroll,aston_martin,18,7,6.0,9,51,Finished,9
+68,2023_4,russell,mercedes,63,8,5.0,11,51,Finished,11
+69,2023_4,norris,mclaren,4,9,2.0,7,51,Finished,7
+70,2023_4,tsunoda,alphatauri,22,10,1.0,8,51,Finished,8
+71,2023_4,piastri,mclaren,81,11,0.0,10,51,Finished,10
+72,2023_4,albon,williams,23,12,0.0,12,51,Finished,13
+73,2023_4,kevin_magnussen,haas,20,13,0.0,16,51,Finished,18
+74,2023_4,gasly,alpine,10,14,0.0,17,51,Finished,19
+75,2023_4,ocon,alpine,31,15,0.0,19,51,Finished,12
+76,2023_4,sargeant,williams,2,16,0.0,14,51,Finished,15
+77,2023_4,hulkenberg,haas,27,17,0.0,20,50,Lapped,17
+78,2023_4,bottas,alfa,77,18,0.0,13,50,Lapped,14
+79,2023_4,zhou,alfa,24,19,0.0,15,36,Retired,16
+80,2023_4,de_vries,alphatauri,21,20,0.0,18,9,Retired,20
+81,2023_5,max_verstappen,red_bull,1,1,26.0,9,57,Finished,9
+82,2023_5,perez,red_bull,11,2,18.0,1,57,Finished,1
+83,2023_5,alonso,aston_martin,14,3,15.0,2,57,Finished,2
+84,2023_5,russell,mercedes,63,4,12.0,6,57,Finished,6
+85,2023_5,sainz,ferrari,55,5,10.0,3,57,Finished,3
+86,2023_5,hamilton,mercedes,44,6,8.0,13,57,Finished,13
+87,2023_5,leclerc,ferrari,16,7,6.0,7,57,Finished,7
+88,2023_5,gasly,alpine,10,8,4.0,5,57,Finished,5
+89,2023_5,ocon,alpine,31,9,2.0,8,57,Finished,8
+90,2023_5,kevin_magnussen,haas,20,10,1.0,4,57,Finished,4
+91,2023_5,tsunoda,alphatauri,22,11,0.0,17,57,Finished,17
+92,2023_5,stroll,aston_martin,18,12,0.0,18,57,Finished,18
+93,2023_5,bottas,alfa,77,13,0.0,10,57,Finished,10
+94,2023_5,albon,williams,23,14,0.0,11,57,Finished,11
+95,2023_5,hulkenberg,haas,27,15,0.0,12,57,Finished,12
+96,2023_5,zhou,alfa,24,16,0.0,14,57,Finished,14
+97,2023_5,norris,mclaren,4,17,0.0,16,57,Finished,16
+98,2023_5,de_vries,alphatauri,21,18,0.0,15,57,Finished,15
+99,2023_5,piastri,mclaren,81,19,0.0,19,56,Lapped,19
+100,2023_5,sargeant,williams,2,20,0.0,20,56,Lapped,20
+101,2002_1,michael_schumacher,ferrari,1,1,10.0,2,58,Finished,
+102,2002_1,montoya,williams,6,2,6.0,6,58,Finished,
+103,2002_1,raikkonen,mclaren,4,3,4.0,5,58,Finished,
+104,2002_1,irvine,jaguar,16,4,3.0,19,57,+1 Lap,
+105,2002_1,webber,minardi,23,5,2.0,18,56,+2 Laps,
+106,2002_1,salo,toyota,24,6,1.0,14,56,+2 Laps,
+107,2002_1,yoong,minardi,22,7,0.0,21,55,+3 Laps,
+108,2002_1,rosa,jaguar,17,8,0.0,20,53,+5 Laps,
+109,2002_1,coulthard,mclaren,3,9,0.0,4,33,Gearbox,
+110,2002_1,villeneuve,bar,11,10,0.0,13,27,Broken wing,
+111,2002_1,frentzen,arrows,20,11,0.0,15,16,Disqualified,
+112,2002_1,bernoldi,arrows,21,12,0.0,17,15,Disqualified,
+113,2002_1,sato,jordan,10,13,0.0,22,12,Electrical,
+114,2002_1,trulli,renault,14,14,0.0,7,8,Spun off,
+115,2002_1,barrichello,ferrari,2,15,0.0,1,0,Collision,
+116,2002_1,ralf_schumacher,williams,5,16,0.0,3,0,Collision,
+117,2002_1,fisichella,jordan,9,17,0.0,8,0,Collision,
+118,2002_1,massa,sauber,8,18,0.0,9,0,Collision,
+119,2002_1,heidfeld,sauber,7,19,0.0,10,0,Collision,
+120,2002_1,button,renault,15,20,0.0,11,0,Collision,
+121,2002_1,panis,bar,12,21,0.0,12,0,Collision,
+122,2002_1,mcnish,toyota,25,22,0.0,16,0,Collision,
+123,2002_2,ralf_schumacher,williams,5,1,10.0,4,56,Finished,4
+124,2002_2,montoya,williams,6,2,6.0,2,56,Finished,2
+125,2002_2,michael_schumacher,ferrari,1,3,4.0,1,56,Finished,1
+126,2002_2,button,renault,15,4,3.0,8,56,Finished,8
+127,2002_2,heidfeld,sauber,7,5,2.0,7,55,+1 Lap,7
+128,2002_2,massa,sauber,8,6,1.0,14,55,+1 Lap,14
+129,2002_2,mcnish,toyota,25,7,0.0,19,55,+1 Lap,19
+130,2002_2,villeneuve,bar,11,8,0.0,13,55,+1 Lap,13
+131,2002_2,sato,jordan,10,9,0.0,15,54,+2 Laps,15
+132,2002_2,rosa,jaguar,17,10,0.0,17,54,+2 Laps,17
+133,2002_2,frentzen,arrows,20,11,0.0,11,54,+2 Laps,11
+134,2002_2,salo,toyota,24,12,0.0,10,53,+3 Laps,10
+135,2002_2,fisichella,jordan,9,13,0.0,9,53,+3 Laps,9
+136,2002_2,barrichello,ferrari,2,14,0.0,3,39,Engine,3
+137,2002_2,webber,minardi,23,15,0.0,21,34,Electrical,21
+138,2002_2,irvine,jaguar,16,16,0.0,20,30,Hydraulics,20
+139,2002_2,yoong,minardi,22,17,0.0,22,29,Gearbox,22
+140,2002_2,raikkonen,mclaren,4,18,0.0,5,24,Engine,5
+141,2002_2,bernoldi,arrows,21,19,0.0,16,20,Fuel,16
+142,2002_2,coulthard,mclaren,3,20,0.0,6,15,Engine,6
+143,2002_2,panis,bar,12,21,0.0,18,9,Clutch,18
+144,2002_2,trulli,renault,14,22,0.0,12,9,Overheating,12
+145,2002_3,michael_schumacher,ferrari,1,1,10.0,2,71,Finished,
+146,2002_3,ralf_schumacher,williams,5,2,6.0,3,71,Finished,
+147,2002_3,coulthard,mclaren,3,3,4.0,4,71,Finished,
+148,2002_3,button,renault,15,4,3.0,7,71,Finished,
+149,2002_3,montoya,williams,6,5,2.0,1,71,Finished,
+150,2002_3,salo,toyota,24,6,1.0,10,70,+1 Lap,
+151,2002_3,irvine,jaguar,16,7,0.0,13,70,+1 Lap,
+152,2002_3,rosa,jaguar,17,8,0.0,11,70,+1 Lap,
+153,2002_3,sato,jordan,10,9,0.0,19,69,+2 Laps,
+154,2002_3,villeneuve,bar,11,10,0.0,15,68,Engine,
+155,2002_3,webber,minardi,23,11,0.0,20,68,+3 Laps,
+156,2002_3,raikkonen,mclaren,4,12,0.0,5,67,Wheel rim,
+157,2002_3,yoong,minardi,22,13,0.0,22,67,+4 Laps,
+158,2002_3,heidfeld,sauber,7,14,0.0,9,61,Brakes,
+159,2002_3,trulli,renault,14,15,0.0,6,60,Engine,
+160,2002_3,massa,sauber,8,16,0.0,12,41,Collision,
+161,2002_3,mcnish,toyota,25,17,0.0,16,40,Spun off,
+162,2002_3,panis,bar,12,18,0.0,17,25,Gearbox,
+163,2002_3,frentzen,arrows,20,19,0.0,18,25,Suspension,
+164,2002_3,bernoldi,arrows,21,20,0.0,21,19,Suspension,
+165,2002_3,barrichello,ferrari,2,21,0.0,8,16,Hydraulics,
+166,2002_3,fisichella,jordan,9,22,0.0,14,6,Engine,
+167,2002_4,michael_schumacher,ferrari,1,1,10.0,1,62,Finished,
+168,2002_4,barrichello,ferrari,2,2,6.0,2,62,Finished,
+169,2002_4,ralf_schumacher,williams,5,3,4.0,3,62,Finished,
+170,2002_4,montoya,williams,6,4,3.0,4,62,Finished,
+171,2002_4,button,renault,15,5,2.0,9,62,Finished,
+172,2002_4,coulthard,mclaren,3,6,1.0,6,61,+1 Lap,
+173,2002_4,villeneuve,bar,11,7,0.0,10,61,+1 Lap,
+174,2002_4,massa,sauber,8,8,0.0,11,61,+1 Lap,
+175,2002_4,trulli,renault,14,9,0.0,8,61,+1 Lap,
+176,2002_4,heidfeld,sauber,7,10,0.0,7,61,+1 Lap,
+177,2002_4,webber,minardi,23,11,0.0,19,60,+2 Laps,
+178,2002_4,bernoldi,arrows,21,12,0.0,20,50,Power loss,
+179,2002_4,irvine,jaguar,16,13,0.0,18,45,Driveshaft,
+180,2002_4,raikkonen,mclaren,4,14,0.0,5,44,Exhaust,
+181,2002_4,panis,bar,12,15,0.0,12,44,Throttle,
+182,2002_4,rosa,jaguar,17,16,0.0,22,30,Driveshaft,
+183,2002_4,salo,toyota,24,17,0.0,16,26,Gearbox,
+184,2002_4,frentzen,arrows,20,18,0.0,13,25,Power loss,
+185,2002_4,fisichella,jordan,9,19,0.0,15,19,Hydraulics,
+186,2002_4,sato,jordan,10,20,0.0,14,5,Gearbox,
+187,2002_4,mcnish,toyota,25,21,0.0,17,0,Electrical,
+188,2002_5,michael_schumacher,ferrari,1,1,10.0,1,65,Finished,
+189,2002_5,montoya,williams,6,2,6.0,4,65,Finished,
+190,2002_5,coulthard,mclaren,3,3,4.0,7,65,Finished,
+191,2002_5,heidfeld,sauber,7,4,3.0,8,65,Finished,
+192,2002_5,massa,sauber,8,5,2.0,11,65,Finished,
+193,2002_5,frentzen,arrows,20,6,1.0,10,65,Finished,
+194,2002_5,villeneuve,bar,11,7,0.0,15,64,+1 Lap,
+195,2002_5,mcnish,toyota,25,8,0.0,19,64,+1 Lap,
+196,2002_5,salo,toyota,24,9,0.0,17,64,+1 Lap,
+197,2002_5,trulli,renault,14,10,0.0,9,63,Engine,
+198,2002_5,ralf_schumacher,williams,5,11,0.0,3,63,Engine,
+199,2002_5,button,renault,15,12,0.0,6,60,Hydraulics,
+200,2002_5,panis,bar,12,13,0.0,13,43,Exhaust,
+201,2002_5,irvine,jaguar,16,14,0.0,22,41,Hydraulics,
+202,2002_5,bernoldi,arrows,21,15,0.0,14,40,Hydraulics,
+203,2002_5,sato,jordan,10,16,0.0,18,10,Spun off,
+204,2002_5,fisichella,jordan,9,17,0.0,12,5,Hydraulics,
+205,2002_5,raikkonen,mclaren,4,18,0.0,5,4,Rear wing,
+206,2002_5,rosa,jaguar,17,19,0.0,16,2,Spun off,
+207,2002_5,barrichello,ferrari,2,20,0.0,2,0,Gearbox,
+208,2002_5,webber,minardi,22,21,0.0,20,0,Safety,
+209,2002_5,yoong,minardi,23,22,0.0,21,0,Safety,
+210,2002_6,michael_schumacher,ferrari,1,1,10.0,3,71,Finished,
+211,2002_6,barrichello,ferrari,2,2,6.0,1,71,Finished,
+212,2002_6,montoya,williams,6,3,4.0,4,71,Finished,
+213,2002_6,ralf_schumacher,williams,5,4,3.0,2,71,Finished,
+214,2002_6,fisichella,jordan,9,5,2.0,15,71,Finished,
+215,2002_6,coulthard,mclaren,3,6,1.0,8,71,Finished,
+216,2002_6,button,renault,15,7,0.0,13,71,Finished,
+217,2002_6,salo,toyota,24,8,0.0,10,71,Finished,
+218,2002_6,mcnish,toyota,25,9,0.0,14,71,Finished,
+219,2002_6,villeneuve,bar,11,10,0.0,17,70,+1 Lap,
+220,2002_6,frentzen,arrows,20,11,0.0,11,69,+2 Laps,
+221,2002_6,webber,minardi,23,12,0.0,21,69,+2 Laps,
+222,2002_6,trulli,renault,14,13,0.0,16,44,Fuel pressure,
+223,2002_6,yoong,minardi,22,14,0.0,22,42,Engine,
+224,2002_6,irvine,jaguar,16,15,0.0,20,38,Hydraulics,
+225,2002_6,heidfeld,sauber,7,16,0.0,5,27,Collision,
+226,2002_6,sato,jordan,10,17,0.0,18,26,Collision,
+227,2002_6,panis,bar,12,18,0.0,9,22,Engine,
+228,2002_6,massa,sauber,8,19,0.0,7,7,Suspension,
+229,2002_6,raikkonen,mclaren,4,20,0.0,6,5,Engine,
+230,2002_6,bernoldi,arrows,21,21,0.0,12,2,Collision,
+231,2002_6,rosa,jaguar,17,22,0.0,19,0,Throttle,
+232,2002_7,coulthard,mclaren,3,1,10.0,2,78,Finished,
+233,2002_7,michael_schumacher,ferrari,1,2,6.0,3,78,Finished,
+234,2002_7,ralf_schumacher,williams,5,3,4.0,4,78,Finished,
+235,2002_7,trulli,renault,14,4,3.0,7,77,+1 Lap,
+236,2002_7,fisichella,jordan,9,5,2.0,11,77,+1 Lap,
+237,2002_7,frentzen,arrows,20,6,1.0,12,77,+1 Lap,
+238,2002_7,barrichello,ferrari,2,7,0.0,5,77,+1 Lap,
+239,2002_7,heidfeld,sauber,7,8,0.0,15,76,+2 Laps,
+240,2002_7,irvine,jaguar,16,9,0.0,19,76,+2 Laps,
+241,2002_7,rosa,jaguar,17,10,0.0,17,76,+2 Laps,
+242,2002_7,webber,minardi,23,11,0.0,20,76,+2 Laps,
+243,2002_7,bernoldi,arrows,21,12,0.0,21,76,+2 Laps,
+244,2002_7,salo,toyota,24,13,0.0,9,69,Brakes,
+245,2002_7,massa,sauber,8,14,0.0,13,63,Accident,
+246,2002_7,panis,bar,12,15,0.0,18,51,Collision,
+247,2002_7,button,renault,15,16,0.0,8,51,Collision,
+248,2002_7,montoya,williams,6,17,0.0,1,46,Engine,
+249,2002_7,villeneuve,bar,11,18,0.0,14,44,Mechanical,
+250,2002_7,raikkonen,mclaren,4,19,0.0,6,41,Collision,
+251,2002_7,yoong,minardi,22,20,0.0,22,29,Accident,
+252,2002_7,sato,jordan,10,21,0.0,16,22,Spun off,
+253,2002_7,mcnish,toyota,25,22,0.0,10,15,Accident,
+254,2002_8,michael_schumacher,ferrari,1,1,10.0,2,70,Finished,
+255,2002_8,coulthard,mclaren,3,2,6.0,8,70,Finished,
+256,2002_8,barrichello,ferrari,2,3,4.0,3,70,Finished,
+257,2002_8,raikkonen,mclaren,4,4,3.0,5,70,Finished,
+258,2002_8,fisichella,jordan,9,5,2.0,6,70,Finished,
+259,2002_8,trulli,renault,14,6,1.0,10,70,Finished,
+260,2002_8,ralf_schumacher,williams,5,7,0.0,4,70,Engine,
+261,2002_8,panis,bar,12,8,0.0,11,69,+1 Lap,
+262,2002_8,massa,sauber,8,9,0.0,12,69,+1 Lap,
+263,2002_8,sato,jordan,10,10,0.0,15,69,+1 Lap,
+264,2002_8,webber,minardi,23,11,0.0,21,69,+1 Lap,
+265,2002_8,heidfeld,sauber,7,12,0.0,7,69,+1 Lap,
+266,2002_8,frentzen,arrows,20,13,0.0,19,69,+1 Lap,
+267,2002_8,yoong,minardi,22,14,0.0,22,68,+2 Laps,
+268,2002_8,button,renault,15,15,0.0,13,65,Gearbox,
+269,2002_8,montoya,williams,6,16,0.0,1,56,Engine,
+270,2002_8,mcnish,toyota,25,17,0.0,20,45,Spun off,
+271,2002_8,irvine,jaguar,16,18,0.0,14,41,Overheating,
+272,2002_8,salo,toyota,24,19,0.0,18,41,Brakes,
+273,2002_8,rosa,jaguar,17,20,0.0,16,29,Gearbox,
+274,2002_8,bernoldi,arrows,21,21,0.0,17,16,Suspension,
+275,2002_8,villeneuve,bar,11,22,0.0,9,8,Oil pressure,
+276,2002_9,barrichello,ferrari,2,1,10.0,4,60,Finished,
+277,2002_9,michael_schumacher,ferrari,1,2,6.0,3,60,Finished,
+278,2002_9,raikkonen,mclaren,4,3,4.0,6,60,Finished,
+279,2002_9,ralf_schumacher,williams,5,4,3.0,2,60,Finished,
+280,2002_9,button,renault,15,5,2.0,8,60,Finished,
+281,2002_9,massa,sauber,8,6,1.0,11,59,+1 Lap,
+282,2002_9,heidfeld,sauber,7,7,0.0,9,59,+1 Lap,
+283,2002_9,trulli,renault,14,8,0.0,7,59,+1 Lap,
+284,2002_9,panis,bar,12,9,0.0,12,59,+1 Lap,
+285,2002_9,rosa,jaguar,17,10,0.0,16,59,+1 Lap,
+286,2002_9,bernoldi,arrows,21,11,0.0,21,59,+1 Lap,
+287,2002_9,villeneuve,bar,11,12,0.0,19,59,+1 Lap,
+288,2002_9,frentzen,arrows,20,13,0.0,15,59,+1 Lap,
+289,2002_9,mcnish,toyota,25,14,0.0,13,59,+1 Lap,
+290,2002_9,webber,minardi,23,15,0.0,20,58,+2 Laps,
+291,2002_9,sato,jordan,10,16,0.0,14,58,+2 Laps,
+292,2002_9,salo,toyota,24,17,0.0,10,51,Gearbox,
+293,2002_9,yoong,minardi,22,18,0.0,22,48,Hydraulics,
+294,2002_9,irvine,jaguar,16,19,0.0,17,41,Hydraulics,
+295,2002_9,montoya,williams,6,20,0.0,1,27,Collision,
+296,2002_9,coulthard,mclaren,3,21,0.0,5,27,Collision,
+297,2002_9,fisichella,jordan,9,22,0.0,18,26,Accident,
+298,2002_10,michael_schumacher,ferrari,1,1,10.0,3,60,Finished,
+299,2002_10,barrichello,ferrari,2,2,6.0,2,60,Finished,
+300,2002_10,montoya,williams,6,3,4.0,1,60,Finished,
+301,2002_10,villeneuve,bar,11,4,3.0,9,59,+1 Lap,
+302,2002_10,panis,bar,12,5,2.0,13,59,+1 Lap,
+303,2002_10,heidfeld,sauber,7,6,1.0,10,59,+1 Lap,
+304,2002_10,fisichella,jordan,9,7,0.0,17,59,+1 Lap,
+305,2002_10,ralf_schumacher,williams,5,8,0.0,4,59,+1 Lap,
+306,2002_10,massa,sauber,8,9,0.0,11,59,+1 Lap,
+307,2002_10,coulthard,mclaren,3,10,0.0,6,58,+2 Laps,
+308,2002_10,rosa,jaguar,17,11,0.0,21,58,+2 Laps,
+309,2002_10,button,renault,15,12,0.0,12,54,Wheel,
+310,2002_10,sato,jordan,10,13,0.0,14,50,Engine,
+311,2002_10,raikkonen,mclaren,4,14,0.0,5,44,Engine,
+312,2002_10,trulli,renault,14,15,0.0,7,29,Electronics,
+313,2002_10,bernoldi,arrows,21,16,0.0,18,28,Driveshaft,
+314,2002_10,irvine,jaguar,16,17,0.0,19,23,Spun off,
+315,2002_10,frentzen,arrows,20,18,0.0,16,20,Engine,
+316,2002_10,salo,toyota,24,19,0.0,8,15,Drivetrain,
+317,2002_10,webber,minardi,23,20,0.0,20,9,Clutch,
+318,2002_10,mcnish,toyota,25,21,0.0,15,0,Clutch,
+319,2002_11,michael_schumacher,ferrari,1,1,10.0,2,72,Finished,
+320,2002_11,raikkonen,mclaren,4,2,6.0,4,72,Finished,
+321,2002_11,coulthard,mclaren,3,3,4.0,6,72,Finished,
+322,2002_11,montoya,williams,6,4,3.0,1,72,Finished,
+323,2002_11,ralf_schumacher,williams,5,5,2.0,5,72,Finished,
+324,2002_11,button,renault,15,6,1.0,7,71,+1 Lap,
+325,2002_11,heidfeld,sauber,7,7,0.0,10,71,+1 Lap,
+326,2002_11,webber,minardi,23,8,0.0,18,71,+1 Lap,
+327,2002_11,rosa,jaguar,17,9,0.0,15,70,+2 Laps,
+328,2002_11,yoong,minardi,22,10,0.0,19,68,+4 Laps,
+329,2002_11,mcnish,toyota,25,11,0.0,17,65,Engine,
+330,2002_11,irvine,jaguar,16,12,0.0,9,52,Rear wing,
+331,2002_11,trulli,renault,14,13,0.0,8,49,Engine,
+332,2002_11,massa,sauber,8,14,0.0,12,48,Mechanical,
+333,2002_11,salo,toyota,24,15,0.0,16,48,Engine,
+334,2002_11,villeneuve,bar,11,16,0.0,13,35,Engine,
+335,2002_11,panis,bar,12,17,0.0,11,29,Accident,
+336,2002_11,sato,jordan,10,18,0.0,14,23,Spun off,
+337,2002_11,barrichello,ferrari,2,19,0.0,3,0,Ignition,
+338,2002_11,fisichella,jordan,9,22,0.0,0,0,Injury,
+339,2002_12,michael_schumacher,ferrari,1,1,10.0,1,67,Finished,
+340,2002_12,montoya,williams,6,2,6.0,4,67,Finished,
+341,2002_12,ralf_schumacher,williams,5,3,4.0,2,67,Finished,
+342,2002_12,barrichello,ferrari,2,4,3.0,3,67,Finished,
+343,2002_12,coulthard,mclaren,3,5,2.0,9,66,+1 Lap,
+344,2002_12,heidfeld,sauber,7,6,1.0,10,66,+1 Lap,
+345,2002_12,massa,sauber,8,7,0.0,14,66,+1 Lap,
+346,2002_12,sato,jordan,10,8,0.0,12,66,+1 Lap,
+347,2002_12,salo,toyota,24,9,0.0,19,66,+1 Lap,
+348,2002_12,fisichella,jordan,9,10,0.0,6,59,Engine,
+349,2002_12,raikkonen,mclaren,4,11,0.0,5,59,Spun off,
+350,2002_12,irvine,jaguar,16,12,0.0,16,57,Brakes,
+351,2002_12,bernoldi,arrows,21,13,0.0,18,48,Engine,
+352,2002_12,panis,bar,12,14,0.0,7,39,Engine,
+353,2002_12,trulli,renault,14,15,0.0,8,36,Spun off,
+354,2002_12,villeneuve,bar,11,16,0.0,11,27,Gearbox,
+355,2002_12,button,renault,15,17,0.0,13,24,Engine,
+356,2002_12,mcnish,toyota,25,18,0.0,17,23,Engine,
+357,2002_12,webber,minardi,23,19,0.0,21,23,Hydraulics,
+358,2002_12,frentzen,arrows,20,20,0.0,15,18,Hydraulics,
+359,2002_12,rosa,jaguar,17,21,0.0,20,0,Transmission,
+360,2002_13,barrichello,ferrari,2,1,10.0,1,77,Finished,
+361,2002_13,michael_schumacher,ferrari,1,2,6.0,2,77,Finished,
+362,2002_13,ralf_schumacher,williams,5,3,4.0,3,77,Finished,
+363,2002_13,raikkonen,mclaren,4,4,3.0,11,77,Finished,
+364,2002_13,coulthard,mclaren,3,5,2.0,10,77,Finished,
+365,2002_13,fisichella,jordan,9,6,1.0,5,77,Finished,
+366,2002_13,massa,sauber,8,7,0.0,7,77,Finished,
+367,2002_13,trulli,renault,14,8,0.0,6,76,+1 Lap,
+368,2002_13,heidfeld,sauber,7,9,0.0,8,76,+1 Lap,
+369,2002_13,sato,jordan,10,10,0.0,14,76,+1 Lap,
+370,2002_13,montoya,williams,6,11,0.0,4,76,+1 Lap,
+371,2002_13,panis,bar,12,12,0.0,12,76,+1 Lap,
+372,2002_13,rosa,jaguar,17,13,0.0,15,75,+2 Laps,
+373,2002_13,mcnish,toyota,25,14,0.0,18,75,+2 Laps,
+374,2002_13,salo,toyota,24,15,0.0,17,75,+2 Laps,
+375,2002_13,webber,minardi,23,16,0.0,19,75,+2 Laps,
+376,2002_13,davidson,minardi,22,17,0.0,20,58,Spun off,
+377,2002_13,button,renault,15,18,0.0,9,30,Spun off,
+378,2002_13,irvine,jaguar,16,19,0.0,16,23,Engine,
+379,2002_13,villeneuve,bar,11,20,0.0,13,20,Transmission,
+380,2002_14,michael_schumacher,ferrari,1,1,10.0,1,44,Finished,
+381,2002_14,barrichello,ferrari,2,2,6.0,3,44,Finished,
+382,2002_14,montoya,williams,6,3,4.0,5,44,Finished,
+383,2002_14,coulthard,mclaren,3,4,3.0,6,44,Finished,
+384,2002_14,ralf_schumacher,williams,5,5,2.0,4,44,Finished,
+385,2002_14,irvine,jaguar,16,6,1.0,8,44,Finished,
+386,2002_14,salo,toyota,24,7,0.0,9,44,Finished,
+387,2002_14,villeneuve,bar,11,8,0.0,12,44,Finished,
+388,2002_14,mcnish,toyota,25,9,0.0,13,43,+1 Lap,
+389,2002_14,heidfeld,sauber,7,10,0.0,18,43,+1 Lap,
+390,2002_14,sato,jordan,10,11,0.0,16,43,+1 Lap,
+391,2002_14,panis,bar,12,12,0.0,15,39,Engine,
+392,2002_14,fisichella,jordan,9,13,0.0,14,38,Engine,
+393,2002_14,rosa,jaguar,17,14,0.0,11,37,Suspension,
+394,2002_14,massa,sauber,8,15,0.0,17,37,Engine,
+395,2002_14,raikkonen,mclaren,4,16,0.0,2,35,Engine,
+396,2002_14,trulli,renault,14,17,0.0,7,35,Engine,
+397,2002_14,davidson,minardi,22,18,0.0,20,17,Spun off,
+398,2002_14,button,renault,15,19,0.0,10,10,Engine,
+399,2002_14,webber,minardi,23,20,0.0,19,4,Gearbox,
+400,2002_15,barrichello,ferrari,2,1,10.0,4,53,Finished,
+401,2002_15,michael_schumacher,ferrari,1,2,6.0,2,53,Finished,
+402,2002_15,irvine,jaguar,16,3,4.0,5,53,Finished,
+403,2002_15,trulli,renault,14,4,3.0,11,53,Finished,
+404,2002_15,button,renault,15,5,2.0,17,53,Finished,
+405,2002_15,panis,bar,12,6,1.0,16,53,Finished,
+406,2002_15,coulthard,mclaren,3,7,0.0,7,53,Finished,
+407,2002_15,fisichella,jordan,9,8,0.0,12,53,Finished,
+408,2002_15,villeneuve,bar,11,9,0.0,9,53,Finished,
+409,2002_15,heidfeld,sauber,7,10,0.0,15,53,Finished,
+410,2002_15,salo,toyota,24,11,0.0,10,52,+1 Lap,
+411,2002_15,sato,jordan,10,12,0.0,18,52,+1 Lap,
+412,2002_15,yoong,minardi,22,13,0.0,20,47,+6 Laps,
+413,2002_15,montoya,williams,6,14,0.0,1,33,Chassis,
+414,2002_15,raikkonen,mclaren,4,15,0.0,6,29,Engine,
+415,2002_15,webber,minardi,23,16,0.0,19,20,Engine,
+416,2002_15,massa,sauber,8,17,0.0,14,16,Collision,
+417,2002_15,rosa,jaguar,17,18,0.0,8,15,Collision,
+418,2002_15,mcnish,toyota,25,19,0.0,13,12,Suspension,
+419,2002_15,ralf_schumacher,williams,5,20,0.0,3,4,Engine,
+420,2002_16,barrichello,ferrari,2,1,10.0,2,73,Finished,
+421,2002_16,michael_schumacher,ferrari,1,2,6.0,1,73,Finished,
+422,2002_16,coulthard,mclaren,3,3,4.0,3,73,Finished,
+423,2002_16,montoya,williams,6,4,3.0,4,73,Finished,
+424,2002_16,trulli,renault,14,5,2.0,8,73,Finished,
+425,2002_16,villeneuve,bar,11,6,1.0,7,73,Finished,
+426,2002_16,fisichella,jordan,9,7,0.0,9,72,+1 Lap,
+427,2002_16,button,renault,15,8,0.0,14,72,+1 Lap,
+428,2002_16,heidfeld,sauber,7,9,0.0,10,72,+1 Lap,
+429,2002_16,irvine,jaguar,16,10,0.0,13,72,+1 Lap,
+430,2002_16,sato,jordan,10,11,0.0,15,72,+1 Lap,
+431,2002_16,panis,bar,12,12,0.0,12,72,+1 Lap,
+432,2002_16,frentzen,sauber,8,13,0.0,11,71,+2 Laps,
+433,2002_16,salo,toyota,24,14,0.0,19,71,+2 Laps,
+434,2002_16,mcnish,toyota,25,15,0.0,16,71,+2 Laps,
+435,2002_16,ralf_schumacher,williams,5,16,0.0,5,71,+2 Laps,
+436,2002_16,raikkonen,mclaren,4,17,0.0,6,50,Engine,
+437,2002_16,yoong,minardi,22,18,0.0,20,46,Engine,
+438,2002_16,webber,minardi,23,19,0.0,18,38,Steering,
+439,2002_16,rosa,jaguar,17,20,0.0,17,27,Transmission,
+440,2002_17,michael_schumacher,ferrari,1,1,10.0,1,53,Finished,1
+441,2002_17,barrichello,ferrari,2,2,6.0,2,53,Finished,2
+442,2002_17,raikkonen,mclaren,4,3,4.0,4,53,Finished,4
+443,2002_17,montoya,williams,6,4,3.0,6,53,Finished,6
+444,2002_17,sato,jordan,10,5,2.0,7,53,Finished,7
+445,2002_17,button,renault,15,6,1.0,10,52,+1 Lap,10
+446,2002_17,heidfeld,sauber,7,7,0.0,12,52,+1 Lap,12
+447,2002_17,salo,toyota,24,8,0.0,13,52,+1 Lap,13
+448,2002_17,irvine,jaguar,16,9,0.0,14,52,+1 Lap,14
+449,2002_17,webber,minardi,23,10,0.0,19,51,+2 Laps,19
+450,2002_17,ralf_schumacher,williams,5,11,0.0,5,48,Engine,5
+451,2002_17,rosa,jaguar,17,12,0.0,17,39,Transmission,17
+452,2002_17,fisichella,jordan,9,13,0.0,8,37,Engine,8
+453,2002_17,trulli,renault,14,14,0.0,11,32,Mechanical,11
+454,2002_17,villeneuve,bar,11,15,0.0,9,27,Engine,9
+455,2002_17,yoong,minardi,22,16,0.0,20,14,Spun off,20
+456,2002_17,panis,bar,12,17,0.0,16,8,Mechanical,16
+457,2002_17,coulthard,mclaren,3,18,0.0,3,7,Throttle,3
+458,2002_17,massa,sauber,8,19,0.0,15,3,Accident,15
+459,2002_17,mcnish,toyota,25,20,0.0,18,0,Injured,18
+460,2003_1,coulthard,mclaren,5,1,10.0,11,58,Finished,11
+461,2003_1,montoya,williams,3,2,8.0,3,58,Finished,3
+462,2003_1,raikkonen,mclaren,6,3,6.0,15,58,Finished,15
+463,2003_1,michael_schumacher,ferrari,1,4,5.0,1,58,Finished,1
+464,2003_1,trulli,renault,7,5,4.0,12,58,Finished,12
+465,2003_1,frentzen,sauber,10,6,3.0,4,58,Finished,4
+466,2003_1,alonso,renault,8,7,2.0,10,58,Finished,10
+467,2003_1,ralf_schumacher,williams,4,8,1.0,9,58,Finished,9
+468,2003_1,villeneuve,bar,16,9,0.0,6,58,Finished,6
+469,2003_1,button,bar,17,10,0.0,8,58,Finished,8
+470,2003_1,verstappen,minardi,19,11,0.0,20,57,+1 Lap,20
+471,2003_1,fisichella,jordan,11,12,0.0,13,52,Gearbox,13
+472,2003_1,pizzonia,jaguar,15,13,0.0,18,52,Suspension,18
+473,2003_1,panis,toyota,20,14,0.0,5,31,Fuel pressure,5
+474,2003_1,heidfeld,sauber,9,15,0.0,7,20,Suspension,7
+475,2003_1,wilson,minardi,18,16,0.0,19,16,Radiator,19
+476,2003_1,webber,jaguar,14,17,0.0,14,15,Suspension,14
+477,2003_1,matta,toyota,21,18,0.0,16,7,Spun off,16
+478,2003_1,firman,jordan,12,19,0.0,17,6,Accident,17
+479,2003_1,barrichello,ferrari,2,20,0.0,2,5,Accident,2
+480,2003_2,raikkonen,mclaren,6,1,10.0,7,56,Finished,7
+481,2003_2,barrichello,ferrari,2,2,8.0,5,56,Finished,5
+482,2003_2,alonso,renault,8,3,6.0,1,56,Finished,1
+483,2003_2,ralf_schumacher,williams,4,4,5.0,17,56,Finished,17
+484,2003_2,trulli,renault,7,5,4.0,2,55,+1 Lap,2
+485,2003_2,michael_schumacher,ferrari,1,6,3.0,3,55,+1 Lap,3
+486,2003_2,button,bar,17,7,2.0,9,55,+1 Lap,9
+487,2003_2,heidfeld,sauber,9,8,1.0,6,55,+1 Lap,6
+488,2003_2,frentzen,sauber,10,9,0.0,13,55,+1 Lap,13
+489,2003_2,firman,jordan,12,10,0.0,20,55,+1 Lap,20
+490,2003_2,matta,toyota,21,11,0.0,11,55,+1 Lap,11
+491,2003_2,montoya,williams,3,12,0.0,8,53,+3 Laps,8
+492,2003_2,verstappen,minardi,19,13,0.0,18,52,+4 Laps,18
+493,2003_2,pizzonia,jaguar,15,14,0.0,15,42,Spun off,15
+494,2003_2,wilson,minardi,18,15,0.0,19,41,Mechanical,19
+495,2003_2,webber,jaguar,14,16,0.0,16,35,Engine,16
+496,2003_2,panis,toyota,20,17,0.0,10,12,Fuel pressure,10
+497,2003_2,coulthard,mclaren,5,18,0.0,4,2,Electrical,4
+498,2003_2,fisichella,jordan,11,19,0.0,14,0,Electrical,14
+499,2003_2,villeneuve,bar,16,20,0.0,12,0,Electrical,12
+500,2003_3,fisichella,jordan,11,1,10.0,8,54,Finished,8
+501,2003_3,raikkonen,mclaren,6,2,8.0,4,54,Finished,4
+502,2003_3,alonso,renault,8,3,6.0,10,54,Finished,10
+503,2003_3,coulthard,mclaren,5,4,5.0,2,54,Finished,2
+504,2003_3,frentzen,sauber,10,5,4.0,14,54,Finished,14
+505,2003_3,villeneuve,bar,16,6,3.0,13,54,Finished,13
+506,2003_3,ralf_schumacher,williams,4,7,2.0,6,54,Finished,6
+507,2003_3,trulli,renault,7,8,1.0,5,54,Finished,5
+508,2003_3,webber,jaguar,14,9,0.0,3,53,Accident,3
+509,2003_3,matta,toyota,21,10,0.0,18,53,+1 Lap,18
+510,2003_3,barrichello,ferrari,2,11,0.0,1,47,Fuel system,1
+511,2003_3,button,bar,17,12,0.0,11,33,Accident,11
+512,2003_3,verstappen,minardi,19,13,0.0,19,31,Spun off,19
+513,2003_3,michael_schumacher,ferrari,1,14,0.0,7,27,Accident,7
+514,2003_3,montoya,williams,3,15,0.0,9,25,Accident,9
+515,2003_3,pizzonia,jaguar,15,16,0.0,17,25,Accident,17
+516,2003_3,panis,toyota,20,17,0.0,15,18,Collision,15
+517,2003_3,firman,jordan,12,18,0.0,16,18,Suspension,16
+518,2003_3,wilson,minardi,18,19,0.0,20,16,Spun off,20
+519,2003_3,heidfeld,sauber,9,20,0.0,12,8,Engine,12
+520,2003_4,michael_schumacher,ferrari,1,1,10.0,1,62,Finished,1
+521,2003_4,raikkonen,mclaren,6,2,8.0,6,62,Finished,6
+522,2003_4,barrichello,ferrari,2,3,6.0,3,62,Finished,3
+523,2003_4,ralf_schumacher,williams,4,4,5.0,2,62,Finished,2
+524,2003_4,coulthard,mclaren,5,5,4.0,12,62,Finished,12
+525,2003_4,alonso,renault,8,6,3.0,8,62,Finished,8
+526,2003_4,montoya,williams,3,7,2.0,4,62,Finished,4
+527,2003_4,button,bar,17,8,1.0,9,61,+1 Lap,9
+528,2003_4,panis,toyota,20,9,0.0,10,61,+1 Lap,10
+529,2003_4,heidfeld,sauber,9,10,0.0,11,61,+1 Lap,11
+530,2003_4,frentzen,sauber,10,11,0.0,14,61,+1 Lap,14
+531,2003_4,matta,toyota,21,12,0.0,13,61,+1 Lap,13
+532,2003_4,trulli,renault,7,13,0.0,16,61,+1 Lap,16
+533,2003_4,pizzonia,jaguar,15,14,0.0,15,60,+2 Laps,15
+534,2003_4,fisichella,jordan,11,15,0.0,17,57,+5 Laps,17
+535,2003_4,webber,jaguar,14,16,0.0,5,54,Driveshaft,5
+536,2003_4,firman,jordan,12,17,0.0,19,51,Oil line,19
+537,2003_4,verstappen,minardi,19,18,0.0,20,38,Electrical,20
+538,2003_4,wilson,minardi,18,19,0.0,18,23,Fuel rig,18
+539,2003_4,villeneuve,bar,16,20,0.0,7,19,Engine,7
+540,2003_5,michael_schumacher,ferrari,1,1,10.0,1,65,Finished,1
+541,2003_5,alonso,renault,8,2,8.0,3,65,Finished,3
+542,2003_5,barrichello,ferrari,2,3,6.0,2,65,Finished,2
+543,2003_5,montoya,williams,3,4,5.0,9,65,Finished,9
+544,2003_5,ralf_schumacher,williams,4,5,4.0,7,64,+1 Lap,7
+545,2003_5,matta,toyota,21,6,3.0,13,64,+1 Lap,13
+546,2003_5,webber,jaguar,14,7,2.0,12,64,+1 Lap,12
+547,2003_5,firman,jordan,12,8,1.0,15,63,+2 Laps,15
+548,2003_5,button,bar,17,9,0.0,5,63,+2 Laps,5
+549,2003_5,heidfeld,sauber,9,10,0.0,14,63,+2 Laps,14
+550,2003_5,wilson,minardi,18,11,0.0,18,63,+2 Laps,18
+551,2003_5,verstappen,minardi,19,12,0.0,19,62,+3 Laps,19
+552,2003_5,fisichella,jordan,11,13,0.0,17,43,Engine,17
+553,2003_5,panis,toyota,20,14,0.0,6,41,Gearbox,6
+554,2003_5,frentzen,sauber,10,15,0.0,10,38,Suspension,10
+555,2003_5,coulthard,mclaren,5,16,0.0,8,17,Collision,8
+556,2003_5,villeneuve,bar,16,17,0.0,11,12,Electrical,11
+557,2003_5,trulli,renault,7,18,0.0,4,0,Collision,4
+558,2003_5,pizzonia,jaguar,15,19,0.0,16,0,Launch control,16
+559,2003_5,raikkonen,mclaren,6,20,0.0,20,0,Collision,20
+560,2003_6,michael_schumacher,ferrari,1,1,10.0,1,69,Finished,1
+561,2003_6,raikkonen,mclaren,6,2,8.0,2,69,Finished,2
+562,2003_6,barrichello,ferrari,2,3,6.0,5,69,Finished,5
+563,2003_6,button,bar,17,4,5.0,7,69,Finished,7
+564,2003_6,coulthard,mclaren,5,5,4.0,14,69,Finished,14
+565,2003_6,ralf_schumacher,williams,4,6,3.0,10,68,+1 Lap,10
+566,2003_6,webber,jaguar,14,7,2.0,17,68,+1 Lap,17
+567,2003_6,trulli,renault,7,8,1.0,6,68,+1 Lap,6
+568,2003_6,pizzonia,jaguar,15,9,0.0,8,68,+1 Lap,8
+569,2003_6,matta,toyota,21,10,0.0,13,68,+1 Lap,13
+570,2003_6,firman,jordan,12,11,0.0,16,68,+1 Lap,16
+571,2003_6,villeneuve,bar,16,12,0.0,12,68,+1 Lap,12
+572,2003_6,wilson,minardi,18,13,0.0,18,67,+2 Laps,18
+573,2003_6,fisichella,jordan,11,14,0.0,9,60,Fuel system,9
+574,2003_6,heidfeld,sauber,9,15,0.0,4,46,Engine,4
+575,2003_6,alonso,renault,8,16,0.0,19,44,Engine,19
+576,2003_6,montoya,williams,3,17,0.0,3,32,Engine,3
+577,2003_6,panis,toyota,20,18,0.0,11,6,Suspension,11
+578,2003_6,verstappen,minardi,19,19,0.0,20,0,Clutch,20
+579,2003_6,frentzen,sauber,10,20,0.0,15,0,Clutch,15
+580,2003_7,montoya,williams,3,1,10.0,3,78,Finished,3
+581,2003_7,raikkonen,mclaren,6,2,8.0,2,78,Finished,2
+582,2003_7,michael_schumacher,ferrari,1,3,6.0,5,78,Finished,5
+583,2003_7,ralf_schumacher,williams,4,4,5.0,1,78,Finished,1
+584,2003_7,alonso,renault,8,5,4.0,8,78,Finished,8
+585,2003_7,trulli,renault,7,6,3.0,4,78,Finished,4
+586,2003_7,coulthard,mclaren,5,7,2.0,6,78,Finished,6
+587,2003_7,barrichello,ferrari,2,8,1.0,7,78,Finished,7
+588,2003_7,matta,toyota,21,9,0.0,10,77,+1 Lap,10
+589,2003_7,fisichella,jordan,11,10,0.0,12,77,+1 Lap,12
+590,2003_7,heidfeld,sauber,9,11,0.0,14,76,+2 Laps,14
+591,2003_7,firman,jordan,12,12,0.0,16,76,+2 Laps,16
+592,2003_7,panis,toyota,20,13,0.0,17,74,+4 Laps,17
+593,2003_7,villeneuve,bar,16,14,0.0,11,63,Engine,11
+594,2003_7,wilson,minardi,18,15,0.0,19,29,Fuel system,19
+595,2003_7,verstappen,minardi,19,16,0.0,18,28,Fuel system,18
+596,2003_7,webber,jaguar,14,17,0.0,9,16,Hydraulics,9
+597,2003_7,pizzonia,jaguar,15,18,0.0,13,10,Electrical,13
+598,2003_7,frentzen,sauber,10,19,0.0,15,0,Accident,15
+599,2003_7,button,bar,17,20,0.0,20,0,Injured,20
+600,2003_8,michael_schumacher,ferrari,1,1,10.0,3,70,Finished,3
+601,2003_8,ralf_schumacher,williams,4,2,8.0,1,70,Finished,1
+602,2003_8,montoya,williams,3,3,6.0,2,70,Finished,2
+603,2003_8,alonso,renault,8,4,5.0,4,70,Finished,4
+604,2003_8,barrichello,ferrari,2,5,4.0,5,70,Finished,5
+605,2003_8,raikkonen,mclaren,6,6,3.0,20,70,Finished,20
+606,2003_8,webber,jaguar,14,7,2.0,6,69,+1 Lap,6
+607,2003_8,panis,toyota,20,8,1.0,7,69,+1 Lap,7
+608,2003_8,verstappen,minardi,19,9,0.0,15,68,+2 Laps,15
+609,2003_8,pizzonia,jaguar,15,10,0.0,13,64,+4 Laps,13
+610,2003_8,matta,toyota,21,11,0.0,9,64,+6 Laps,9
+611,2003_8,wilson,minardi,18,12,0.0,18,60,Gearbox,18
+612,2003_8,button,bar,17,13,0.0,17,51,Gearbox,17
+613,2003_8,coulthard,mclaren,5,14,0.0,11,47,Gearbox,11
+614,2003_8,heidfeld,sauber,9,15,0.0,12,47,Engine,12
+615,2003_8,trulli,renault,7,16,0.0,8,22,Accident,8
+616,2003_8,fisichella,jordan,11,17,0.0,16,20,Gearbox,16
+617,2003_8,firman,jordan,12,18,0.0,19,20,Engine,19
+618,2003_8,villeneuve,bar,16,19,0.0,14,14,Brakes,14
+619,2003_8,frentzen,sauber,10,20,0.0,10,6,Electronics,10
+620,2003_9,ralf_schumacher,williams,4,1,10.0,3,60,Finished,3
+621,2003_9,montoya,williams,3,2,8.0,4,60,Finished,4
+622,2003_9,barrichello,ferrari,2,3,6.0,5,60,Finished,5
+623,2003_9,alonso,renault,8,4,5.0,8,60,Finished,8
+624,2003_9,michael_schumacher,ferrari,1,5,4.0,2,60,Finished,2
+625,2003_9,webber,jaguar,14,6,3.0,11,59,+1 Lap,11
+626,2003_9,button,bar,17,7,2.0,12,59,+1 Lap,12
+627,2003_9,heidfeld,sauber,9,8,1.0,20,59,+1 Lap,20
+628,2003_9,frentzen,sauber,10,9,0.0,15,59,+1 Lap,15
+629,2003_9,pizzonia,jaguar,15,10,0.0,16,59,+1 Lap,16
+630,2003_9,firman,jordan,12,11,0.0,14,58,+2 Laps,14
+631,2003_9,fisichella,jordan,11,12,0.0,13,58,+2 Laps,13
+632,2003_9,wilson,minardi,18,13,0.0,19,58,+2 Laps,19
+633,2003_9,verstappen,minardi,19,14,0.0,18,57,+3 Laps,18
+634,2003_9,coulthard,mclaren,5,15,0.0,9,56,+4 Laps,9
+635,2003_9,matta,toyota,21,16,0.0,10,53,Engine,10
+636,2003_9,villeneuve,bar,16,17,0.0,17,51,Gearbox,17
+637,2003_9,trulli,renault,7,18,0.0,6,37,Fuel pressure,6
+638,2003_9,panis,toyota,20,19,0.0,7,37,Spun off,7
+639,2003_9,raikkonen,mclaren,6,20,0.0,1,25,Engine,1
+640,2003_10,ralf_schumacher,williams,4,1,10.0,1,70,Finished,1
+641,2003_10,montoya,williams,3,2,8.0,2,70,Finished,2
+642,2003_10,michael_schumacher,ferrari,1,3,6.0,3,70,Finished,3
+643,2003_10,raikkonen,mclaren,6,4,5.0,4,70,Finished,4
+644,2003_10,coulthard,mclaren,5,5,4.0,5,70,Finished,5
+645,2003_10,webber,jaguar,14,6,3.0,9,70,Finished,9
+646,2003_10,barrichello,ferrari,2,7,2.0,8,69,+1 Lap,8
+647,2003_10,panis,toyota,20,8,1.0,10,69,+1 Lap,10
+648,2003_10,villeneuve,bar,16,9,0.0,12,69,+1 Lap,12
+649,2003_10,pizzonia,jaguar,15,10,0.0,11,69,+1 Lap,11
+650,2003_10,matta,toyota,21,11,0.0,13,69,+1 Lap,13
+651,2003_10,frentzen,sauber,10,12,0.0,16,68,+2 Laps,16
+652,2003_10,heidfeld,sauber,9,13,0.0,15,68,+2 Laps,15
+653,2003_10,wilson,minardi,18,14,0.0,20,67,+3 Laps,20
+654,2003_10,firman,jordan,12,15,0.0,18,67,+3 Laps,18
+655,2003_10,verstappen,minardi,19,16,0.0,19,66,+4 Laps,19
+656,2003_10,trulli,renault,7,17,0.0,6,45,Engine,6
+657,2003_10,alonso,renault,8,18,0.0,7,43,Engine,7
+658,2003_10,fisichella,jordan,11,19,0.0,17,42,Engine,17
+659,2003_10,button,bar,17,20,0.0,14,23,Fuel,14
+660,2003_11,barrichello,ferrari,2,1,10.0,1,60,Finished,1
+661,2003_11,montoya,williams,3,2,8.0,7,60,Finished,7
+662,2003_11,raikkonen,mclaren,6,3,6.0,3,60,Finished,3
+663,2003_11,michael_schumacher,ferrari,1,4,5.0,5,60,Finished,5
+664,2003_11,coulthard,mclaren,5,5,4.0,12,60,Finished,12
+665,2003_11,trulli,renault,7,6,3.0,2,60,Finished,2
+666,2003_11,matta,toyota,21,7,2.0,6,60,Finished,6
+667,2003_11,button,bar,17,8,1.0,20,60,Finished,20
+668,2003_11,ralf_schumacher,williams,4,9,0.0,4,60,Finished,4
+669,2003_11,villeneuve,bar,16,10,0.0,9,60,Finished,9
+670,2003_11,panis,toyota,20,11,0.0,13,60,Finished,13
+671,2003_11,frentzen,sauber,10,12,0.0,14,60,Finished,14
+672,2003_11,firman,jordan,12,13,0.0,17,59,+1 Lap,17
+673,2003_11,webber,jaguar,14,14,0.0,11,59,+1 Lap,11
+674,2003_11,verstappen,minardi,19,15,0.0,19,58,+2 Laps,19
+675,2003_11,wilson,minardi,18,16,0.0,18,58,+2 Laps,18
+676,2003_11,heidfeld,sauber,9,17,0.0,16,58,+2 Laps,16
+677,2003_11,alonso,renault,8,18,0.0,8,52,Gearbox,8
+678,2003_11,fisichella,jordan,11,19,0.0,15,44,Suspension,15
+679,2003_11,pizzonia,jaguar,15,20,0.0,10,32,Engine,10
+680,2003_12,montoya,williams,3,1,10.0,1,67,Finished,1
+681,2003_12,coulthard,mclaren,5,2,8.0,10,67,Finished,10
+682,2003_12,trulli,renault,7,3,6.0,4,67,Finished,4
+683,2003_12,alonso,renault,8,4,5.0,8,67,Finished,8
+684,2003_12,panis,toyota,20,5,4.0,7,66,+1 Lap,7
+685,2003_12,matta,toyota,21,6,3.0,9,66,+1 Lap,9
+686,2003_12,michael_schumacher,ferrari,1,7,2.0,6,66,+1 Lap,6
+687,2003_12,button,bar,17,8,1.0,17,66,+1 Lap,17
+688,2003_12,villeneuve,bar,16,9,0.0,13,65,+2 Laps,13
+689,2003_12,heidfeld,sauber,9,10,0.0,15,65,+2 Laps,15
+690,2003_12,webber,jaguar,14,11,0.0,11,64,Accident,11
+691,2003_12,kiesa,minardi,18,12,0.0,20,62,+5 Laps,20
+692,2003_12,fisichella,jordan,11,13,0.0,13,60,Engine,12
+693,2003_12,verstappen,minardi,19,14,0.0,19,23,Hydraulics,19
+694,2003_12,wilson,jaguar,15,15,0.0,16,6,Gearbox,16
+695,2003_12,ralf_schumacher,williams,4,16,0.0,2,1,Accident,2
+696,2003_12,frentzen,sauber,10,17,0.0,14,1,Accident,14
+697,2003_12,barrichello,ferrari,2,18,0.0,3,0,Accident,3
+698,2003_12,raikkonen,mclaren,6,19,0.0,5,0,Accident,5
+699,2003_12,firman,jordan,12,20,0.0,18,0,Accident,18
+700,2003_13,alonso,renault,8,1,10.0,1,70,Finished,1
+701,2003_13,raikkonen,mclaren,6,2,8.0,7,70,Finished,7
+702,2003_13,montoya,williams,3,3,6.0,4,70,Finished,4
+703,2003_13,ralf_schumacher,williams,4,4,5.0,2,70,Finished,2
+704,2003_13,coulthard,mclaren,5,5,4.0,9,70,Finished,9
+705,2003_13,webber,jaguar,14,6,3.0,3,70,Finished,3
+706,2003_13,trulli,renault,7,7,2.0,6,69,+1 Lap,6
+707,2003_13,michael_schumacher,ferrari,1,8,1.0,8,69,+1 Lap,8
+708,2003_13,heidfeld,sauber,9,9,0.0,11,69,+1 Lap,11
+709,2003_13,button,bar,17,10,0.0,14,69,+1 Lap,14
+710,2003_13,matta,toyota,21,11,0.0,15,68,+2 Laps,15
+711,2003_13,verstappen,minardi,19,12,0.0,18,67,+3 Laps,18
+712,2003_13,kiesa,minardi,18,13,0.0,20,66,+4 Laps,20
+713,2003_13,frentzen,sauber,10,14,0.0,17,47,Out of fuel,17
+714,2003_13,wilson,jaguar,15,15,0.0,12,42,Engine,12
+715,2003_13,baumgartner,jordan,12,16,0.0,19,34,Engine,19
+716,2003_13,panis,toyota,20,17,0.0,10,33,Gearbox,10
+717,2003_13,fisichella,jordan,11,18,0.0,13,28,Engine,13
+718,2003_13,barrichello,ferrari,2,19,0.0,5,19,Suspension,5
+719,2003_13,villeneuve,bar,16,20,0.0,16,14,Hydraulics,16
+720,2003_14,michael_schumacher,ferrari,1,1,10.0,1,53,Finished,1
+721,2003_14,montoya,williams,3,2,8.0,2,53,Finished,2
+722,2003_14,barrichello,ferrari,2,3,6.0,3,53,Finished,3
+723,2003_14,raikkonen,mclaren,6,4,5.0,4,53,Finished,4
+724,2003_14,gene,williams,4,5,4.0,5,53,Finished,5
+725,2003_14,villeneuve,bar,16,6,3.0,10,52,+1 Lap,10
+726,2003_14,webber,jaguar,14,7,2.0,11,52,+1 Lap,11
+727,2003_14,alonso,renault,8,8,1.0,20,52,+1 Lap,20
+728,2003_14,heidfeld,sauber,9,9,0.0,16,52,+1 Lap,16
+729,2003_14,fisichella,jordan,11,10,0.0,13,52,+1 Lap,13
+730,2003_14,baumgartner,jordan,12,11,0.0,18,51,+2 Laps,18
+731,2003_14,kiesa,minardi,18,12,0.0,19,51,+2 Laps,19
+732,2003_14,frentzen,sauber,10,13,0.0,14,50,+3 Laps,14
+733,2003_14,coulthard,mclaren,5,14,0.0,8,45,Fuel pressure,8
+734,2003_14,panis,toyota,20,15,0.0,9,35,Brakes,9
+735,2003_14,verstappen,minardi,19,16,0.0,17,27,Oil leak,17
+736,2003_14,button,bar,17,17,0.0,7,24,Gearbox,7
+737,2003_14,matta,toyota,21,18,0.0,12,3,Tyre,12
+738,2003_14,wilson,jaguar,15,19,0.0,15,2,Gearbox,15
+739,2003_14,trulli,renault,7,20,0.0,6,0,Hydraulics,6
+740,2003_15,michael_schumacher,ferrari,1,1,10.0,7,73,Finished,7
+741,2003_15,raikkonen,mclaren,6,2,8.0,1,73,Finished,1
+742,2003_15,frentzen,sauber,10,3,6.0,15,73,Finished,15
+743,2003_15,trulli,renault,7,4,5.0,10,73,Finished,10
+744,2003_15,heidfeld,sauber,9,5,4.0,13,73,Finished,13
+745,2003_15,montoya,williams,3,6,3.0,4,72,+1 Lap,4
+746,2003_15,fisichella,jordan,11,7,2.0,17,72,+1 Lap,17
+747,2003_15,wilson,jaguar,15,8,1.0,16,71,+2 Laps,16
+748,2003_15,matta,toyota,21,9,0.0,9,71,+2 Laps,9
+749,2003_15,verstappen,minardi,19,10,0.0,19,69,+4 Laps,19
+750,2003_15,kiesa,minardi,18,11,0.0,20,69,+4 Laps,20
+751,2003_15,villeneuve,bar,16,12,0.0,12,63,Engine,12
+752,2003_15,firman,jordan,12,13,0.0,18,48,Spun off,18
+753,2003_15,coulthard,mclaren,5,14,0.0,8,45,Gearbox,8
+754,2003_15,alonso,renault,8,15,0.0,6,44,Engine,6
+755,2003_15,button,bar,17,16,0.0,11,41,Engine,11
+756,2003_15,panis,toyota,20,17,0.0,3,27,Accident,3
+757,2003_15,webber,jaguar,14,18,0.0,14,21,Accident,14
+758,2003_15,ralf_schumacher,williams,4,19,0.0,5,21,Accident,5
+759,2003_15,barrichello,ferrari,2,20,0.0,2,2,Collision,2
+760,2003_16,barrichello,ferrari,2,1,10.0,1,53,Finished,1
+761,2003_16,raikkonen,mclaren,6,2,8.0,8,53,Finished,8
+762,2003_16,coulthard,mclaren,5,3,6.0,7,53,Finished,7
+763,2003_16,button,bar,17,4,5.0,9,53,Finished,9
+764,2003_16,trulli,renault,7,5,4.0,20,53,Finished,20
+765,2003_16,sato,bar,16,6,3.0,13,53,Finished,13
+766,2003_16,matta,toyota,21,7,2.0,3,53,Finished,3
+767,2003_16,michael_schumacher,ferrari,1,8,1.0,14,53,Finished,14
+768,2003_16,heidfeld,sauber,9,9,0.0,11,53,Finished,11
+769,2003_16,panis,toyota,20,10,0.0,4,53,Finished,4
+770,2003_16,webber,jaguar,14,11,0.0,6,53,Finished,6
+771,2003_16,ralf_schumacher,williams,4,12,0.0,19,52,+1 Lap,19
+772,2003_16,wilson,jaguar,15,13,0.0,10,52,+1 Lap,10
+773,2003_16,firman,jordan,12,14,0.0,15,51,+2 Laps,15
+774,2003_16,verstappen,minardi,19,15,0.0,17,51,+2 Laps,17
+775,2003_16,kiesa,minardi,18,16,0.0,18,50,+3 Laps,18
+776,2003_16,fisichella,jordan,11,17,0.0,16,33,Out of fuel,16
+777,2003_16,alonso,renault,8,18,0.0,5,17,Engine,5
+778,2003_16,frentzen,sauber,10,19,0.0,12,9,Engine,12
+779,2003_16,montoya,williams,3,20,0.0,2,9,Hydraulics,2
+780,2004_1,michael_schumacher,ferrari,1,1,10.0,1,58,Finished,1
+781,2004_1,barrichello,ferrari,2,2,8.0,2,58,Finished,2
+782,2004_1,alonso,renault,8,3,6.0,5,58,Finished,5
+783,2004_1,ralf_schumacher,williams,4,4,5.0,8,58,Finished,8
+784,2004_1,montoya,williams,3,5,4.0,3,58,Finished,3
+785,2004_1,button,bar,9,6,3.0,4,58,Finished,4
+786,2004_1,trulli,renault,7,7,2.0,9,57,+1 Lap,9
+787,2004_1,coulthard,mclaren,5,8,1.0,12,57,+1 Lap,12
+788,2004_1,sato,bar,10,9,0.0,7,57,+1 Lap,7
+789,2004_1,fisichella,sauber,11,10,0.0,14,57,+1 Lap,14
+790,2004_1,klien,jaguar,15,11,0.0,19,56,+2 Laps,19
+791,2004_1,matta,toyota,16,12,0.0,13,56,+2 Laps,13
+792,2004_1,panis,toyota,17,13,0.0,18,56,+2 Laps,18
+793,2004_1,pantano,jordan,19,14,0.0,16,55,+3 Laps,16
+794,2004_1,massa,sauber,12,15,0.0,11,44,Engine,11
+795,2004_1,heidfeld,jordan,18,16,0.0,15,43,Transmission,15
+796,2004_1,bruni,minardi,20,17,0.0,20,43,Not classified,20
+797,2004_1,webber,jaguar,14,18,0.0,6,29,Transmission,6
+798,2004_1,baumgartner,minardi,21,19,0.0,17,13,Electrical,17
+799,2004_1,raikkonen,mclaren,6,20,0.0,10,9,Engine,10
+800,2004_2,michael_schumacher,ferrari,1,1,10.0,1,56,Finished,1
+801,2004_2,montoya,williams,3,2,8.0,4,56,Finished,4
+802,2004_2,button,bar,9,3,6.0,6,56,Finished,6
+803,2004_2,barrichello,ferrari,2,4,5.0,3,56,Finished,3
+804,2004_2,trulli,renault,7,5,4.0,8,56,Finished,8
+805,2004_2,coulthard,mclaren,5,6,3.0,9,56,Finished,9
+806,2004_2,alonso,renault,8,7,2.0,19,56,Finished,19
+807,2004_2,massa,sauber,12,8,1.0,11,55,+1 Lap,11
+808,2004_2,matta,toyota,16,9,0.0,10,55,+1 Lap,10
+809,2004_2,klien,jaguar,15,10,0.0,13,55,+1 Lap,13
+810,2004_2,fisichella,sauber,11,11,0.0,12,55,+1 Lap,12
+811,2004_2,panis,toyota,17,12,0.0,14,55,+1 Lap,14
+812,2004_2,pantano,jordan,19,13,0.0,18,54,+2 Laps,18
+813,2004_2,bruni,minardi,20,14,0.0,16,53,+3 Laps,16
+814,2004_2,sato,bar,10,15,0.0,20,52,+4 Laps,20
+815,2004_2,baumgartner,minardi,21,16,0.0,17,52,+4 Laps,17
+816,2004_2,raikkonen,mclaren,6,17,0.0,5,40,Transmission,5
+817,2004_2,heidfeld,jordan,18,18,0.0,15,34,Transmission,15
+818,2004_2,ralf_schumacher,williams,4,19,0.0,7,27,Engine,7
+819,2004_2,webber,jaguar,14,20,0.0,2,23,Spun off,2
+820,2004_3,michael_schumacher,ferrari,1,1,10.0,1,57,Finished,1
+821,2004_3,barrichello,ferrari,2,2,8.0,2,57,Finished,2
+822,2004_3,button,bar,9,3,6.0,6,57,Finished,6
+823,2004_3,trulli,renault,7,4,5.0,7,57,Finished,7
+824,2004_3,sato,bar,10,5,4.0,5,57,Finished,5
+825,2004_3,alonso,renault,8,6,3.0,16,57,Finished,17
+826,2004_3,ralf_schumacher,williams,4,7,2.0,4,57,Finished,4
+827,2004_3,webber,jaguar,14,8,1.0,14,56,+1 Lap,14
+828,2004_3,panis,toyota,17,9,0.0,8,56,+1 Lap,8
+829,2004_3,matta,toyota,16,10,0.0,9,56,+1 Lap,9
+830,2004_3,fisichella,sauber,11,11,0.0,11,56,+1 Lap,11
+831,2004_3,massa,sauber,12,12,0.0,13,56,+1 Lap,13
+832,2004_3,montoya,williams,3,13,0.0,3,56,+1 Lap,3
+833,2004_3,klien,jaguar,15,14,0.0,12,56,+1 Lap,12
+834,2004_3,heidfeld,jordan,18,15,0.0,18,56,+1 Lap,15
+835,2004_3,pantano,jordan,19,16,0.0,15,55,+2 Laps,16
+836,2004_3,bruni,minardi,20,17,0.0,17,52,+5 Laps,18
+837,2004_3,coulthard,mclaren,5,18,0.0,10,50,Pneumatics,10
+838,2004_3,baumgartner,minardi,21,19,0.0,20,44,Engine,19
+839,2004_3,raikkonen,mclaren,6,20,0.0,19,7,Engine,20
+840,2004_4,michael_schumacher,ferrari,1,1,10.0,2,62,Finished,2
+841,2004_4,button,bar,9,2,8.0,1,62,Finished,1
+842,2004_4,montoya,williams,3,3,6.0,3,62,Finished,3
+843,2004_4,alonso,renault,8,4,5.0,6,62,Finished,6
+844,2004_4,trulli,renault,7,5,4.0,9,62,Finished,9
+845,2004_4,barrichello,ferrari,2,6,3.0,4,62,Finished,4
+846,2004_4,ralf_schumacher,williams,4,7,2.0,5,62,Finished,5
+847,2004_4,raikkonen,mclaren,6,8,1.0,20,61,+1 Lap,20
+848,2004_4,fisichella,sauber,11,9,0.0,18,61,+1 Lap,19
+849,2004_4,massa,sauber,12,10,0.0,12,61,+1 Lap,12
+850,2004_4,panis,toyota,17,11,0.0,13,61,+1 Lap,13
+851,2004_4,coulthard,mclaren,5,12,0.0,11,61,+1 Lap,11
+852,2004_4,webber,jaguar,14,13,0.0,8,61,+1 Lap,8
+853,2004_4,klien,jaguar,15,14,0.0,14,60,+2 Laps,14
+854,2004_4,baumgartner,minardi,21,15,0.0,19,58,+4 Laps,18
+855,2004_4,sato,bar,10,16,0.0,7,56,Engine,7
+856,2004_4,heidfeld,jordan,18,17,0.0,16,48,Driveshaft,16
+857,2004_4,matta,toyota,16,18,0.0,10,32,Accident,10
+858,2004_4,bruni,minardi,20,19,0.0,17,22,Brakes,17
+859,2004_4,pantano,jordan,19,20,0.0,15,6,Hydraulics,15
+860,2004_5,michael_schumacher,ferrari,1,1,10.0,1,66,Finished,1
+861,2004_5,barrichello,ferrari,2,2,8.0,5,66,Finished,5
+862,2004_5,trulli,renault,7,3,6.0,4,66,Finished,4
+863,2004_5,alonso,renault,8,4,5.0,8,66,Finished,8
+864,2004_5,sato,bar,10,5,4.0,3,66,Finished,3
+865,2004_5,ralf_schumacher,williams,4,6,3.0,6,66,Finished,6
+866,2004_5,fisichella,sauber,11,7,2.0,12,66,Finished,12
+867,2004_5,button,bar,9,8,1.0,14,65,+1 Lap,14
+868,2004_5,massa,sauber,12,9,0.0,17,65,+1 Lap,17
+869,2004_5,coulthard,mclaren,5,10,0.0,10,65,+1 Lap,10
+870,2004_5,raikkonen,mclaren,6,11,0.0,13,65,+1 Lap,13
+871,2004_5,webber,jaguar,14,12,0.0,9,65,+1 Lap,9
+872,2004_5,matta,toyota,16,13,0.0,11,65,+1 Lap,11
+873,2004_5,pantano,jordan,19,14,0.0,19,51,Steering,19
+874,2004_5,montoya,williams,3,15,0.0,2,46,Brakes,2
+875,2004_5,klien,jaguar,15,16,0.0,16,43,Throttle,16
+876,2004_5,panis,toyota,17,17,0.0,7,33,Hydraulics,7
+877,2004_5,heidfeld,jordan,18,18,0.0,15,33,Hydraulics,15
+878,2004_5,bruni,minardi,20,19,0.0,18,31,Spun off,18
+879,2004_5,baumgartner,minardi,21,20,0.0,20,17,Spun off,20
+880,2004_6,trulli,renault,7,1,10.0,1,77,Finished,1
+881,2004_6,button,bar,9,2,8.0,2,77,Finished,3
+882,2004_6,barrichello,ferrari,2,3,6.0,6,77,Finished,7
+883,2004_6,montoya,williams,3,4,5.0,9,76,+1 Lap,10
+884,2004_6,massa,sauber,12,5,4.0,16,76,+1 Lap,16
+885,2004_6,matta,toyota,16,6,3.0,15,76,+1 Lap,15
+886,2004_6,heidfeld,jordan,18,7,2.0,17,75,+2 Laps,17
+887,2004_6,panis,toyota,17,8,1.0,13,74,+3 Laps,13
+888,2004_6,baumgartner,minardi,21,9,0.0,19,71,+6 Laps,19
+889,2004_6,ralf_schumacher,williams,4,10,0.0,12,69,Gearbox,2
+890,2004_6,michael_schumacher,ferrari,1,11,0.0,4,45,Collision,5
+891,2004_6,alonso,renault,8,12,0.0,3,41,Accident,4
+892,2004_6,raikkonen,mclaren,6,13,0.0,5,27,Pneumatics,6
+893,2004_6,bruni,minardi,20,14,0.0,20,15,Gearbox,20
+894,2004_6,pantano,jordan,19,15,0.0,18,12,Transmission,18
+895,2004_6,webber,jaguar,14,16,0.0,11,11,Gearbox,12
+896,2004_6,sato,bar,10,17,0.0,7,2,Engine,8
+897,2004_6,coulthard,mclaren,5,18,0.0,8,2,Collision,9
+898,2004_6,fisichella,sauber,11,19,0.0,10,2,Collision,11
+899,2004_6,klien,jaguar,15,20,0.0,14,0,Accident,14
+900,2004_7,michael_schumacher,ferrari,1,1,10.0,1,60,Finished,1
+901,2004_7,barrichello,ferrari,2,2,8.0,7,60,Finished,7
+902,2004_7,button,bar,9,3,6.0,5,60,Finished,5
+903,2004_7,trulli,renault,7,4,5.0,3,60,Finished,3
+904,2004_7,alonso,renault,8,5,4.0,6,60,Finished,6
+905,2004_7,fisichella,sauber,11,6,3.0,19,60,Finished,19
+906,2004_7,webber,jaguar,14,7,2.0,14,60,Finished,14
+907,2004_7,montoya,williams,3,8,1.0,8,59,+1 Lap,8
+908,2004_7,massa,sauber,12,9,0.0,16,59,+1 Lap,16
+909,2004_7,heidfeld,jordan,18,10,0.0,13,59,+1 Lap,13
+910,2004_7,panis,toyota,17,11,0.0,10,59,+1 Lap,10
+911,2004_7,klien,jaguar,15,12,0.0,12,59,+1 Lap,12
+912,2004_7,pantano,jordan,19,13,0.0,15,58,+2 Laps,15
+913,2004_7,bruni,minardi,20,14,0.0,20,57,+3 Laps,20
+914,2004_7,baumgartner,minardi,21,15,0.0,17,57,+3 Laps,17
+915,2004_7,sato,bar,10,16,0.0,2,47,Engine,2
+916,2004_7,coulthard,mclaren,5,17,0.0,18,25,Engine,18
+917,2004_7,raikkonen,mclaren,6,18,0.0,4,9,Engine,4
+918,2004_7,ralf_schumacher,williams,4,19,0.0,9,0,Collision,9
+919,2004_7,matta,toyota,16,20,0.0,11,0,Collision,11
+920,2004_8,michael_schumacher,ferrari,1,1,10.0,6,70,Finished,6
+921,2004_8,barrichello,ferrari,2,2,8.0,7,70,Finished,7
+922,2004_8,button,bar,9,3,6.0,2,70,Finished,2
+923,2004_8,fisichella,sauber,11,4,5.0,11,69,+1 Lap,11
+924,2004_8,raikkonen,mclaren,6,5,4.0,8,69,+1 Lap,8
+925,2004_8,coulthard,mclaren,5,6,3.0,9,69,+1 Lap,9
+926,2004_8,glock,jordan,19,7,2.0,16,68,+2 Laps,16
+927,2004_8,heidfeld,jordan,18,8,1.0,15,68,+2 Laps,15
+928,2004_8,klien,jaguar,15,9,0.0,10,67,+3 Laps,10
+929,2004_8,baumgartner,minardi,21,10,0.0,18,66,+4 Laps,18
+930,2004_8,massa,sauber,12,11,0.0,17,62,Accident,19
+931,2004_8,sato,bar,10,12,0.0,20,48,Engine,17
+932,2004_8,alonso,renault,8,13,0.0,5,44,Driveshaft,5
+933,2004_8,bruni,minardi,20,14,0.0,19,30,Gearbox,20
+934,2004_8,webber,jaguar,14,15,0.0,14,6,Suspension,14
+935,2004_8,trulli,renault,7,16,0.0,3,0,Transmission,3
+936,2004_8,ralf_schumacher,williams,4,17,0.0,1,70,Disqualified,1
+937,2004_8,montoya,williams,3,18,0.0,4,70,Disqualified,4
+938,2004_8,matta,toyota,16,19,0.0,12,69,Disqualified,12
+939,2004_8,panis,toyota,17,20,0.0,13,69,Disqualified,13
+940,2004_9,michael_schumacher,ferrari,1,1,10.0,2,73,Finished,2
+941,2004_9,barrichello,ferrari,2,2,8.0,1,73,Finished,1
+942,2004_9,sato,bar,10,3,6.0,3,73,Finished,3
+943,2004_9,trulli,renault,7,4,5.0,20,73,Finished,20
+944,2004_9,panis,toyota,17,5,4.0,8,73,Finished,8
+945,2004_9,raikkonen,mclaren,6,6,3.0,7,72,+1 Lap,7
+946,2004_9,coulthard,mclaren,5,7,2.0,12,72,+1 Lap,12
+947,2004_9,baumgartner,minardi,21,8,1.0,19,70,+3 Laps,19
+948,2004_9,fisichella,sauber,11,9,0.0,14,65,+8 Laps,14
+949,2004_9,webber,jaguar,14,10,0.0,10,60,Engine,10
+950,2004_9,montoya,williams,3,11,0.0,5,57,Disqualified,5
+951,2004_9,heidfeld,jordan,18,12,0.0,16,40,Engine,16
+952,2004_9,button,bar,9,13,0.0,4,26,Gearbox,4
+953,2004_9,matta,toyota,16,14,0.0,11,17,Gearbox,11
+954,2004_9,ralf_schumacher,williams,4,15,0.0,6,9,Tyre,6
+955,2004_9,alonso,renault,8,16,0.0,9,8,Tyre,9
+956,2004_9,klien,jaguar,15,17,0.0,13,0,Collision,13
+957,2004_9,massa,sauber,12,18,0.0,15,0,Collision,15
+958,2004_9,pantano,jordan,19,19,0.0,17,0,Collision,17
+959,2004_9,bruni,minardi,20,20,0.0,18,0,Collision,18
+960,2004_10,michael_schumacher,ferrari,1,1,10.0,2,70,Finished,2
+961,2004_10,alonso,renault,8,2,8.0,1,70,Finished,1
+962,2004_10,barrichello,ferrari,2,3,6.0,10,70,Finished,10
+963,2004_10,trulli,renault,7,4,5.0,5,70,Finished,5
+964,2004_10,button,bar,9,5,4.0,4,70,Finished,4
+965,2004_10,coulthard,mclaren,5,6,3.0,3,70,Finished,3
+966,2004_10,raikkonen,mclaren,6,7,2.0,9,70,Finished,9
+967,2004_10,montoya,williams,3,8,1.0,6,70,Finished,6
+968,2004_10,webber,jaguar,14,9,0.0,12,70,Finished,12
+969,2004_10,gene,williams,4,10,0.0,8,70,Finished,8
+970,2004_10,klien,jaguar,15,11,0.0,13,69,+1 Lap,13
+971,2004_10,fisichella,sauber,11,12,0.0,15,69,+1 Lap,15
+972,2004_10,massa,sauber,12,13,0.0,16,69,+1 Lap,16
+973,2004_10,matta,toyota,16,14,0.0,11,69,+1 Lap,11
+974,2004_10,panis,toyota,17,15,0.0,14,68,+2 Laps,14
+975,2004_10,heidfeld,jordan,18,16,0.0,17,68,+2 Laps,17
+976,2004_10,pantano,jordan,19,17,0.0,18,67,+3 Laps,18
+977,2004_10,bruni,minardi,20,18,0.0,19,66,+4 Laps,19
+978,2004_10,baumgartner,minardi,21,19,0.0,20,31,Spun off,20
+979,2004_10,sato,bar,10,20,0.0,7,15,Engine,7
+980,2004_11,michael_schumacher,ferrari,1,1,10.0,4,60,Finished,4
+981,2004_11,raikkonen,mclaren,6,2,8.0,1,60,Finished,1
+982,2004_11,barrichello,ferrari,2,3,6.0,2,60,Finished,2
+983,2004_11,button,bar,9,4,5.0,3,60,Finished,3
+984,2004_11,montoya,williams,3,5,4.0,7,60,Finished,8
+985,2004_11,fisichella,sauber,11,6,3.0,20,60,Finished,20
+986,2004_11,coulthard,mclaren,5,7,2.0,6,60,Finished,7
+987,2004_11,webber,jaguar,14,8,1.0,9,60,Finished,10
+988,2004_11,massa,sauber,12,9,0.0,10,60,Finished,11
+989,2004_11,alonso,renault,8,10,0.0,16,60,Finished,6
+990,2004_11,sato,bar,10,11,0.0,8,60,Finished,9
+991,2004_11,gene,williams,4,12,0.0,11,60,Finished,13
+992,2004_11,matta,toyota,16,13,0.0,12,59,+1 Lap,14
+993,2004_11,klien,jaguar,15,14,0.0,13,59,+1 Lap,15
+994,2004_11,heidfeld,jordan,18,15,0.0,15,59,+1 Lap,17
+995,2004_11,bruni,minardi,20,16,0.0,18,56,+4 Laps,18
+996,2004_11,pantano,jordan,19,17,0.0,14,47,Spun off,16
+997,2004_11,trulli,renault,7,18,0.0,5,39,Accident,5
+998,2004_11,baumgartner,minardi,21,19,0.0,19,29,Engine,19
+999,2004_11,panis,toyota,17,20,0.0,17,16,Accident,12
+1000,2004_12,michael_schumacher,ferrari,1,1,10.0,1,66,Finished,1
+1001,2004_12,button,bar,9,2,8.0,13,66,Finished,3
+1002,2004_12,alonso,renault,8,3,6.0,5,66,Finished,6
+1003,2004_12,coulthard,mclaren,5,4,5.0,4,66,Finished,5
+1004,2004_12,montoya,williams,3,5,4.0,2,66,Finished,2
+1005,2004_12,webber,jaguar,14,6,3.0,11,66,Finished,12
+1006,2004_12,pizzonia,williams,4,7,2.0,10,66,Finished,11
+1007,2004_12,sato,bar,10,8,1.0,8,66,Finished,9
+1008,2004_12,fisichella,sauber,11,9,0.0,14,66,Finished,14
+1009,2004_12,klien,jaguar,15,10,0.0,12,66,Finished,13
+1010,2004_12,trulli,renault,7,11,0.0,6,66,Finished,7
+1011,2004_12,barrichello,ferrari,2,12,0.0,7,66,Finished,8
+1012,2004_12,massa,sauber,12,13,0.0,16,65,+1 Lap,16
+1013,2004_12,panis,toyota,17,14,0.0,9,65,+1 Lap,10
+1014,2004_12,pantano,jordan,19,15,0.0,17,63,+3 Laps,17
+1015,2004_12,baumgartner,minardi,21,16,0.0,20,62,+4 Laps,20
+1016,2004_12,bruni,minardi,20,17,0.0,19,62,+4 Laps,19
+1017,2004_12,heidfeld,jordan,18,18,0.0,18,42,Handling,18
+1018,2004_12,matta,toyota,16,19,0.0,15,38,Puncture,15
+1019,2004_12,raikkonen,mclaren,6,20,0.0,3,13,Rear wing,4
+1020,2004_13,michael_schumacher,ferrari,1,1,10.0,1,70,Finished,1
+1021,2004_13,barrichello,ferrari,2,2,8.0,2,70,Finished,2
+1022,2004_13,alonso,renault,8,3,6.0,5,70,Finished,5
+1023,2004_13,montoya,williams,3,4,5.0,7,70,Finished,7
+1024,2004_13,button,bar,9,5,4.0,4,70,Finished,4
+1025,2004_13,sato,bar,10,6,3.0,3,69,+1 Lap,3
+1026,2004_13,pizzonia,williams,4,7,2.0,6,69,+1 Lap,6
+1027,2004_13,fisichella,sauber,11,8,1.0,8,69,+1 Lap,8
+1028,2004_13,coulthard,mclaren,5,9,0.0,12,69,+1 Lap,12
+1029,2004_13,webber,jaguar,14,10,0.0,11,69,+1 Lap,11
+1030,2004_13,panis,toyota,17,11,0.0,13,69,+1 Lap,13
+1031,2004_13,heidfeld,jordan,18,12,0.0,16,68,+2 Laps,16
+1032,2004_13,klien,jaguar,15,13,0.0,14,68,+2 Laps,14
+1033,2004_13,bruni,minardi,20,14,0.0,19,66,+4 Laps,19
+1034,2004_13,baumgartner,minardi,21,15,0.0,18,65,+5 Laps,18
+1035,2004_13,pantano,jordan,19,16,0.0,17,48,Gearbox,17
+1036,2004_13,trulli,renault,7,17,0.0,9,41,Engine,9
+1037,2004_13,zonta,toyota,16,18,0.0,15,31,Electronics,15
+1038,2004_13,massa,sauber,12,19,0.0,20,21,Brakes,20
+1039,2004_13,raikkonen,mclaren,6,20,0.0,10,13,Electrical,10
+1040,2004_14,raikkonen,mclaren,6,1,10.0,10,44,Finished,10
+1041,2004_14,michael_schumacher,ferrari,1,2,8.0,2,44,Finished,2
+1042,2004_14,barrichello,ferrari,2,3,6.0,6,44,Finished,6
+1043,2004_14,massa,sauber,12,4,5.0,8,44,Finished,8
+1044,2004_14,fisichella,sauber,11,5,4.0,5,44,Finished,5
+1045,2004_14,klien,jaguar,15,6,3.0,13,44,Finished,13
+1046,2004_14,coulthard,mclaren,5,7,2.0,4,44,Finished,4
+1047,2004_14,panis,toyota,17,8,1.0,9,44,Finished,9
+1048,2004_14,trulli,renault,7,9,0.0,1,44,Finished,1
+1049,2004_14,zonta,toyota,16,10,0.0,20,41,Engine,20
+1050,2004_14,heidfeld,jordan,18,11,0.0,16,40,+4 Laps,16
+1051,2004_14,montoya,williams,3,12,0.0,11,37,Tyre,11
+1052,2004_14,pizzonia,williams,4,13,0.0,14,31,Gearbox,14
+1053,2004_14,button,bar,9,14,0.0,12,29,Collision,12
+1054,2004_14,baumgartner,minardi,21,15,0.0,18,28,Collision,18
+1055,2004_14,alonso,renault,8,16,0.0,3,11,Engine,3
+1056,2004_14,webber,jaguar,14,17,0.0,7,0,Collision,7
+1057,2004_14,sato,bar,10,18,0.0,15,0,Collision,15
+1058,2004_14,bruni,minardi,20,19,0.0,17,0,Collision,17
+1059,2004_14,pantano,jordan,19,20,0.0,19,0,Collision,19
+1060,2004_15,barrichello,ferrari,2,1,10.0,1,53,Finished,1
+1061,2004_15,michael_schumacher,ferrari,1,2,8.0,3,53,Finished,3
+1062,2004_15,button,bar,9,3,6.0,6,53,Finished,6
+1063,2004_15,sato,bar,10,4,5.0,5,53,Finished,5
+1064,2004_15,montoya,williams,3,5,4.0,2,53,Finished,2
+1065,2004_15,coulthard,mclaren,5,6,3.0,10,53,Finished,10
+1066,2004_15,pizzonia,williams,4,7,2.0,8,53,Finished,8
+1067,2004_15,fisichella,sauber,11,8,1.0,15,53,Finished,15
+1068,2004_15,webber,jaguar,14,9,0.0,12,53,Finished,12
+1069,2004_15,trulli,renault,7,10,0.0,9,53,Finished,9
+1070,2004_15,zonta,toyota,16,11,0.0,11,53,Finished,11
+1071,2004_15,massa,sauber,12,12,0.0,16,52,+1 Lap,16
+1072,2004_15,klien,jaguar,15,13,0.0,14,52,+1 Lap,14
+1073,2004_15,heidfeld,jordan,18,14,0.0,20,52,+1 Lap,17
+1074,2004_15,baumgartner,minardi,21,15,0.0,19,50,+3 Laps,19
+1075,2004_15,alonso,renault,8,16,0.0,4,40,Spun off,4
+1076,2004_15,pantano,jordan,19,17,0.0,17,33,Accident,18
+1077,2004_15,bruni,minardi,20,18,0.0,18,29,Fire,20
+1078,2004_15,raikkonen,mclaren,6,19,0.0,7,13,Engine,7
+1079,2004_15,panis,toyota,17,20,0.0,13,0,Collision,13
+1080,2004_16,barrichello,ferrari,2,1,10.0,1,56,Finished,1
+1081,2004_16,button,bar,9,2,8.0,3,56,Finished,3
+1082,2004_16,raikkonen,mclaren,6,3,6.0,2,56,Finished,2
+1083,2004_16,alonso,renault,8,4,5.0,6,56,Finished,6
+1084,2004_16,montoya,williams,3,5,4.0,10,56,Finished,11
+1085,2004_16,sato,bar,10,6,3.0,18,56,Finished,9
+1086,2004_16,fisichella,sauber,11,7,2.0,7,56,Finished,7
+1087,2004_16,massa,sauber,12,8,1.0,4,56,Finished,4
+1088,2004_16,coulthard,mclaren,5,9,0.0,9,56,Finished,10
+1089,2004_16,webber,jaguar,14,10,0.0,11,55,+1 Lap,12
+1090,2004_16,villeneuve,renault,7,11,0.0,12,55,+1 Lap,13
+1091,2004_16,michael_schumacher,ferrari,1,12,0.0,20,55,+1 Lap,20
+1092,2004_16,heidfeld,jordan,18,13,0.0,14,55,+1 Lap,15
+1093,2004_16,panis,toyota,17,14,0.0,8,55,+1 Lap,8
+1094,2004_16,glock,jordan,19,15,0.0,16,55,+1 Lap,17
+1095,2004_16,baumgartner,minardi,21,16,0.0,19,53,+3 Laps,18
+1096,2004_16,bruni,minardi,20,17,0.0,17,38,Wheel,19
+1097,2004_16,ralf_schumacher,williams,4,18,0.0,5,37,Collision,5
+1098,2004_16,zonta,toyota,16,19,0.0,13,35,Transmission,14
+1099,2004_16,klien,jaguar,15,20,0.0,15,11,Collision,16
+1100,2004_17,michael_schumacher,ferrari,1,1,10.0,1,53,Finished,1
+1101,2004_17,ralf_schumacher,williams,4,2,8.0,2,53,Finished,2
+1102,2004_17,button,bar,9,3,6.0,5,53,Finished,5
+1103,2004_17,sato,bar,10,4,5.0,4,53,Finished,4
+1104,2004_17,alonso,renault,8,5,4.0,11,53,Finished,11
+1105,2004_17,raikkonen,mclaren,6,6,3.0,12,53,Finished,12
+1106,2004_17,montoya,williams,3,7,2.0,13,53,Finished,13
+1107,2004_17,fisichella,sauber,11,8,1.0,7,53,Finished,7
+1108,2004_17,massa,sauber,12,9,0.0,19,53,Finished,20
+1109,2004_17,villeneuve,renault,7,10,0.0,9,52,+1 Lap,9
+1110,2004_17,trulli,toyota,16,11,0.0,6,52,+1 Lap,6
+1111,2004_17,klien,jaguar,15,12,0.0,14,52,+1 Lap,14
+1112,2004_17,heidfeld,jordan,18,13,0.0,16,52,+1 Lap,16
+1113,2004_17,panis,toyota,17,14,0.0,10,51,+2 Laps,10
+1114,2004_17,glock,jordan,19,15,0.0,17,51,+2 Laps,17
+1115,2004_17,bruni,minardi,20,16,0.0,18,50,+3 Laps,18
+1116,2004_17,baumgartner,minardi,21,17,0.0,20,41,Spun off,19
+1117,2004_17,coulthard,mclaren,5,18,0.0,8,38,Collision,8
+1118,2004_17,barrichello,ferrari,2,19,0.0,15,38,Collision,15
+1119,2004_17,webber,jaguar,14,20,0.0,3,20,Overheating,3
+1120,2004_18,montoya,williams,3,1,10.0,2,71,Finished,2
+1121,2004_18,raikkonen,mclaren,6,2,8.0,3,71,Finished,3
+1122,2004_18,barrichello,ferrari,2,3,6.0,1,71,Finished,1
+1123,2004_18,alonso,renault,8,4,5.0,8,71,Finished,9
+1124,2004_18,ralf_schumacher,williams,4,5,4.0,7,71,Finished,7
+1125,2004_18,sato,bar,10,6,3.0,6,71,Finished,6
+1126,2004_18,michael_schumacher,ferrari,1,7,2.0,18,71,Finished,8
+1127,2004_18,massa,sauber,12,8,1.0,4,71,Finished,4
+1128,2004_18,fisichella,sauber,11,9,0.0,10,71,Finished,11
+1129,2004_18,villeneuve,renault,7,10,0.0,13,70,+1 Lap,14
+1130,2004_18,coulthard,mclaren,5,11,0.0,12,70,+1 Lap,13
+1131,2004_18,trulli,toyota,16,12,0.0,9,70,+1 Lap,10
+1132,2004_18,zonta,toyota,17,13,0.0,14,70,+1 Lap,15
+1133,2004_18,klien,jaguar,15,14,0.0,15,69,+2 Laps,16
+1134,2004_18,glock,jordan,19,15,0.0,17,69,+2 Laps,18
+1135,2004_18,baumgartner,minardi,21,16,0.0,19,67,+4 Laps,19
+1136,2004_18,bruni,minardi,20,17,0.0,20,67,+4 Laps,20
+1137,2004_18,webber,jaguar,14,18,0.0,11,23,Collision,12
+1138,2004_18,heidfeld,jordan,18,19,0.0,16,15,Clutch,17
+1139,2004_18,button,bar,9,20,0.0,5,3,Engine,5
+1140,2005_1,fisichella,renault,6,1,10.0,1,57,Finished,1
+1141,2005_1,barrichello,ferrari,2,2,8.0,11,57,Finished,11
+1142,2005_1,alonso,renault,5,3,6.0,13,57,Finished,13
+1143,2005_1,coulthard,red_bull,14,4,5.0,5,57,Finished,5
+1144,2005_1,webber,williams,7,5,4.0,3,57,Finished,3
+1145,2005_1,montoya,mclaren,10,6,3.0,9,57,Finished,9
+1146,2005_1,klien,red_bull,15,7,2.0,6,57,Finished,6
+1147,2005_1,raikkonen,mclaren,9,8,1.0,10,57,Finished,10
+1148,2005_1,trulli,toyota,16,9,0.0,2,57,Finished,2
+1149,2005_1,massa,sauber,12,10,0.0,18,57,Finished,20
+1150,2005_1,button,bar,3,11,0.0,8,56,+1 Lap,8
+1151,2005_1,ralf_schumacher,toyota,17,12,0.0,15,56,+1 Lap,15
+1152,2005_1,villeneuve,sauber,11,13,0.0,4,56,+1 Lap,4
+1153,2005_1,sato,bar,4,14,0.0,20,55,+2 Laps,19
+1154,2005_1,karthikeyan,jordan,19,15,0.0,12,55,+2 Laps,12
+1155,2005_1,monteiro,jordan,18,16,0.0,14,55,+2 Laps,14
+1156,2005_1,friesacher,minardi,20,17,0.0,16,55,+4 Laps,16
+1157,2005_1,michael_schumacher,ferrari,1,18,0.0,19,42,Accident,18
+1158,2005_1,heidfeld,williams,8,19,0.0,7,42,Accident,7
+1159,2005_1,albers,minardi,21,20,0.0,17,16,Gearbox,17
+1160,2005_2,alonso,renault,5,1,10.0,1,56,Finished,1
+1161,2005_2,trulli,toyota,16,2,8.0,2,56,Finished,2
+1162,2005_2,heidfeld,williams,8,3,6.0,10,56,Finished,10
+1163,2005_2,montoya,mclaren,10,4,5.0,11,56,Finished,11
+1164,2005_2,ralf_schumacher,toyota,17,5,4.0,5,56,Finished,5
+1165,2005_2,coulthard,red_bull,14,6,3.0,8,56,Finished,8
+1166,2005_2,michael_schumacher,ferrari,1,7,2.0,13,56,Finished,13
+1167,2005_2,klien,red_bull,15,8,1.0,7,56,Finished,7
+1168,2005_2,raikkonen,mclaren,9,9,0.0,6,56,Finished,6
+1169,2005_2,massa,sauber,12,10,0.0,14,55,+1 Lap,14
+1170,2005_2,karthikeyan,jordan,19,11,0.0,17,54,+2 Laps,17
+1171,2005_2,monteiro,jordan,18,12,0.0,18,53,+3 Laps,18
+1172,2005_2,albers,minardi,21,13,0.0,19,52,+4 Laps,20
+1173,2005_2,barrichello,ferrari,2,14,0.0,12,49,Tyre,12
+1174,2005_2,fisichella,renault,6,15,0.0,3,36,Collision,3
+1175,2005_2,webber,williams,7,16,0.0,4,36,Collision,4
+1176,2005_2,villeneuve,sauber,11,17,0.0,16,26,Spun off,16
+1177,2005_2,button,bar,3,18,0.0,9,2,Engine,9
+1178,2005_2,davidson,bar,4,19,0.0,15,2,Engine,15
+1179,2005_2,friesacher,minardi,20,20,0.0,20,2,Spun off,19
+1180,2005_3,alonso,renault,5,1,10.0,1,57,Finished,1
+1181,2005_3,trulli,toyota,16,2,8.0,3,57,Finished,3
+1182,2005_3,raikkonen,mclaren,9,3,6.0,9,57,Finished,9
+1183,2005_3,ralf_schumacher,toyota,17,4,5.0,6,57,Finished,6
+1184,2005_3,rosa,mclaren,10,5,4.0,8,57,Finished,8
+1185,2005_3,webber,williams,7,6,3.0,5,57,Finished,5
+1186,2005_3,massa,sauber,12,7,2.0,12,56,+1 Lap,12
+1187,2005_3,coulthard,red_bull,14,8,1.0,14,56,+1 Lap,14
+1188,2005_3,barrichello,ferrari,2,9,0.0,20,56,+1 Lap,15
+1189,2005_3,monteiro,jordan,18,10,0.0,16,55,+2 Laps,17
+1190,2005_3,villeneuve,sauber,11,11,0.0,15,54,Suspension,16
+1191,2005_3,friesacher,minardi,20,12,0.0,19,54,+3 Laps,20
+1192,2005_3,albers,minardi,21,13,0.0,18,53,+4 Laps,19
+1193,2005_3,button,bar,3,14,0.0,11,46,Clutch,11
+1194,2005_3,sato,bar,4,15,0.0,13,27,Brakes,13
+1195,2005_3,heidfeld,williams,8,16,0.0,4,25,Engine,4
+1196,2005_3,michael_schumacher,ferrari,1,17,0.0,2,12,Hydraulics,2
+1197,2005_3,fisichella,renault,6,18,0.0,10,4,Engine,10
+1198,2005_3,karthikeyan,jordan,19,19,0.0,17,2,Electrical,18
+1199,2005_3,klien,red_bull,15,20,0.0,7,0,Electrical,7
+1200,2005_4,alonso,renault,5,1,10.0,2,62,Finished,2
+1201,2005_4,michael_schumacher,ferrari,1,2,8.0,13,62,Finished,14
+1202,2005_4,wurz,mclaren,10,3,6.0,7,62,Finished,7
+1203,2005_4,villeneuve,sauber,11,4,5.0,11,62,Finished,12
+1204,2005_4,trulli,toyota,16,5,4.0,5,62,Finished,5
+1205,2005_4,heidfeld,williams,8,6,3.0,8,62,Finished,9
+1206,2005_4,webber,williams,7,7,2.0,4,62,Finished,4
+1207,2005_4,liuzzi,red_bull,15,8,1.0,15,62,Finished,16
+1208,2005_4,ralf_schumacher,toyota,17,9,0.0,10,62,Finished,11
+1209,2005_4,massa,sauber,12,10,0.0,18,61,+1 Lap,8
+1210,2005_4,coulthard,red_bull,14,11,0.0,14,61,+1 Lap,15
+1211,2005_4,karthikeyan,jordan,19,12,0.0,16,61,+1 Lap,17
+1212,2005_4,monteiro,jordan,18,13,0.0,17,60,+2 Laps,18
+1213,2005_4,albers,minardi,21,14,0.0,20,20,Hydraulics,20
+1214,2005_4,barrichello,ferrari,2,15,0.0,9,18,Electrical,10
+1215,2005_4,raikkonen,mclaren,9,16,0.0,1,9,Driveshaft,1
+1216,2005_4,friesacher,minardi,20,17,0.0,19,8,Clutch,19
+1217,2005_4,fisichella,renault,6,18,0.0,12,5,Accident,13
+1218,2005_4,button,bar,3,19,0.0,3,62,Disqualified,3
+1219,2005_4,sato,bar,4,20,0.0,6,62,Disqualified,6
+1220,2005_5,raikkonen,mclaren,9,1,10.0,1,66,Finished,1
+1221,2005_5,alonso,renault,5,2,8.0,3,66,Finished,3
+1222,2005_5,trulli,toyota,16,3,6.0,5,66,Finished,5
+1223,2005_5,ralf_schumacher,toyota,17,4,5.0,4,66,Finished,4
+1224,2005_5,fisichella,renault,6,5,4.0,6,66,Finished,6
+1225,2005_5,webber,williams,7,6,3.0,2,66,Finished,2
+1226,2005_5,montoya,mclaren,10,7,2.0,7,65,+1 Lap,7
+1227,2005_5,coulthard,red_bull,14,8,1.0,9,65,+1 Lap,9
+1228,2005_5,barrichello,ferrari,2,9,0.0,16,65,+1 Lap,18
+1229,2005_5,heidfeld,williams,8,10,0.0,17,65,+1 Lap,17
+1230,2005_5,massa,sauber,12,11,0.0,10,63,Wheel rim,10
+1231,2005_5,monteiro,jordan,18,12,0.0,18,63,+3 Laps,14
+1232,2005_5,karthikeyan,jordan,19,13,0.0,13,63,+3 Laps,13
+1233,2005_5,villeneuve,sauber,11,14,0.0,12,51,Engine,12
+1234,2005_5,michael_schumacher,ferrari,1,15,0.0,8,46,Puncture,8
+1235,2005_5,albers,minardi,21,16,0.0,14,19,Gearbox,15
+1236,2005_5,friesacher,minardi,20,17,0.0,15,11,Spun off,16
+1237,2005_5,liuzzi,red_bull,15,18,0.0,11,9,Spun off,11
+1238,2005_6,raikkonen,mclaren,9,1,10.0,1,78,Finished,1
+1239,2005_6,heidfeld,williams,8,2,8.0,6,78,Finished,6
+1240,2005_6,webber,williams,7,3,6.0,3,78,Finished,3
+1241,2005_6,alonso,renault,5,4,5.0,2,78,Finished,2
+1242,2005_6,montoya,mclaren,10,5,4.0,16,78,Finished,16
+1243,2005_6,ralf_schumacher,toyota,17,6,3.0,18,78,Finished,18
+1244,2005_6,michael_schumacher,ferrari,1,7,2.0,8,78,Finished,8
+1245,2005_6,barrichello,ferrari,2,8,1.0,10,78,Finished,10
+1246,2005_6,massa,sauber,12,9,0.0,11,77,+1 Lap,11
+1247,2005_6,trulli,toyota,16,10,0.0,5,77,+1 Lap,5
+1248,2005_6,villeneuve,sauber,11,11,0.0,9,77,+1 Lap,9
+1249,2005_6,fisichella,renault,6,12,0.0,4,77,+1 Lap,4
+1250,2005_6,monteiro,jordan,18,13,0.0,15,75,+3 Laps,15
+1251,2005_6,albers,minardi,21,14,0.0,14,73,+5 Laps,14
+1252,2005_6,liuzzi,red_bull,15,15,0.0,12,59,Accident,12
+1253,2005_6,friesacher,minardi,20,16,0.0,13,29,Accident,13
+1254,2005_6,coulthard,red_bull,14,17,0.0,7,23,Accident,7
+1255,2005_6,karthikeyan,jordan,19,18,0.0,17,18,Hydraulics,17
+1256,2005_7,alonso,renault,5,1,10.0,6,59,Finished,6
+1257,2005_7,heidfeld,williams,8,2,8.0,1,59,Finished,1
+1258,2005_7,barrichello,ferrari,2,3,6.0,7,59,Finished,7
+1259,2005_7,coulthard,red_bull,14,4,5.0,12,59,Finished,12
+1260,2005_7,michael_schumacher,ferrari,1,5,4.0,10,59,Finished,10
+1261,2005_7,fisichella,renault,6,6,3.0,9,59,Finished,9
+1262,2005_7,montoya,mclaren,10,7,2.0,5,59,Finished,5
+1263,2005_7,trulli,toyota,16,8,1.0,4,59,Finished,4
+1264,2005_7,liuzzi,red_bull,15,9,0.0,14,59,Finished,14
+1265,2005_7,button,bar,3,10,0.0,13,59,Finished,13
+1266,2005_7,raikkonen,mclaren,9,11,0.0,2,58,Accident,2
+1267,2005_7,sato,bar,4,12,0.0,16,58,+1 Lap,16
+1268,2005_7,villeneuve,sauber,11,13,0.0,15,58,+1 Lap,15
+1269,2005_7,massa,sauber,12,14,0.0,11,58,+1 Lap,11
+1270,2005_7,monteiro,jordan,18,15,0.0,17,58,+1 Lap,17
+1271,2005_7,karthikeyan,jordan,19,16,0.0,19,58,+1 Lap,19
+1272,2005_7,albers,minardi,21,17,0.0,20,57,+2 Laps,20
+1273,2005_7,friesacher,minardi,20,18,0.0,18,56,+3 Laps,18
+1274,2005_7,ralf_schumacher,toyota,17,19,0.0,8,33,Spun off,8
+1275,2005_7,webber,williams,7,20,0.0,3,0,Accident,3
+1276,2005_8,raikkonen,mclaren,9,1,10.0,7,70,Finished,7
+1277,2005_8,michael_schumacher,ferrari,1,2,8.0,2,70,Finished,2
+1278,2005_8,barrichello,ferrari,2,3,6.0,20,70,Finished,20
+1279,2005_8,massa,sauber,12,4,5.0,11,70,Finished,11
+1280,2005_8,webber,williams,7,5,4.0,14,70,Finished,14
+1281,2005_8,ralf_schumacher,toyota,17,6,3.0,10,69,+1 Lap,10
+1282,2005_8,coulthard,red_bull,14,7,2.0,12,69,+1 Lap,12
+1283,2005_8,klien,red_bull,15,8,1.0,16,69,+1 Lap,16
+1284,2005_8,villeneuve,sauber,11,9,0.0,8,69,+1 Lap,8
+1285,2005_8,monteiro,jordan,18,10,0.0,18,67,+3 Laps,18
+1286,2005_8,albers,minardi,21,11,0.0,15,67,+3 Laps,15
+1287,2005_8,trulli,toyota,16,12,0.0,9,62,Brakes,9
+1288,2005_8,button,bar,3,13,0.0,1,46,Accident,1
+1289,2005_8,heidfeld,williams,8,14,0.0,13,43,Engine,13
+1290,2005_8,sato,bar,4,15,0.0,6,40,Brakes,6
+1291,2005_8,friesacher,minardi,20,16,0.0,19,39,Hydraulics,19
+1292,2005_8,alonso,renault,5,17,0.0,3,38,Suspension,3
+1293,2005_8,fisichella,renault,6,18,0.0,4,32,Hydraulics,4
+1294,2005_8,karthikeyan,jordan,19,19,0.0,17,24,Suspension,17
+1295,2005_8,montoya,mclaren,10,20,0.0,5,52,Disqualified,5
+1296,2005_9,michael_schumacher,ferrari,1,1,10.0,5,73,Finished,5
+1297,2005_9,barrichello,ferrari,2,2,8.0,7,73,Finished,7
+1298,2005_9,monteiro,jordan,18,3,6.0,17,72,+1 Lap,17
+1299,2005_9,karthikeyan,jordan,19,4,5.0,19,72,+1 Lap,19
+1300,2005_9,albers,minardi,21,5,4.0,18,71,+2 Laps,18
+1301,2005_9,friesacher,minardi,20,6,3.0,20,71,+2 Laps,20
+1302,2005_9,trulli,toyota,16,7,0.0,1,0,Withdrew,1
+1303,2005_9,raikkonen,mclaren,9,8,0.0,2,0,Withdrew,2
+1304,2005_9,button,bar,3,9,0.0,3,0,Withdrew,3
+1305,2005_9,fisichella,renault,6,10,0.0,4,0,Withdrew,4
+1306,2005_9,alonso,renault,5,11,0.0,6,0,Withdrew,6
+1307,2005_9,sato,bar,4,12,0.0,8,0,Withdrew,8
+1308,2005_9,webber,williams,7,13,0.0,9,0,Withdrew,9
+1309,2005_9,massa,sauber,12,14,0.0,10,0,Withdrew,10
+1310,2005_9,montoya,mclaren,10,15,0.0,11,0,Withdrew,11
+1311,2005_9,villeneuve,sauber,11,16,0.0,12,0,Withdrew,12
+1312,2005_9,zonta,toyota,17,17,0.0,13,0,Withdrew,13
+1313,2005_9,klien,red_bull,15,18,0.0,14,0,Withdrew,14
+1314,2005_9,heidfeld,williams,8,19,0.0,15,0,Withdrew,15
+1315,2005_9,coulthard,red_bull,14,20,0.0,16,0,Withdrew,16
+1316,2005_10,alonso,renault,5,1,10.0,1,70,Finished,1
+1317,2005_10,raikkonen,mclaren,9,2,8.0,13,70,Finished,3
+1318,2005_10,michael_schumacher,ferrari,1,3,6.0,3,70,Finished,4
+1319,2005_10,button,bar,3,4,5.0,7,69,+1 Lap,8
+1320,2005_10,trulli,toyota,16,5,4.0,2,69,+1 Lap,2
+1321,2005_10,fisichella,renault,6,6,3.0,6,69,+1 Lap,7
+1322,2005_10,ralf_schumacher,toyota,17,7,2.0,11,69,+1 Lap,12
+1323,2005_10,villeneuve,sauber,11,8,1.0,10,69,+1 Lap,11
+1324,2005_10,barrichello,ferrari,2,9,0.0,5,69,+1 Lap,6
+1325,2005_10,coulthard,red_bull,14,10,0.0,15,69,+1 Lap,15
+1326,2005_10,sato,bar,4,11,0.0,4,69,+1 Lap,5
+1327,2005_10,webber,williams,7,12,0.0,12,68,+2 Laps,13
+1328,2005_10,monteiro,jordan,18,13,0.0,19,67,+3 Laps,19
+1329,2005_10,heidfeld,williams,8,14,0.0,14,66,+4 Laps,14
+1330,2005_10,karthikeyan,jordan,19,15,0.0,17,66,+4 Laps,17
+1331,2005_10,montoya,mclaren,10,16,0.0,8,46,Engine,9
+1332,2005_10,albers,minardi,21,17,0.0,20,37,Puncture,20
+1333,2005_10,friesacher,minardi,20,18,0.0,18,33,Puncture,18
+1334,2005_10,massa,sauber,12,19,0.0,9,30,Hydraulics,10
+1335,2005_10,klien,red_bull,15,20,0.0,16,1,Fuel pressure,16
+1336,2005_11,montoya,mclaren,10,1,10.0,3,60,Finished,4
+1337,2005_11,alonso,renault,5,2,8.0,1,60,Finished,1
+1338,2005_11,raikkonen,mclaren,9,3,6.0,12,60,Finished,2
+1339,2005_11,fisichella,renault,6,4,5.0,6,60,Finished,7
+1340,2005_11,button,bar,3,5,4.0,2,60,Finished,3
+1341,2005_11,michael_schumacher,ferrari,1,6,3.0,9,60,Finished,10
+1342,2005_11,barrichello,ferrari,2,7,2.0,5,60,Finished,6
+1343,2005_11,ralf_schumacher,toyota,17,8,1.0,8,60,Finished,9
+1344,2005_11,trulli,toyota,16,9,0.0,4,60,Finished,5
+1345,2005_11,massa,sauber,12,10,0.0,16,59,+1 Lap,16
+1346,2005_11,webber,williams,7,11,0.0,11,59,+1 Lap,12
+1347,2005_11,heidfeld,williams,8,12,0.0,14,59,+1 Lap,14
+1348,2005_11,coulthard,red_bull,14,13,0.0,13,59,+1 Lap,13
+1349,2005_11,villeneuve,sauber,11,14,0.0,10,59,+1 Lap,11
+1350,2005_11,klien,red_bull,15,15,0.0,15,59,+1 Lap,15
+1351,2005_11,sato,bar,4,16,0.0,7,58,+2 Laps,8
+1352,2005_11,monteiro,jordan,18,17,0.0,20,58,+2 Laps,20
+1353,2005_11,albers,minardi,21,18,0.0,18,57,+3 Laps,18
+1354,2005_11,friesacher,minardi,20,19,0.0,19,56,+4 Laps,19
+1355,2005_11,karthikeyan,jordan,19,20,0.0,17,10,Electrical,17
+1356,2005_12,alonso,renault,5,1,10.0,3,67,Finished,3
+1357,2005_12,montoya,mclaren,10,2,8.0,20,67,Finished,19
+1358,2005_12,button,bar,3,3,6.0,2,67,Finished,2
+1359,2005_12,fisichella,renault,6,4,5.0,4,67,Finished,4
+1360,2005_12,michael_schumacher,ferrari,1,5,4.0,5,67,Finished,5
+1361,2005_12,ralf_schumacher,toyota,17,6,3.0,12,67,Finished,12
+1362,2005_12,coulthard,red_bull,14,7,2.0,11,67,Finished,11
+1363,2005_12,massa,sauber,12,8,1.0,13,67,Finished,13
+1364,2005_12,klien,red_bull,15,9,0.0,10,67,Finished,10
+1365,2005_12,barrichello,ferrari,2,10,0.0,15,66,+1 Lap,15
+1366,2005_12,heidfeld,williams,8,11,0.0,7,66,+1 Lap,7
+1367,2005_12,sato,bar,4,12,0.0,8,66,+1 Lap,8
+1368,2005_12,albers,minardi,21,13,0.0,16,65,+2 Laps,16
+1369,2005_12,trulli,toyota,16,14,0.0,9,64,+3 Laps,9
+1370,2005_12,villeneuve,sauber,11,15,0.0,14,64,+3 Laps,14
+1371,2005_12,karthikeyan,jordan,19,16,0.0,19,64,+3 Laps,20
+1372,2005_12,monteiro,jordan,18,17,0.0,18,64,+3 Laps,18
+1373,2005_12,doornbos,minardi,20,18,0.0,17,63,+4 Laps,17
+1374,2005_12,webber,williams,7,19,0.0,6,55,+12 Laps,6
+1375,2005_12,raikkonen,mclaren,9,20,0.0,1,32,Hydraulics,1
+1376,2005_13,raikkonen,mclaren,9,1,10.0,4,70,Finished,4
+1377,2005_13,michael_schumacher,ferrari,1,2,8.0,1,70,Finished,1
+1378,2005_13,ralf_schumacher,toyota,17,3,6.0,5,70,Finished,5
+1379,2005_13,trulli,toyota,16,4,5.0,3,70,Finished,3
+1380,2005_13,button,bar,3,5,4.0,8,70,Finished,8
+1381,2005_13,heidfeld,williams,8,6,3.0,12,70,Finished,12
+1382,2005_13,webber,williams,7,7,2.0,16,69,+1 Lap,16
+1383,2005_13,sato,bar,4,8,1.0,10,69,+1 Lap,10
+1384,2005_13,fisichella,renault,6,9,0.0,9,69,+1 Lap,9
+1385,2005_13,barrichello,ferrari,2,10,0.0,7,69,+1 Lap,7
+1386,2005_13,alonso,renault,5,11,0.0,6,69,+1 Lap,6
+1387,2005_13,karthikeyan,jordan,19,12,0.0,18,67,+3 Laps,18
+1388,2005_13,monteiro,jordan,18,13,0.0,20,66,+4 Laps,20
+1389,2005_13,massa,sauber,12,14,0.0,14,63,+7 Laps,14
+1390,2005_13,albers,minardi,21,15,0.0,17,59,+11 Laps,17
+1391,2005_13,villeneuve,sauber,11,16,0.0,15,56,Engine fire,15
+1392,2005_13,montoya,mclaren,10,17,0.0,2,41,Driveshaft,2
+1393,2005_13,doornbos,minardi,20,18,0.0,19,26,Hydraulics,19
+1394,2005_13,coulthard,red_bull,14,19,0.0,13,0,Accident,13
+1395,2005_13,klien,red_bull,15,20,0.0,11,0,Accident,11
+1396,2005_14,raikkonen,mclaren,9,1,10.0,1,58,Finished,1
+1397,2005_14,alonso,renault,5,2,8.0,3,58,Finished,3
+1398,2005_14,montoya,mclaren,10,3,6.0,4,58,Finished,4
+1399,2005_14,fisichella,renault,6,4,5.0,2,58,Finished,2
+1400,2005_14,button,bar,3,5,4.0,13,58,Finished,13
+1401,2005_14,trulli,toyota,16,6,3.0,5,58,Finished,5
+1402,2005_14,coulthard,red_bull,14,7,2.0,12,58,Finished,12
+1403,2005_14,klien,red_bull,15,8,1.0,10,58,Finished,10
+1404,2005_14,sato,bar,4,9,0.0,20,58,Finished,14
+1405,2005_14,barrichello,ferrari,2,10,0.0,11,57,+1 Lap,11
+1406,2005_14,villeneuve,sauber,11,11,0.0,16,57,+1 Lap,18
+1407,2005_14,ralf_schumacher,toyota,17,12,0.0,9,57,+1 Lap,9
+1408,2005_14,doornbos,minardi,20,13,0.0,17,55,+3 Laps,17
+1409,2005_14,karthikeyan,jordan,19,14,0.0,18,55,+3 Laps,19
+1410,2005_14,monteiro,jordan,18,15,0.0,14,55,+3 Laps,15
+1411,2005_14,albers,minardi,21,16,0.0,15,48,Retired,16
+1412,2005_14,michael_schumacher,ferrari,1,17,0.0,19,32,Retired,20
+1413,2005_14,heidfeld,williams,8,18,0.0,6,29,Tyre,6
+1414,2005_14,massa,sauber,12,19,0.0,8,28,Engine,8
+1415,2005_14,webber,williams,7,20,0.0,7,20,Tyre,7
+1416,2005_15,montoya,mclaren,10,1,10.0,1,53,Finished,2
+1417,2005_15,alonso,renault,5,2,8.0,2,53,Finished,3
+1418,2005_15,fisichella,renault,6,3,6.0,8,53,Finished,9
+1419,2005_15,raikkonen,mclaren,9,4,5.0,11,53,Finished,1
+1420,2005_15,trulli,toyota,16,5,4.0,5,53,Finished,6
+1421,2005_15,ralf_schumacher,toyota,17,6,3.0,9,53,Finished,10
+1422,2005_15,pizzonia,williams,8,7,2.0,16,53,Finished,16
+1423,2005_15,button,bar,3,8,1.0,3,53,Finished,4
+1424,2005_15,massa,sauber,12,9,0.0,15,53,Finished,15
+1425,2005_15,michael_schumacher,ferrari,1,10,0.0,6,53,Finished,7
+1426,2005_15,villeneuve,sauber,11,11,0.0,12,52,+1 Lap,12
+1427,2005_15,barrichello,ferrari,2,12,0.0,7,52,+1 Lap,8
+1428,2005_15,klien,red_bull,15,13,0.0,13,52,+1 Lap,13
+1429,2005_15,webber,williams,7,14,0.0,14,52,+1 Lap,14
+1430,2005_15,coulthard,red_bull,14,15,0.0,10,52,+1 Lap,11
+1431,2005_15,sato,bar,4,16,0.0,4,52,+1 Lap,5
+1432,2005_15,monteiro,jordan,18,17,0.0,17,51,+2 Laps,17
+1433,2005_15,doornbos,minardi,20,18,0.0,18,51,+2 Laps,18
+1434,2005_15,albers,minardi,21,19,0.0,20,51,+2 Laps,20
+1435,2005_15,karthikeyan,jordan,19,20,0.0,19,50,+3 Laps,19
+1436,2005_16,raikkonen,mclaren,9,1,10.0,2,44,Finished,2
+1437,2005_16,alonso,renault,5,2,8.0,4,44,Finished,5
+1438,2005_16,button,bar,3,3,6.0,8,44,Finished,9
+1439,2005_16,webber,williams,7,4,5.0,9,44,Finished,10
+1440,2005_16,barrichello,ferrari,2,5,4.0,12,44,Finished,13
+1441,2005_16,villeneuve,sauber,11,6,3.0,14,44,Finished,14
+1442,2005_16,ralf_schumacher,toyota,17,7,2.0,5,44,Finished,6
+1443,2005_16,monteiro,jordan,18,8,1.0,19,43,+1 Lap,19
+1444,2005_16,klien,red_bull,15,9,0.0,16,43,+1 Lap,16
+1445,2005_16,massa,sauber,12,10,0.0,7,43,+1 Lap,8
+1446,2005_16,karthikeyan,jordan,19,11,0.0,20,43,+1 Lap,20
+1447,2005_16,albers,minardi,21,12,0.0,18,42,+2 Laps,18
+1448,2005_16,doornbos,minardi,20,13,0.0,17,41,+3 Laps,17
+1449,2005_16,montoya,mclaren,10,14,0.0,1,40,Collision,1
+1450,2005_16,pizzonia,williams,8,15,0.0,15,39,Collision,15
+1451,2005_16,trulli,toyota,16,16,0.0,3,34,Accident,4
+1452,2005_16,coulthard,red_bull,14,17,0.0,11,18,Engine,12
+1453,2005_16,michael_schumacher,ferrari,1,18,0.0,6,13,Accident,7
+1454,2005_16,sato,bar,4,19,0.0,10,13,Accident,11
+1455,2005_16,fisichella,renault,6,20,0.0,13,10,Accident,3
+1456,2005_17,montoya,mclaren,10,1,10.0,2,71,Finished,2
+1457,2005_17,raikkonen,mclaren,9,2,8.0,5,71,Finished,5
+1458,2005_17,alonso,renault,5,3,6.0,1,71,Finished,1
+1459,2005_17,michael_schumacher,ferrari,1,4,5.0,7,71,Finished,7
+1460,2005_17,fisichella,renault,6,5,4.0,3,71,Finished,3
+1461,2005_17,barrichello,ferrari,2,6,3.0,9,71,Finished,10
+1462,2005_17,button,bar,3,7,2.0,4,70,+1 Lap,4
+1463,2005_17,ralf_schumacher,toyota,17,8,1.0,10,70,+1 Lap,11
+1464,2005_17,klien,red_bull,15,9,0.0,6,70,+1 Lap,6
+1465,2005_17,sato,bar,4,10,0.0,19,70,+1 Lap,19
+1466,2005_17,massa,sauber,12,11,0.0,8,70,+1 Lap,9
+1467,2005_17,villeneuve,sauber,11,12,0.0,20,70,+1 Lap,12
+1468,2005_17,trulli,toyota,16,13,0.0,17,69,+2 Laps,8
+1469,2005_17,albers,minardi,21,14,0.0,16,69,+2 Laps,18
+1470,2005_17,karthikeyan,jordan,19,15,0.0,15,68,+3 Laps,17
+1471,2005_17,monteiro,jordan,18,16,0.0,11,55,Mechanical,13
+1472,2005_17,webber,williams,7,17,0.0,12,45,+26 Laps,14
+1473,2005_17,doornbos,minardi,20,18,0.0,18,34,Engine,20
+1474,2005_17,pizzonia,williams,8,19,0.0,13,0,Accident,15
+1475,2005_17,coulthard,red_bull,14,20,0.0,14,0,Accident,16
+1476,2005_18,raikkonen,mclaren,9,1,10.0,17,53,Finished,17
+1477,2005_18,fisichella,renault,6,2,8.0,3,53,Finished,3
+1478,2005_18,alonso,renault,5,3,6.0,16,53,Finished,16
+1479,2005_18,webber,williams,7,4,5.0,7,53,Finished,7
+1480,2005_18,button,bar,3,5,4.0,2,53,Finished,2
+1481,2005_18,coulthard,red_bull,14,6,3.0,6,53,Finished,6
+1482,2005_18,michael_schumacher,ferrari,1,7,2.0,14,53,Finished,14
+1483,2005_18,ralf_schumacher,toyota,17,8,1.0,1,53,Finished,1
+1484,2005_18,klien,red_bull,15,9,0.0,4,53,Finished,4
+1485,2005_18,massa,sauber,12,10,0.0,10,53,Finished,10
+1486,2005_18,barrichello,ferrari,2,11,0.0,9,53,Finished,9
+1487,2005_18,villeneuve,sauber,11,12,0.0,8,53,Finished,8
+1488,2005_18,monteiro,jordan,18,13,0.0,20,52,+1 Lap,20
+1489,2005_18,doornbos,minardi,20,14,0.0,15,51,+2 Laps,15
+1490,2005_18,karthikeyan,jordan,19,15,0.0,11,51,+2 Laps,11
+1491,2005_18,albers,minardi,21,16,0.0,13,49,+4 Laps,13
+1492,2005_18,pizzonia,williams,8,17,0.0,12,9,Accident,12
+1493,2005_18,trulli,toyota,16,18,0.0,19,9,Accident,19
+1494,2005_18,montoya,mclaren,10,19,0.0,18,0,Accident,18
+1495,2005_18,sato,bar,4,20,0.0,5,52,Disqualified,5
+1496,2005_19,alonso,renault,5,1,10.0,1,56,Finished,1
+1497,2005_19,raikkonen,mclaren,9,2,8.0,3,56,Finished,3
+1498,2005_19,ralf_schumacher,toyota,17,3,6.0,9,56,Finished,9
+1499,2005_19,fisichella,renault,6,4,5.0,2,56,Finished,2
+1500,2005_19,klien,red_bull,15,5,4.0,14,56,Finished,14
+1501,2005_19,massa,sauber,12,6,3.0,11,56,Finished,11
+1502,2005_19,webber,williams,7,7,2.0,10,56,Finished,10
+1503,2005_19,button,bar,3,8,1.0,4,56,Finished,4
+1504,2005_19,coulthard,red_bull,14,9,0.0,7,56,Finished,7
+1505,2005_19,villeneuve,sauber,11,10,0.0,16,56,Finished,16
+1506,2005_19,monteiro,jordan,18,11,0.0,19,56,Finished,19
+1507,2005_19,barrichello,ferrari,2,12,0.0,8,56,Finished,8
+1508,2005_19,pizzonia,williams,8,13,0.0,13,55,Tyre puncture,13
+1509,2005_19,doornbos,minardi,20,14,0.0,20,55,Out of fuel,20
+1510,2005_19,trulli,toyota,16,15,0.0,12,55,+1 Lap,12
+1511,2005_19,albers,minardi,21,16,0.0,18,50,Wheel nut,18
+1512,2005_19,sato,bar,4,17,0.0,17,34,Gearbox,17
+1513,2005_19,karthikeyan,jordan,19,18,0.0,15,28,Accident,15
+1514,2005_19,montoya,mclaren,10,19,0.0,5,24,Engine,5
+1515,2005_19,michael_schumacher,ferrari,1,20,0.0,6,20,Spun off,6
+1516,2006_1,alonso,renault,1,1,10.0,4,57,Finished,4
+1517,2006_1,michael_schumacher,ferrari,5,2,8.0,1,57,Finished,1
+1518,2006_1,raikkonen,mclaren,3,3,6.0,22,57,Finished,22
+1519,2006_1,button,honda,12,4,5.0,3,57,Finished,3
+1520,2006_1,montoya,mclaren,4,5,4.0,5,57,Finished,5
+1521,2006_1,webber,williams,9,6,3.0,7,57,Finished,7
+1522,2006_1,rosberg,williams,10,7,2.0,12,57,Finished,12
+1523,2006_1,klien,red_bull,15,8,1.0,8,57,Finished,8
+1524,2006_1,massa,ferrari,6,9,0.0,2,57,Finished,2
+1525,2006_1,coulthard,red_bull,14,10,0.0,13,57,Finished,13
+1526,2006_1,liuzzi,toro_rosso,20,11,0.0,15,57,Finished,15
+1527,2006_1,heidfeld,bmw_sauber,16,12,0.0,10,56,+1 Lap,10
+1528,2006_1,speed,toro_rosso,21,13,0.0,16,56,+1 Lap,16
+1529,2006_1,ralf_schumacher,toyota,7,14,0.0,17,56,+1 Lap,17
+1530,2006_1,barrichello,honda,11,15,0.0,6,56,+1 Lap,6
+1531,2006_1,trulli,toyota,8,16,0.0,14,56,+1 Lap,14
+1532,2006_1,monteiro,mf1,18,17,0.0,19,55,+2 Laps,19
+1533,2006_1,sato,super_aguri,22,18,0.0,20,53,+4 Laps,20
+1534,2006_1,ide,super_aguri,23,19,0.0,21,35,Mechanical,21
+1535,2006_1,villeneuve,bmw_sauber,17,20,0.0,11,29,Engine,11
+1536,2006_1,fisichella,renault,2,21,0.0,9,21,Hydraulics,9
+1537,2006_1,albers,mf1,19,22,0.0,18,0,Driveshaft,18
+1538,2006_2,fisichella,renault,2,1,10.0,1,56,Finished,1
+1539,2006_2,alonso,renault,1,2,8.0,7,56,Finished,8
+1540,2006_2,button,honda,12,3,6.0,2,56,Finished,2
+1541,2006_2,montoya,mclaren,4,4,5.0,5,56,Finished,6
+1542,2006_2,massa,ferrari,6,5,4.0,21,56,Finished,16
+1543,2006_2,michael_schumacher,ferrari,5,6,3.0,14,56,Finished,4
+1544,2006_2,villeneuve,bmw_sauber,17,7,2.0,10,56,Finished,14
+1545,2006_2,ralf_schumacher,toyota,7,8,1.0,22,56,Finished,10
+1546,2006_2,trulli,toyota,8,9,0.0,9,55,+1 Lap,13
+1547,2006_2,barrichello,honda,11,10,0.0,20,55,+1 Lap,12
+1548,2006_2,liuzzi,toro_rosso,20,11,0.0,13,54,+2 Laps,18
+1549,2006_2,albers,mf1,19,12,0.0,15,54,+2 Laps,19
+1550,2006_2,monteiro,mf1,18,13,0.0,16,54,+2 Laps,20
+1551,2006_2,sato,super_aguri,22,14,0.0,17,53,+3 Laps,21
+1552,2006_2,heidfeld,bmw_sauber,16,15,0.0,11,48,Engine,15
+1553,2006_2,speed,toro_rosso,21,16,0.0,12,41,Clutch,17
+1554,2006_2,ide,super_aguri,23,17,0.0,18,33,Mechanical,22
+1555,2006_2,klien,red_bull,15,18,0.0,8,26,Hydraulics,9
+1556,2006_2,webber,williams,9,19,0.0,4,15,Hydraulics,5
+1557,2006_2,coulthard,red_bull,14,20,0.0,19,10,Hydraulics,11
+1558,2006_2,rosberg,williams,10,21,0.0,3,6,Engine,3
+1559,2006_2,raikkonen,mclaren,3,22,0.0,6,0,Accident,7
+1560,2006_3,alonso,renault,1,1,10.0,3,57,Finished,3
+1561,2006_3,raikkonen,mclaren,3,2,8.0,4,57,Finished,4
+1562,2006_3,ralf_schumacher,toyota,7,3,6.0,6,57,Finished,6
+1563,2006_3,heidfeld,bmw_sauber,16,4,5.0,8,57,Finished,8
+1564,2006_3,fisichella,renault,2,5,4.0,2,57,Finished,2
+1565,2006_3,villeneuve,bmw_sauber,17,6,3.0,19,57,Finished,9
+1566,2006_3,barrichello,honda,11,7,2.0,16,57,Finished,17
+1567,2006_3,coulthard,red_bull,14,8,1.0,11,57,Finished,12
+1568,2006_3,speed,toro_rosso,21,9,0.0,18,57,Finished,19
+1569,2006_3,button,honda,12,10,0.0,1,56,+1 Lap,1
+1570,2006_3,albers,mf1,19,11,0.0,17,56,+1 Lap,18
+1571,2006_3,sato,super_aguri,22,12,0.0,21,55,+2 Laps,21
+1572,2006_3,ide,super_aguri,23,13,0.0,22,54,+3 Laps,22
+1573,2006_3,montoya,mclaren,4,14,0.0,5,46,Electrical,5
+1574,2006_3,monteiro,mf1,18,15,0.0,20,39,Mechanical,20
+1575,2006_3,liuzzi,toro_rosso,20,16,0.0,12,37,Accident,13
+1576,2006_3,michael_schumacher,ferrari,5,17,0.0,10,32,Accident,11
+1577,2006_3,webber,williams,9,18,0.0,7,22,Transmission,7
+1578,2006_3,klien,red_bull,15,19,0.0,13,4,Accident,14
+1579,2006_3,trulli,toyota,8,20,0.0,9,0,Accident,10
+1580,2006_3,rosberg,williams,10,21,0.0,14,0,Accident,15
+1581,2006_3,massa,ferrari,6,22,0.0,15,0,Accident,16
+1582,2006_4,michael_schumacher,ferrari,5,1,10.0,1,62,Finished,1
+1583,2006_4,alonso,renault,1,2,8.0,5,62,Finished,5
+1584,2006_4,montoya,mclaren,4,3,6.0,7,62,Finished,7
+1585,2006_4,massa,ferrari,6,4,5.0,4,62,Finished,4
+1586,2006_4,raikkonen,mclaren,3,5,4.0,8,62,Finished,8
+1587,2006_4,webber,williams,9,6,3.0,10,62,Finished,10
+1588,2006_4,button,honda,12,7,2.0,2,62,Finished,2
+1589,2006_4,fisichella,renault,2,8,1.0,11,62,Finished,11
+1590,2006_4,ralf_schumacher,toyota,7,9,0.0,6,62,Finished,6
+1591,2006_4,barrichello,honda,11,10,0.0,3,62,Finished,3
+1592,2006_4,rosberg,williams,10,11,0.0,13,62,Finished,13
+1593,2006_4,villeneuve,bmw_sauber,17,12,0.0,12,62,Finished,12
+1594,2006_4,heidfeld,bmw_sauber,16,13,0.0,15,61,+1 Lap,15
+1595,2006_4,liuzzi,toro_rosso,20,14,0.0,16,61,+1 Lap,16
+1596,2006_4,speed,toro_rosso,21,15,0.0,18,61,+1 Lap,18
+1597,2006_4,monteiro,mf1,18,16,0.0,19,60,+2 Laps,19
+1598,2006_4,coulthard,red_bull,14,17,0.0,14,47,Driveshaft,14
+1599,2006_4,sato,super_aguri,22,18,0.0,21,44,Spun off,21
+1600,2006_4,klien,red_bull,15,19,0.0,17,40,Hydraulics,17
+1601,2006_4,ide,super_aguri,23,20,0.0,22,23,Suspension,22
+1602,2006_4,trulli,toyota,8,21,0.0,9,5,Steering,9
+1603,2006_4,albers,mf1,19,22,0.0,20,0,Accident,20
+1604,2006_5,michael_schumacher,ferrari,5,1,10.0,2,60,Finished,2
+1605,2006_5,alonso,renault,1,2,8.0,1,60,Finished,1
+1606,2006_5,massa,ferrari,6,3,6.0,3,60,Finished,3
+1607,2006_5,raikkonen,mclaren,3,4,5.0,5,60,Finished,5
+1608,2006_5,barrichello,honda,11,5,4.0,4,60,Finished,4
+1609,2006_5,fisichella,renault,2,6,3.0,11,60,Finished,13
+1610,2006_5,rosberg,williams,10,7,2.0,22,60,Finished,12
+1611,2006_5,villeneuve,bmw_sauber,17,8,1.0,9,60,Finished,8
+1612,2006_5,trulli,toyota,8,9,0.0,7,59,+1 Lap,7
+1613,2006_5,heidfeld,bmw_sauber,16,10,0.0,13,59,+1 Lap,15
+1614,2006_5,speed,toro_rosso,21,11,0.0,17,59,+1 Lap,19
+1615,2006_5,monteiro,mf1,18,12,0.0,18,59,+1 Lap,20
+1616,2006_5,albers,mf1,19,13,0.0,16,59,+1 Lap,18
+1617,2006_5,ralf_schumacher,toyota,7,14,0.0,10,52,Engine,11
+1618,2006_5,montoya,mclaren,4,15,0.0,8,52,Engine,9
+1619,2006_5,sato,super_aguri,22,16,0.0,20,45,Hydraulics,21
+1620,2006_5,montagny,super_aguri,23,17,0.0,21,29,Hydraulics,22
+1621,2006_5,button,honda,12,18,0.0,6,28,Engine,6
+1622,2006_5,klien,red_bull,15,19,0.0,15,28,Gearbox,17
+1623,2006_5,webber,williams,9,20,0.0,19,12,Hydraulics,10
+1624,2006_5,coulthard,red_bull,14,21,0.0,12,2,Accident,14
+1625,2006_5,liuzzi,toro_rosso,20,22,0.0,14,0,Accident,16
+1626,2006_6,alonso,renault,1,1,10.0,1,66,Finished,1
+1627,2006_6,michael_schumacher,ferrari,5,2,8.0,3,66,Finished,3
+1628,2006_6,fisichella,renault,2,3,6.0,2,66,Finished,2
+1629,2006_6,massa,ferrari,6,4,5.0,4,66,Finished,4
+1630,2006_6,raikkonen,mclaren,3,5,4.0,9,66,Finished,9
+1631,2006_6,button,honda,12,6,3.0,8,66,Finished,8
+1632,2006_6,barrichello,honda,11,7,2.0,5,65,+1 Lap,5
+1633,2006_6,heidfeld,bmw_sauber,16,8,1.0,10,65,+1 Lap,10
+1634,2006_6,webber,williams,9,9,0.0,11,65,+1 Lap,11
+1635,2006_6,trulli,toyota,8,10,0.0,7,65,+1 Lap,7
+1636,2006_6,rosberg,williams,10,11,0.0,13,65,+1 Lap,13
+1637,2006_6,villeneuve,bmw_sauber,17,12,0.0,22,65,+1 Lap,14
+1638,2006_6,klien,red_bull,15,13,0.0,14,65,+1 Lap,15
+1639,2006_6,coulthard,red_bull,14,14,0.0,21,65,+1 Lap,22
+1640,2006_6,liuzzi,toro_rosso,20,15,0.0,15,63,Hydraulics,16
+1641,2006_6,monteiro,mf1,18,16,0.0,17,63,+3 Laps,18
+1642,2006_6,sato,super_aguri,22,17,0.0,19,62,+4 Laps,20
+1643,2006_6,albers,mf1,19,18,0.0,18,48,Broken wing,19
+1644,2006_6,speed,toro_rosso,21,19,0.0,16,47,Engine,17
+1645,2006_6,ralf_schumacher,toyota,7,20,0.0,6,31,Electronics,6
+1646,2006_6,montoya,mclaren,4,21,0.0,12,17,Spun off,12
+1647,2006_6,montagny,super_aguri,23,22,0.0,20,10,Driveshaft,21
+1648,2006_7,alonso,renault,1,1,10.0,1,78,Finished,1
+1649,2006_7,montoya,mclaren,4,2,8.0,4,78,Finished,4
+1650,2006_7,coulthard,red_bull,14,3,6.0,7,78,Finished,7
+1651,2006_7,barrichello,honda,11,4,5.0,5,78,Finished,5
+1652,2006_7,michael_schumacher,ferrari,5,5,4.0,22,78,Finished,22
+1653,2006_7,fisichella,renault,2,6,3.0,9,78,Finished,9
+1654,2006_7,heidfeld,bmw_sauber,16,7,2.0,15,77,+1 Lap,15
+1655,2006_7,ralf_schumacher,toyota,7,8,1.0,10,77,+1 Lap,10
+1656,2006_7,massa,ferrari,6,9,0.0,21,77,+1 Lap,21
+1657,2006_7,liuzzi,toro_rosso,20,10,0.0,12,77,+1 Lap,12
+1658,2006_7,button,honda,12,11,0.0,13,77,+1 Lap,13
+1659,2006_7,albers,mf1,19,12,0.0,16,77,+1 Lap,16
+1660,2006_7,speed,toro_rosso,21,13,0.0,18,77,+1 Lap,18
+1661,2006_7,villeneuve,bmw_sauber,17,14,0.0,14,77,+1 Lap,14
+1662,2006_7,monteiro,mf1,18,15,0.0,17,76,+2 Laps,17
+1663,2006_7,montagny,super_aguri,23,16,0.0,20,75,+3 Laps,20
+1664,2006_7,trulli,toyota,8,17,0.0,6,72,Hydraulics,6
+1665,2006_7,klien,red_bull,15,18,0.0,11,56,Transmission,11
+1666,2006_7,rosberg,williams,10,19,0.0,8,51,Accident,8
+1667,2006_7,raikkonen,mclaren,3,20,0.0,3,50,Heat shield fire,3
+1668,2006_7,webber,williams,9,21,0.0,2,48,Exhaust,2
+1669,2006_7,sato,super_aguri,22,22,0.0,19,46,Electrical,19
+1670,2006_8,alonso,renault,1,1,10.0,1,60,Finished,1
+1671,2006_8,michael_schumacher,ferrari,5,2,8.0,3,60,Finished,3
+1672,2006_8,raikkonen,mclaren,3,3,6.0,2,60,Finished,2
+1673,2006_8,fisichella,renault,2,4,5.0,5,60,Finished,5
+1674,2006_8,massa,ferrari,6,5,4.0,4,60,Finished,4
+1675,2006_8,montoya,mclaren,4,6,3.0,8,60,Finished,8
+1676,2006_8,heidfeld,bmw_sauber,16,7,2.0,9,60,Finished,9
+1677,2006_8,villeneuve,bmw_sauber,17,8,1.0,10,60,Finished,10
+1678,2006_8,rosberg,williams,10,9,0.0,12,60,Finished,12
+1679,2006_8,barrichello,honda,11,10,0.0,6,59,+1 Lap,6
+1680,2006_8,trulli,toyota,8,11,0.0,22,59,+1 Lap,22
+1681,2006_8,coulthard,red_bull,14,12,0.0,11,59,+1 Lap,11
+1682,2006_8,liuzzi,toro_rosso,20,13,0.0,13,59,+1 Lap,13
+1683,2006_8,klien,red_bull,15,14,0.0,14,59,+1 Lap,14
+1684,2006_8,albers,mf1,19,15,0.0,18,59,+1 Lap,18
+1685,2006_8,monteiro,mf1,18,16,0.0,16,58,+2 Laps,16
+1686,2006_8,sato,super_aguri,22,17,0.0,20,57,+3 Laps,20
+1687,2006_8,montagny,super_aguri,23,18,0.0,21,57,+3 Laps,21
+1688,2006_8,button,honda,12,19,0.0,19,8,Oil leak,19
+1689,2006_8,speed,toro_rosso,21,20,0.0,15,1,Accident,15
+1690,2006_8,ralf_schumacher,toyota,7,21,0.0,7,0,Accident,7
+1691,2006_8,webber,williams,9,22,0.0,17,0,Accident,17
+1692,2006_9,alonso,renault,1,1,10.0,1,70,Finished,1
+1693,2006_9,michael_schumacher,ferrari,5,2,8.0,5,70,Finished,5
+1694,2006_9,raikkonen,mclaren,3,3,6.0,3,70,Finished,3
+1695,2006_9,fisichella,renault,2,4,5.0,2,70,Finished,2
+1696,2006_9,massa,ferrari,6,5,4.0,10,70,Finished,10
+1697,2006_9,trulli,toyota,8,6,3.0,4,69,+1 Lap,4
+1698,2006_9,heidfeld,bmw_sauber,16,7,2.0,13,69,+1 Lap,13
+1699,2006_9,coulthard,red_bull,14,8,1.0,22,69,+1 Lap,16
+1700,2006_9,button,honda,12,9,0.0,8,69,+1 Lap,8
+1701,2006_9,speed,toro_rosso,21,10,0.0,17,69,+1 Lap,18
+1702,2006_9,klien,red_bull,15,11,0.0,12,69,+1 Lap,12
+1703,2006_9,webber,williams,9,12,0.0,16,69,+1 Lap,17
+1704,2006_9,liuzzi,toro_rosso,20,13,0.0,15,68,+2 Laps,15
+1705,2006_9,monteiro,mf1,18,14,0.0,18,66,+4 Laps,19
+1706,2006_9,sato,super_aguri,22,15,0.0,20,64,Accident,21
+1707,2006_9,villeneuve,bmw_sauber,17,16,0.0,11,58,Accident,11
+1708,2006_9,ralf_schumacher,toyota,7,17,0.0,14,58,Retired,14
+1709,2006_9,montoya,mclaren,4,18,0.0,7,13,Accident,7
+1710,2006_9,barrichello,honda,11,19,0.0,9,11,Mechanical,9
+1711,2006_9,montagny,super_aguri,23,20,0.0,21,2,Engine,22
+1712,2006_9,rosberg,williams,10,21,0.0,6,1,Accident,6
+1713,2006_9,albers,mf1,19,22,0.0,19,0,Accident,20
+1714,2006_10,michael_schumacher,ferrari,5,1,10.0,1,73,Finished,1
+1715,2006_10,massa,ferrari,6,2,8.0,2,73,Finished,2
+1716,2006_10,fisichella,renault,2,3,6.0,3,73,Finished,3
+1717,2006_10,trulli,toyota,8,4,5.0,22,73,Finished,20
+1718,2006_10,alonso,renault,1,5,4.0,5,73,Finished,5
+1719,2006_10,barrichello,honda,11,6,3.0,4,73,Finished,4
+1720,2006_10,coulthard,red_bull,14,7,2.0,17,72,+1 Lap,17
+1721,2006_10,liuzzi,toro_rosso,20,8,1.0,20,72,+1 Lap,21
+1722,2006_10,rosberg,williams,10,9,0.0,21,72,+1 Lap,19
+1723,2006_10,ralf_schumacher,toyota,7,10,0.0,8,62,+11 Laps,8
+1724,2006_10,albers,mf1,19,11,0.0,14,37,Transmission,14
+1725,2006_10,villeneuve,bmw_sauber,17,12,0.0,6,23,Engine,6
+1726,2006_10,monteiro,mf1,18,13,0.0,15,9,Accident,15
+1727,2006_10,sato,super_aguri,22,14,0.0,18,6,Accident,18
+1728,2006_10,button,honda,12,15,0.0,7,3,Accident,7
+1729,2006_10,raikkonen,mclaren,3,16,0.0,9,0,Accident,9
+1730,2006_10,heidfeld,bmw_sauber,16,17,0.0,10,0,Accident,10
+1731,2006_10,montoya,mclaren,4,18,0.0,11,0,Accident,11
+1732,2006_10,webber,williams,9,19,0.0,12,0,Accident,12
+1733,2006_10,speed,toro_rosso,21,20,0.0,13,0,Accident,13
+1734,2006_10,klien,red_bull,15,21,0.0,16,0,Accident,16
+1735,2006_10,montagny,super_aguri,23,22,0.0,19,0,Accident,22
+1736,2006_11,michael_schumacher,ferrari,5,1,10.0,1,70,Finished,1
+1737,2006_11,alonso,renault,1,2,8.0,3,70,Finished,3
+1738,2006_11,massa,ferrari,6,3,6.0,2,70,Finished,2
+1739,2006_11,ralf_schumacher,toyota,7,4,5.0,5,70,Finished,5
+1740,2006_11,raikkonen,mclaren,3,5,4.0,6,70,Finished,6
+1741,2006_11,fisichella,renault,2,6,3.0,7,70,Finished,7
+1742,2006_11,rosa,mclaren,4,7,2.0,8,70,Finished,8
+1743,2006_11,heidfeld,bmw_sauber,16,8,1.0,11,69,+1 Lap,12
+1744,2006_11,coulthard,red_bull,14,9,0.0,9,69,+1 Lap,10
+1745,2006_11,speed,toro_rosso,21,10,0.0,14,69,+1 Lap,15
+1746,2006_11,villeneuve,bmw_sauber,17,11,0.0,16,69,+1 Lap,18
+1747,2006_11,klien,red_bull,15,12,0.0,12,69,+1 Lap,13
+1748,2006_11,liuzzi,toro_rosso,20,13,0.0,22,69,+1 Lap,17
+1749,2006_11,rosberg,williams,10,14,0.0,18,68,+2 Laps,9
+1750,2006_11,albers,mf1,19,15,0.0,15,68,+2 Laps,16
+1751,2006_11,montagny,super_aguri,23,16,0.0,20,67,+3 Laps,21
+1752,2006_11,button,honda,12,17,0.0,17,61,Technical,19
+1753,2006_11,webber,williams,9,18,0.0,10,55,Wheel rim,11
+1754,2006_11,trulli,toyota,8,19,0.0,4,39,Brakes,4
+1755,2006_11,barrichello,honda,11,20,0.0,13,28,Engine,14
+1756,2006_11,monteiro,mf1,18,21,0.0,19,11,Mechanical,20
+1757,2006_11,sato,super_aguri,22,22,0.0,21,0,Transmission,22
+1758,2006_12,michael_schumacher,ferrari,5,1,10.0,2,67,Finished,2
+1759,2006_12,massa,ferrari,6,2,8.0,3,67,Finished,3
+1760,2006_12,raikkonen,mclaren,3,3,6.0,1,67,Finished,1
+1761,2006_12,button,honda,12,4,5.0,4,67,Finished,4
+1762,2006_12,alonso,renault,1,5,4.0,7,67,Finished,7
+1763,2006_12,fisichella,renault,2,6,3.0,5,67,Finished,5
+1764,2006_12,trulli,toyota,8,7,2.0,20,67,Finished,13
+1765,2006_12,klien,red_bull,15,8,1.0,12,67,Finished,12
+1766,2006_12,ralf_schumacher,toyota,7,9,0.0,8,67,Finished,8
+1767,2006_12,liuzzi,toro_rosso,20,10,0.0,16,66,+1 Lap,17
+1768,2006_12,coulthard,red_bull,14,11,0.0,10,66,+1 Lap,10
+1769,2006_12,speed,toro_rosso,21,12,0.0,19,66,+1 Lap,22
+1770,2006_12,webber,williams,9,13,0.0,11,59,Water leak,11
+1771,2006_12,sato,super_aguri,22,14,0.0,17,38,Gearbox,19
+1772,2006_12,villeneuve,bmw_sauber,17,15,0.0,13,30,Accident,14
+1773,2006_12,barrichello,honda,11,16,0.0,6,18,Engine,6
+1774,2006_12,heidfeld,bmw_sauber,16,17,0.0,15,9,Brakes,16
+1775,2006_12,rosa,mclaren,4,18,0.0,9,2,Fuel pump,9
+1776,2006_12,yamamoto,super_aguri,23,19,0.0,22,1,Driveshaft,21
+1777,2006_12,rosberg,williams,10,20,0.0,14,0,Accident,15
+1778,2006_12,albers,mf1,19,21,0.0,21,66,Disqualified,18
+1779,2006_12,monteiro,mf1,18,22,0.0,18,66,Disqualified,20
+1780,2006_13,button,honda,12,1,10.0,14,70,Finished,4
+1781,2006_13,rosa,mclaren,4,2,8.0,4,70,Finished,5
+1782,2006_13,heidfeld,bmw_sauber,16,3,6.0,10,70,Finished,11
+1783,2006_13,barrichello,honda,11,4,5.0,3,70,Finished,3
+1784,2006_13,coulthard,red_bull,14,5,4.0,12,69,+1 Lap,13
+1785,2006_13,ralf_schumacher,toyota,7,6,3.0,6,69,+1 Lap,7
+1786,2006_13,massa,ferrari,6,7,2.0,2,69,+1 Lap,2
+1787,2006_13,michael_schumacher,ferrari,5,8,1.0,11,67,Track rod,12
+1788,2006_13,monteiro,mf1,18,9,0.0,16,67,+3 Laps,16
+1789,2006_13,albers,mf1,19,10,0.0,22,67,+3 Laps,21
+1790,2006_13,speed,toro_rosso,21,11,0.0,20,66,+4 Laps,19
+1791,2006_13,trulli,toyota,8,12,0.0,8,65,Engine,9
+1792,2006_13,sato,super_aguri,22,13,0.0,19,65,+5 Laps,20
+1793,2006_13,alonso,renault,1,14,0.0,15,51,Driveshaft,15
+1794,2006_13,raikkonen,mclaren,3,15,0.0,1,25,Collision,1
+1795,2006_13,liuzzi,toro_rosso,20,16,0.0,17,25,Collision,17
+1796,2006_13,rosberg,williams,10,17,0.0,18,19,Electrical,18
+1797,2006_13,fisichella,renault,2,18,0.0,7,18,Spun off,8
+1798,2006_13,klien,red_bull,15,19,0.0,13,6,Spun off,14
+1799,2006_13,webber,williams,9,20,0.0,5,1,Accident,6
+1800,2006_13,yamamoto,super_aguri,23,21,0.0,21,0,Engine,22
+1801,2006_13,kubica,bmw_sauber,17,22,0.0,9,69,Disqualified,10
+1802,2006_14,massa,ferrari,6,1,10.0,1,58,Finished,1
+1803,2006_14,alonso,renault,1,2,8.0,3,58,Finished,3
+1804,2006_14,michael_schumacher,ferrari,5,3,6.0,2,58,Finished,2
+1805,2006_14,button,honda,12,4,5.0,6,58,Finished,7
+1806,2006_14,rosa,mclaren,4,5,4.0,11,58,Finished,12
+1807,2006_14,fisichella,renault,2,6,3.0,4,58,Finished,4
+1808,2006_14,ralf_schumacher,toyota,7,7,2.0,15,58,Finished,5
+1809,2006_14,barrichello,honda,11,8,1.0,13,58,Finished,14
+1810,2006_14,trulli,toyota,8,9,0.0,12,57,+1 Lap,13
+1811,2006_14,webber,williams,9,10,0.0,9,57,+1 Lap,10
+1812,2006_14,klien,red_bull,15,11,0.0,10,57,+1 Lap,11
+1813,2006_14,kubica,bmw_sauber,17,12,0.0,8,57,+1 Lap,9
+1814,2006_14,speed,toro_rosso,21,13,0.0,17,57,+1 Lap,18
+1815,2006_14,heidfeld,bmw_sauber,16,14,0.0,5,56,+2 Laps,6
+1816,2006_14,coulthard,red_bull,14,15,0.0,16,55,Gearbox,17
+1817,2006_14,albers,mf1,19,16,0.0,22,46,Spun off,16
+1818,2006_14,sato,super_aguri,22,17,0.0,21,41,+17 Laps,22
+1819,2006_14,rosberg,williams,10,18,0.0,14,25,Water leak,15
+1820,2006_14,yamamoto,super_aguri,23,19,0.0,20,23,Spun off,21
+1821,2006_14,liuzzi,toro_rosso,20,20,0.0,18,12,Spun off,19
+1822,2006_14,raikkonen,mclaren,3,21,0.0,7,1,Collision,8
+1823,2006_14,monteiro,mf1,18,22,0.0,19,0,Collision,20
+1824,2006_15,michael_schumacher,ferrari,5,1,10.0,2,53,Finished,2
+1825,2006_15,raikkonen,mclaren,3,2,8.0,1,53,Finished,1
+1826,2006_15,kubica,bmw_sauber,17,3,6.0,6,53,Finished,6
+1827,2006_15,fisichella,renault,2,4,5.0,9,53,Finished,9
+1828,2006_15,button,honda,12,5,4.0,5,53,Finished,5
+1829,2006_15,barrichello,honda,11,6,3.0,8,53,Finished,8
+1830,2006_15,trulli,toyota,8,7,2.0,11,53,Finished,11
+1831,2006_15,heidfeld,bmw_sauber,16,8,1.0,3,53,Finished,3
+1832,2006_15,massa,ferrari,6,9,0.0,4,53,Finished,4
+1833,2006_15,webber,williams,9,10,0.0,19,53,Finished,19
+1834,2006_15,klien,red_bull,15,11,0.0,16,52,+1 Lap,16
+1835,2006_15,coulthard,red_bull,14,12,0.0,14,52,+1 Lap,14
+1836,2006_15,speed,toro_rosso,21,13,0.0,15,52,+1 Lap,15
+1837,2006_15,liuzzi,toro_rosso,20,14,0.0,17,52,+1 Lap,17
+1838,2006_15,ralf_schumacher,toyota,7,15,0.0,13,52,+1 Lap,13
+1839,2006_15,sato,super_aguri,22,16,0.0,21,51,+2 Laps,21
+1840,2006_15,albers,spyker_mf1,19,17,0.0,18,51,+2 Laps,18
+1841,2006_15,monteiro,spyker_mf1,18,18,0.0,20,44,Brakes,20
+1842,2006_15,alonso,renault,1,19,0.0,10,43,Engine,10
+1843,2006_15,rosa,mclaren,4,20,0.0,7,20,Engine,7
+1844,2006_15,yamamoto,super_aguri,23,21,0.0,22,18,Hydraulics,22
+1845,2006_15,rosberg,williams,10,22,0.0,12,9,Driveshaft,12
+1846,2006_16,michael_schumacher,ferrari,5,1,10.0,6,56,Finished,6
+1847,2006_16,alonso,renault,1,2,8.0,1,56,Finished,1
+1848,2006_16,fisichella,renault,2,3,6.0,2,56,Finished,2
+1849,2006_16,button,honda,12,4,5.0,4,56,Finished,4
+1850,2006_16,rosa,mclaren,4,5,4.0,7,56,Finished,7
+1851,2006_16,barrichello,honda,11,6,3.0,3,56,Finished,3
+1852,2006_16,heidfeld,bmw_sauber,16,7,2.0,8,56,Finished,8
+1853,2006_16,webber,williams,9,8,1.0,14,56,Finished,14
+1854,2006_16,coulthard,red_bull,14,9,0.0,12,56,Finished,12
+1855,2006_16,liuzzi,toro_rosso,20,10,0.0,13,55,+1 Lap,13
+1856,2006_16,rosberg,williams,10,11,0.0,15,55,+1 Lap,15
+1857,2006_16,doornbos,red_bull,15,12,0.0,10,55,+1 Lap,10
+1858,2006_16,kubica,bmw_sauber,17,13,0.0,9,55,+1 Lap,9
+1859,2006_16,speed,toro_rosso,21,14,0.0,11,55,+1 Lap,11
+1860,2006_16,albers,spyker_mf1,19,15,0.0,22,53,+3 Laps,22
+1861,2006_16,yamamoto,super_aguri,23,16,0.0,19,52,+4 Laps,19
+1862,2006_16,ralf_schumacher,toyota,7,17,0.0,16,49,Oil pressure,16
+1863,2006_16,massa,ferrari,6,18,0.0,20,44,Collision,20
+1864,2006_16,trulli,toyota,8,19,0.0,17,38,Pneumatics,17
+1865,2006_16,monteiro,spyker_mf1,18,20,0.0,18,37,Spun off,18
+1866,2006_16,raikkonen,mclaren,3,21,0.0,5,18,Throttle,5
+1867,2006_16,sato,super_aguri,22,22,0.0,21,55,Disqualified,21
+1868,2006_17,alonso,renault,1,1,10.0,5,53,Finished,5
+1869,2006_17,massa,ferrari,6,2,8.0,1,53,Finished,1
+1870,2006_17,fisichella,renault,2,3,6.0,6,53,Finished,6
+1871,2006_17,button,honda,12,4,5.0,7,53,Finished,7
+1872,2006_17,raikkonen,mclaren,3,5,4.0,11,53,Finished,11
+1873,2006_17,trulli,toyota,8,6,3.0,4,53,Finished,4
+1874,2006_17,ralf_schumacher,toyota,7,7,2.0,3,53,Finished,3
+1875,2006_17,heidfeld,bmw_sauber,16,8,1.0,9,53,Finished,9
+1876,2006_17,kubica,bmw_sauber,17,9,0.0,12,53,Finished,12
+1877,2006_17,rosberg,williams,10,10,0.0,10,52,+1 Lap,10
+1878,2006_17,rosa,mclaren,4,11,0.0,13,52,+1 Lap,13
+1879,2006_17,barrichello,honda,11,12,0.0,8,52,+1 Lap,8
+1880,2006_17,doornbos,red_bull,15,13,0.0,18,52,+1 Lap,18
+1881,2006_17,liuzzi,toro_rosso,20,14,0.0,15,52,+1 Lap,15
+1882,2006_17,sato,super_aguri,22,15,0.0,20,52,+1 Lap,20
+1883,2006_17,monteiro,spyker_mf1,18,16,0.0,21,51,+2 Laps,21
+1884,2006_17,yamamoto,super_aguri,23,17,0.0,22,50,+3 Laps,22
+1885,2006_17,speed,toro_rosso,21,18,0.0,19,48,Steering,19
+1886,2006_17,webber,williams,9,19,0.0,14,39,Accident,14
+1887,2006_17,michael_schumacher,ferrari,5,20,0.0,2,36,Engine,2
+1888,2006_17,coulthard,red_bull,14,21,0.0,17,35,Gearbox,17
+1889,2006_17,albers,spyker_mf1,19,22,0.0,16,20,Driveshaft,16
+1890,2006_18,massa,ferrari,6,1,10.0,1,71,Finished,1
+1891,2006_18,alonso,renault,1,2,8.0,4,71,Finished,4
+1892,2006_18,button,honda,12,3,6.0,14,71,Finished,14
+1893,2006_18,michael_schumacher,ferrari,5,4,5.0,10,71,Finished,10
+1894,2006_18,raikkonen,mclaren,3,5,4.0,2,71,Finished,2
+1895,2006_18,fisichella,renault,2,6,3.0,6,71,Finished,6
+1896,2006_18,barrichello,honda,11,7,2.0,5,71,Finished,5
+1897,2006_18,rosa,mclaren,4,8,1.0,12,71,Finished,12
+1898,2006_18,kubica,bmw_sauber,17,9,0.0,9,71,Finished,9
+1899,2006_18,sato,super_aguri,22,10,0.0,19,70,+1 Lap,20
+1900,2006_18,speed,toro_rosso,21,11,0.0,16,70,+1 Lap,17
+1901,2006_18,doornbos,red_bull,15,12,0.0,22,70,+1 Lap,15
+1902,2006_18,liuzzi,toro_rosso,20,13,0.0,15,70,+1 Lap,16
+1903,2006_18,albers,spyker_mf1,19,14,0.0,17,70,+1 Lap,18
+1904,2006_18,monteiro,spyker_mf1,18,15,0.0,21,69,+2 Laps,22
+1905,2006_18,yamamoto,super_aguri,23,16,0.0,20,69,+2 Laps,21
+1906,2006_18,heidfeld,bmw_sauber,16,17,0.0,8,63,Accident,8
+1907,2006_18,coulthard,red_bull,14,18,0.0,18,14,Gearbox,19
+1908,2006_18,trulli,toyota,8,19,0.0,3,10,Suspension,3
+1909,2006_18,ralf_schumacher,toyota,7,20,0.0,7,9,Suspension,7
+1910,2006_18,webber,williams,9,21,0.0,11,1,Collision,11
+1911,2006_18,rosberg,williams,10,22,0.0,13,0,Collision,13
+1912,2007_1,raikkonen,ferrari,6,1,10.0,1,58,Finished,1
+1913,2007_1,alonso,mclaren,1,2,8.0,2,58,Finished,2
+1914,2007_1,hamilton,mclaren,2,3,6.0,4,58,Finished,4
+1915,2007_1,heidfeld,bmw_sauber,9,4,5.0,3,58,Finished,3
+1916,2007_1,fisichella,renault,3,5,4.0,6,58,Finished,6
+1917,2007_1,massa,ferrari,5,6,3.0,22,58,Finished,16
+1918,2007_1,rosberg,williams,16,7,2.0,12,57,+1 Lap,12
+1919,2007_1,ralf_schumacher,toyota,11,8,1.0,9,57,+1 Lap,9
+1920,2007_1,trulli,toyota,12,9,0.0,8,57,+1 Lap,8
+1921,2007_1,kovalainen,renault,4,10,0.0,13,57,+1 Lap,13
+1922,2007_1,barrichello,honda,8,11,0.0,16,57,+1 Lap,17
+1923,2007_1,sato,super_aguri,22,12,0.0,10,57,+1 Lap,10
+1924,2007_1,webber,red_bull,15,13,0.0,7,57,+1 Lap,7
+1925,2007_1,liuzzi,toro_rosso,18,14,0.0,19,57,+1 Lap,20
+1926,2007_1,button,honda,7,15,0.0,14,57,+1 Lap,14
+1927,2007_1,davidson,super_aguri,23,16,0.0,11,56,+2 Laps,11
+1928,2007_1,sutil,spyker,20,17,0.0,20,56,+2 Laps,21
+1929,2007_1,wurz,williams,17,18,0.0,15,48,Collision,15
+1930,2007_1,coulthard,red_bull,14,19,0.0,18,48,Collision,19
+1931,2007_1,kubica,bmw_sauber,10,20,0.0,5,36,Gearbox,5
+1932,2007_1,speed,toro_rosso,19,21,0.0,17,28,Puncture,18
+1933,2007_1,albers,spyker,21,22,0.0,21,10,Accident,22
+1934,2007_2,alonso,mclaren,1,1,10.0,2,56,Finished,2
+1935,2007_2,hamilton,mclaren,2,2,8.0,4,56,Finished,4
+1936,2007_2,raikkonen,ferrari,6,3,6.0,3,56,Finished,3
+1937,2007_2,heidfeld,bmw_sauber,9,4,5.0,5,56,Finished,5
+1938,2007_2,massa,ferrari,5,5,4.0,1,56,Finished,1
+1939,2007_2,fisichella,renault,3,6,3.0,12,56,Finished,12
+1940,2007_2,trulli,toyota,12,7,2.0,8,56,Finished,8
+1941,2007_2,kovalainen,renault,4,8,1.0,11,56,Finished,11
+1942,2007_2,wurz,williams,17,9,0.0,19,56,Finished,20
+1943,2007_2,webber,red_bull,15,10,0.0,10,56,Finished,10
+1944,2007_2,barrichello,honda,8,11,0.0,22,55,+1 Lap,19
+1945,2007_2,button,honda,7,12,0.0,15,55,+1 Lap,15
+1946,2007_2,sato,super_aguri,22,13,0.0,14,55,+1 Lap,14
+1947,2007_2,speed,toro_rosso,19,14,0.0,17,55,+1 Lap,17
+1948,2007_2,ralf_schumacher,toyota,11,15,0.0,9,55,+1 Lap,9
+1949,2007_2,davidson,super_aguri,23,16,0.0,18,55,+1 Lap,18
+1950,2007_2,liuzzi,toro_rosso,18,17,0.0,16,55,+1 Lap,16
+1951,2007_2,kubica,bmw_sauber,10,18,0.0,7,55,+1 Lap,7
+1952,2007_2,rosberg,williams,16,19,0.0,6,42,Hydraulics,6
+1953,2007_2,coulthard,red_bull,14,20,0.0,13,36,Brakes,13
+1954,2007_2,albers,spyker,21,21,0.0,20,7,Engine,21
+1955,2007_2,sutil,spyker,20,22,0.0,21,0,Collision,22
+1956,2007_3,massa,ferrari,5,1,10.0,1,57,Finished,1
+1957,2007_3,hamilton,mclaren,2,2,8.0,2,57,Finished,2
+1958,2007_3,raikkonen,ferrari,6,3,6.0,3,57,Finished,3
+1959,2007_3,heidfeld,bmw_sauber,9,4,5.0,5,57,Finished,5
+1960,2007_3,alonso,mclaren,1,5,4.0,4,57,Finished,4
+1961,2007_3,kubica,bmw_sauber,10,6,3.0,6,57,Finished,6
+1962,2007_3,trulli,toyota,12,7,2.0,9,57,Finished,9
+1963,2007_3,fisichella,renault,3,8,1.0,7,57,Finished,7
+1964,2007_3,kovalainen,renault,4,9,0.0,12,57,Finished,12
+1965,2007_3,rosberg,williams,16,10,0.0,10,57,Finished,10
+1966,2007_3,wurz,williams,17,11,0.0,11,56,+1 Lap,11
+1967,2007_3,ralf_schumacher,toyota,11,12,0.0,14,56,+1 Lap,14
+1968,2007_3,barrichello,honda,8,13,0.0,15,56,+1 Lap,15
+1969,2007_3,albers,spyker,21,14,0.0,22,55,+2 Laps,22
+1970,2007_3,sutil,spyker,20,15,0.0,20,53,+4 Laps,20
+1971,2007_3,davidson,super_aguri,23,16,0.0,13,51,Engine,13
+1972,2007_3,webber,red_bull,15,17,0.0,8,41,Gearbox,8
+1973,2007_3,coulthard,red_bull,14,18,0.0,21,36,Driveshaft,21
+1974,2007_3,sato,super_aguri,22,19,0.0,17,34,Engine,17
+1975,2007_3,liuzzi,toro_rosso,18,20,0.0,18,26,Hydraulics,18
+1976,2007_3,button,honda,7,21,0.0,16,0,Collision,16
+1977,2007_3,speed,toro_rosso,19,22,0.0,19,0,Collision,19
+1978,2007_4,massa,ferrari,5,1,10.0,1,65,Finished,1
+1979,2007_4,hamilton,mclaren,2,2,8.0,4,65,Finished,4
+1980,2007_4,alonso,mclaren,1,3,6.0,2,65,Finished,2
+1981,2007_4,kubica,bmw_sauber,10,4,5.0,5,65,Finished,5
+1982,2007_4,coulthard,red_bull,14,5,4.0,9,65,Finished,9
+1983,2007_4,rosberg,williams,16,6,3.0,11,65,Finished,11
+1984,2007_4,kovalainen,renault,4,7,2.0,8,65,Finished,8
+1985,2007_4,sato,super_aguri,22,8,1.0,13,64,+1 Lap,13
+1986,2007_4,fisichella,renault,3,9,0.0,10,64,+1 Lap,10
+1987,2007_4,barrichello,honda,8,10,0.0,12,64,+1 Lap,12
+1988,2007_4,davidson,super_aguri,23,11,0.0,15,64,+1 Lap,15
+1989,2007_4,button,honda,7,12,0.0,14,64,+1 Lap,14
+1990,2007_4,sutil,spyker,20,13,0.0,20,63,+2 Laps,20
+1991,2007_4,albers,spyker,21,14,0.0,21,63,+2 Laps,21
+1992,2007_4,heidfeld,bmw_sauber,9,15,0.0,7,46,Gearbox,7
+1993,2007_4,ralf_schumacher,toyota,11,16,0.0,17,44,Suspension,17
+1994,2007_4,liuzzi,toro_rosso,18,17,0.0,16,19,Retired,16
+1995,2007_4,speed,toro_rosso,19,18,0.0,22,9,Tyre,22
+1996,2007_4,raikkonen,ferrari,6,19,0.0,3,9,Suspension,3
+1997,2007_4,trulli,toyota,12,20,0.0,6,8,Fuel pressure,6
+1998,2007_4,webber,red_bull,15,21,0.0,19,7,Hydraulics,19
+1999,2007_4,wurz,williams,17,22,0.0,18,1,Collision,18
+2000,2007_5,alonso,mclaren,1,1,10.0,1,78,Finished,1

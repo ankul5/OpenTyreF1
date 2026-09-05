@@ -1,0 +1,20 @@
+# Runtime-only dependencies for serving the API.
+#
+# This is requirements.txt minus `fastf1`, which is imported solely by
+# app/ingestion/fetch_fastf1.py and never on the request path. Dropping it also
+# drops matplotlib, scipy, timple and rapidfuzz, which cuts a container build
+# from minutes to seconds. Use requirements.txt when you need to re-ingest.
+
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.6
+pydantic>=2.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+httpx>=0.24.0
+pandas>=2.0.0
+xgboost>=2.0.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+joblib>=1.3.0

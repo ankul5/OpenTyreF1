@@ -1,0 +1,261 @@
+[
+  {
+    "table": "constructors",
+    "rows": 38,
+    "columns": [
+      "constructor_id",
+      "name",
+      "nationality"
+    ],
+    "csv": "data/csv/constructors.csv",
+    "bytes": 1021
+  },
+  {
+    "table": "drivers",
+    "rows": 136,
+    "columns": [
+      "driver_id",
+      "permanent_number",
+      "code",
+      "given_name",
+      "family_name",
+      "date_of_birth",
+      "nationality"
+    ],
+    "csv": "data/csv/drivers.csv",
+    "bytes": 6629
+  },
+  {
+    "table": "overtakes",
+    "rows": 22383,
+    "columns": [
+      "id",
+      "session_key",
+      "date",
+      "position",
+      "overtaking_driver_number",
+      "overtaken_driver_number"
+    ],
+    "csv": "data/csv/overtakes.csv",
+    "bytes": 1186960,
+    "sample_csv": "data/csv/overtakes_sample.csv"
+  },
+  {
+    "table": "pit_stops",
+    "rows": 2975,
+    "columns": [
+      "id",
+      "session_key",
+      "driver_id",
+      "driver_number",
+      "lap_number",
+      "pit_duration",
+      "lane_duration",
+      "date"
+    ],
+    "csv": "data/csv/pit_stops.csv",
+    "bytes": 205962
+  },
+  {
+    "table": "race_control_messages",
+    "rows": 9805,
+    "columns": [
+      "id",
+      "session_key",
+      "date",
+      "lap_number",
+      "category",
+      "flag",
+      "scope",
+      "message",
+      "driver_number"
+    ],
+    "csv": "data/csv/race_control_messages.csv",
+    "bytes": 1040626,
+    "sample_csv": "data/csv/race_control_messages_sample.csv"
+  },
+  {
+    "table": "races",
+    "rows": 492,
+    "columns": [
+      "race_id",
+      "season_year",
+      "round",
+      "race_name",
+      "circuit_name",
+      "date",
+      "country",
+      "locality",
+      "race_time",
+      "lat",
+      "lng",
+      "schedule_json"
+    ],
+    "csv": "data/csv/races.csv",
+    "bytes": 146563
+  },
+  {
+    "table": "results",
+    "rows": 10068,
+    "columns": [
+      "id",
+      "race_id",
+      "driver_id",
+      "constructor_id",
+      "number",
+      "position",
+      "points",
+      "grid",
+      "laps",
+      "status",
+      "qualifying_position"
+    ],
+    "csv": "data/csv/results.csv",
+    "bytes": 567444,
+    "sample_csv": "data/csv/results_sample.csv"
+  },
+  {
+    "table": "seasons",
+    "rows": 25,
+    "columns": [
+      "year",
+      "url"
+    ],
+    "csv": "data/csv/seasons.csv",
+    "bytes": 1810
+  },
+  {
+    "table": "session_drivers",
+    "rows": 2130,
+    "columns": [
+      "id",
+      "session_key",
+      "driver_number",
+      "driver_id",
+      "full_name",
+      "name_acronym",
+      "team_name",
+      "team_colour",
+      "headshot_url"
+    ],
+    "csv": "data/csv/session_drivers.csv",
+    "bytes": 419264,
+    "sample_csv": "data/csv/session_drivers_sample.csv"
+  },
+  {
+    "table": "session_laps",
+    "rows": 100393,
+    "columns": [
+      "id",
+      "race_id",
+      "driver_id",
+      "lap_number",
+      "lap_time_seconds",
+      "tyre_compound",
+      "stint",
+      "session_key",
+      "position",
+      "gap_to_leader_seconds",
+      "tyre_life",
+      "is_pit_out_lap",
+      "sector_1_seconds",
+      "sector_2_seconds",
+      "sector_3_seconds",
+      "speed_trap_kph",
+      "date_start"
+    ],
+    "csv": "data/csv/session_laps.csv",
+    "bytes": 11858881,
+    "sample_csv": "data/csv/session_laps_sample.csv"
+  },
+  {
+    "table": "session_results",
+    "rows": 2110,
+    "columns": [
+      "id",
+      "session_key",
+      "driver_id",
+      "driver_number",
+      "position",
+      "number_of_laps",
+      "points",
+      "gap_to_leader",
+      "duration_seconds",
+      "dnf",
+      "dns",
+      "dsq"
+    ],
+    "csv": "data/csv/session_results.csv",
+    "bytes": 104514
+  },
+  {
+    "table": "session_stints",
+    "rows": 5355,
+    "columns": [
+      "id",
+      "session_key",
+      "driver_id",
+      "driver_number",
+      "stint_number",
+      "compound",
+      "lap_start",
+      "lap_end",
+      "tyre_age_at_start"
+    ],
+    "csv": "data/csv/session_stints.csv",
+    "bytes": 202376
+  },
+  {
+    "table": "session_weather",
+    "rows": 7526,
+    "columns": [
+      "id",
+      "session_key",
+      "date",
+      "air_temperature",
+      "track_temperature",
+      "humidity",
+      "pressure",
+      "rainfall",
+      "wind_speed",
+      "wind_direction"
+    ],
+    "csv": "data/csv/session_weather.csv",
+    "bytes": 567787,
+    "sample_csv": "data/csv/session_weather_sample.csv"
+  },
+  {
+    "table": "sessions",
+    "rows": 105,
+    "columns": [
+      "session_key",
+      "race_id",
+      "meeting_key",
+      "year",
+      "session_name",
+      "session_type",
+      "circuit_short_name",
+      "location",
+      "country_name",
+      "date_start",
+      "date_end"
+    ],
+    "csv": "data/csv/sessions.csv",
+    "bytes": 12205
+  },
+  {
+    "table": "standings",
+    "rows": 593,
+    "columns": [
+      "id",
+      "season_year",
+      "driver_id",
+      "constructor_id",
+      "position",
+      "points",
+      "wins"
+    ],
+    "csv": "data/csv/standings.csv",
+    "bytes": 21527
+  }
+]

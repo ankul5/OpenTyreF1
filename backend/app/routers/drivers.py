@@ -1,28 +1,35 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
-from sqlalchemy import func, or_, distinct
+from sqlalchemy import func, or_, and_, distinct
 from sqlalchemy.orm import Session
 
 from app.database import get_db
-from app.models.models import Driver, Constructor, Race, Result, Standing
+from app.models.models import Driver, Constructor, Race, Result, Standing, SessionDriver, Session as OpenF1Session
 
 router = APIRouter(prefix="/api/drivers", tags=["drivers"])
 
 
-def _latest_team_subquery(db: Session):
-    """Map driver_id -> (constructor name, most recent season raced).
+def _headshots_for(db: Session, driver_ids: list[str]) -> dict[str, str]:
+    """Most recent non-null headshot per driver, from any session they've run.
 
-    Built from results joined to races so it reflects who the driver actually
-    drove for last, rather than assuming a current-season entry exists.
+    DriverDetail has no image field of its own — headshots only exist on
+    session_drivers, keyed by session rather than driver. One grouped query
+    for the whole page/lookup, ordered so the first row per driver_id (after
+    a Python-side sort) is the newest, rather than N extra round-trips.
     """
-    return (
-        db.query(
-            Result.driver_id.label("driver_id"),
-            func.max(Race.season_year).label("last_season"),
-        )
-        .join(Race, Race.race_id == Result.race_id)
-        .group_by(Result.driver_id)
-        .subquery()
+    if not driver_ids:
+        return {}
+    rows = (
+        db.query(SessionDriver.driver_id, SessionDriver.headshot_url)
+        .join(OpenF1Session, OpenF1Session.session_key == SessionDriver.session_key)
+        .filter(SessionDriver.driver_id.in_(driver_ids), SessionDriver.headshot_url.isnot(None))
+        .order_by(SessionDriver.driver_id, OpenF1Session.date_start.desc())
+        .all()
     )
+    out: dict[str, str] = {}
+    for driver_id, url in rows:
+        if driver_id not in out:
+            out[driver_id] = url
+    return out
 
 
 @router.get("")
@@ -71,23 +78,37 @@ def list_drivers(
         .all()
     )
 
-    latest = _latest_team_subquery(db)
+    # Batched in two grouped queries for the whole page, rather than two
+    # extra round-trips per row (a 30-row page was costing 61 queries).
+    page_ids = [d.driver_id for d in rows]
+
+    wins_by_driver = dict(
+        db.query(Result.driver_id, func.count(Result.id))
+        .filter(Result.driver_id.in_(page_ids), Result.position == 1)
+        .group_by(Result.driver_id)
+        .all()
+    ) if page_ids else {}
+
+    # Most recent (season, round) entry per driver decides their "current" team.
+    team_rows = (
+        db.query(Result.driver_id, Race.season_year, Race.round, Constructor.name)
+        .join(Race, Race.race_id == Result.race_id)
+        .join(Constructor, Constructor.constructor_id == Result.constructor_id)
+        .filter(Result.driver_id.in_(page_ids))
+        .order_by(Result.driver_id, Race.season_year.desc(), Race.round.desc())
+        .all()
+    ) if page_ids else []
+
+    latest_team_by_driver: dict[str, tuple[int, str]] = {}
+    for driver_id, season_year, _round, constructor_name in team_rows:
+        if driver_id not in latest_team_by_driver:
+            latest_team_by_driver[driver_id] = (season_year, constructor_name)
+
+    headshots = _headshots_for(db, page_ids)
+
     items = []
     for d in rows:
-        team_row = (
-            db.query(Constructor.name, latest.c.last_season)
-            .select_from(latest)
-            .join(Result, Result.driver_id == latest.c.driver_id)
-            .join(Race, (Race.race_id == Result.race_id) & (Race.season_year == latest.c.last_season))
-            .join(Constructor, Constructor.constructor_id == Result.constructor_id)
-            .filter(latest.c.driver_id == d.driver_id)
-            .first()
-        )
-        wins = (
-            db.query(func.count(Result.id))
-            .filter(Result.driver_id == d.driver_id, Result.position == 1)
-            .scalar()
-        )
+        latest_team = latest_team_by_driver.get(d.driver_id)
         items.append({
             "driverId": d.driver_id,
             "givenName": d.given_name,
@@ -95,9 +116,10 @@ def list_drivers(
             "code": d.code,
             "permanentNumber": d.permanent_number,
             "nationality": d.nationality,
-            "team": team_row[0] if team_row else None,
-            "lastSeason": team_row[1] if team_row else None,
-            "wins": wins or 0,
+            "team": latest_team[1] if latest_team else None,
+            "lastSeason": latest_team[0] if latest_team else None,
+            "wins": wins_by_driver.get(d.driver_id, 0),
+            "headshotUrl": headshots.get(d.driver_id),
         })
 
     return {
@@ -130,8 +152,15 @@ def get_driver(driver_id: str, db: Session = Depends(get_db)):
     podiums = db.query(func.count(Result.id)).filter(
         Result.driver_id == driver_id, Result.position <= 3
     ).scalar() or 0
+    # Pole = qualifying position 1, not grid position 1 (a penalty can promote
+    # someone else to P1 on the grid without them having actually qualified on
+    # pole). Falls back to grid for seasons Jolpica has no qualifying data for.
     poles = db.query(func.count(Result.id)).filter(
-        Result.driver_id == driver_id, Result.grid == 1
+        Result.driver_id == driver_id,
+        or_(
+            Result.qualifying_position == 1,
+            and_(Result.qualifying_position.is_(None), Result.grid == 1),
+        ),
     ).scalar() or 0
     championships = db.query(func.count(Standing.id)).filter(
         Standing.driver_id == driver_id, Standing.position == 1
@@ -162,6 +191,8 @@ def get_driver(driver_id: str, db: Session = Depends(get_db)):
         .all()
     ]
 
+    headshot_url = _headshots_for(db, [driver_id]).get(driver_id)
+
     return {
         "driverId": driver.driver_id,
         "givenName": driver.given_name,
@@ -170,6 +201,7 @@ def get_driver(driver_id: str, db: Session = Depends(get_db)):
         "permanentNumber": driver.permanent_number,
         "dateOfBirth": driver.date_of_birth,
         "nationality": driver.nationality,
+        "headshotUrl": headshot_url,
         "career": {
             "starts": totals.starts or 0,
             "wins": wins,
