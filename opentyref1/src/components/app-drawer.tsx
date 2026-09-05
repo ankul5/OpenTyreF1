@@ -102,7 +102,9 @@ export function AppDrawer() {
 }
 
 const styles = StyleSheet.create({
-  backdrop: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.55)' },
+  // RN 0.86 dropped `absoluteFillObject` from its types; `absoluteFill` is
+  // declared as a plain object and spreads to the same four properties.
+  backdrop: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(0,0,0,0.55)' },
   panel: {
     position: 'absolute',
     left: 0,
