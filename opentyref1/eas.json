@@ -21,18 +21,16 @@
       "android": {
         "buildType": "apk"
       },
-      "ios": {
-        "simulator": true
-      }
+      "ios": {}
     },
-    "preview-device": {
+    "preview-simulator": {
       "distribution": "internal",
       "channel": "preview",
       "android": {
         "buildType": "apk"
       },
       "ios": {
-        "enterpriseProvisioning": "adhoc"
+        "simulator": true
       }
     },
     "production": {
