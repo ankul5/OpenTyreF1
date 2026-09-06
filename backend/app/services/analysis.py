@@ -193,20 +193,27 @@ def sector_deltas(db: OrmSession, session_key: int) -> list[dict]:
     return out
 
 
-def dirty_air_loss(db: OrmSession, session_key: int) -> dict:
-    """Median lap time while following a car closely (< 1.5s gap to the car
-    ahead) vs. running in clear air. gap_to_leader_seconds has 90.5% coverage
-    in practice, so the sample size is reported alongside the numbers.
+def gaps_by_lap(db: OrmSession, session_key: int) -> dict[tuple[str, int], dict]:
+    """(driver_id, lap_number) -> {"ahead": seconds|None, "behind": seconds|None}.
+
+    `session_laps` has no gap-to-car-ahead column, only `gap_to_leader_seconds`
+    (88.7% coverage) — this derives it by sorting each lap's field by track
+    position and differencing consecutive leader-gaps. A negative difference
+    (a timing artefact, or a lapped car whose "+1 LAP" gap was dropped to
+    NULL at ingest) is left as `None` rather than guessed at; every caller
+    should report how many laps actually had a value, not just average over
+    however many happened to survive.
+
+    Pulled out of `dirty_air_loss` (the only prior user of this logic) so the
+    pitwall's overtake/defensive modules can share the identical computation
+    instead of re-deriving it.
     """
     rows = (
         db.query(SessionLap)
         .filter(
             SessionLap.session_key == session_key,
-            SessionLap.lap_time_seconds.isnot(None),
             SessionLap.position.isnot(None),
             SessionLap.gap_to_leader_seconds.isnot(None),
-            SessionLap.lap_number > 1,
-            (SessionLap.is_pit_out_lap.is_(None)) | (SessionLap.is_pit_out_lap == False),  # noqa: E712
         )
         .all()
     )
@@ -214,14 +221,46 @@ def dirty_air_loss(db: OrmSession, session_key: int) -> dict:
     for r in rows:
         by_lap[r.lap_number].append(r)
 
-    following_times, clear_times = [], []
+    out: dict[tuple[str, int], dict] = {}
     for lap_number, entries in by_lap.items():
         entries.sort(key=lambda l: l.position)
-        for i in range(1, len(entries)):
-            gap_to_ahead = entries[i].gap_to_leader_seconds - entries[i - 1].gap_to_leader_seconds
-            if gap_to_ahead < 0:
-                continue
-            (following_times if gap_to_ahead < 1.5 else clear_times).append(entries[i].lap_time_seconds)
+        for i, entry in enumerate(entries):
+            ahead = None
+            if i > 0:
+                gap = entry.gap_to_leader_seconds - entries[i - 1].gap_to_leader_seconds
+                if gap >= 0:
+                    ahead = round(gap, 3)
+            behind = None
+            if i < len(entries) - 1:
+                gap = entries[i + 1].gap_to_leader_seconds - entry.gap_to_leader_seconds
+                if gap >= 0:
+                    behind = round(gap, 3)
+            out[(entry.driver_id, lap_number)] = {"ahead": ahead, "behind": behind}
+    return out
+
+
+def dirty_air_loss(db: OrmSession, session_key: int) -> dict:
+    """Median lap time while following a car closely (< 1.5s gap to the car
+    ahead) vs. running in clear air. gap_to_leader_seconds has 90.5% coverage
+    in practice, so the sample size is reported alongside the numbers.
+    """
+    gaps = gaps_by_lap(db, session_key)
+    rows = (
+        db.query(SessionLap)
+        .filter(
+            SessionLap.session_key == session_key,
+            SessionLap.lap_time_seconds.isnot(None),
+            SessionLap.lap_number > 1,
+            (SessionLap.is_pit_out_lap.is_(None)) | (SessionLap.is_pit_out_lap == False),  # noqa: E712
+        )
+        .all()
+    )
+    following_times, clear_times = [], []
+    for r in rows:
+        gap = gaps.get((r.driver_id, r.lap_number))
+        if not gap or gap["ahead"] is None:
+            continue
+        (following_times if gap["ahead"] < 1.5 else clear_times).append(r.lap_time_seconds)
 
     return {
         "followingMedian": round(median(following_times), 3) if following_times else None,

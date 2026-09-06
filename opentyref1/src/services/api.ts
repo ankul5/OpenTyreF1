@@ -752,6 +752,129 @@ export const runSimulation = async (body: {
 };
 
 // ---------------------------------------------------------------------------
+// Pitwall decision modules
+//
+// Every module below answers the same question in a different way — "at this
+// lap of this real race, what was the right call, and what actually
+// happened?" — and every response shares one envelope shape
+// (`PitwallResponse`), so <RecommendationCard> never has to special-case a
+// module. `sampleSize` and `source` are never omitted: a 13-race red-flag
+// sample should look like 13, not a bar chart that quietly assumes a
+// thousand.
+// ---------------------------------------------------------------------------
+
+export interface PitwallFact {
+  label: string;
+  value: string;
+}
+
+export interface PitwallResponse {
+  verdict: string;
+  confidence: number;
+  expectedGain: number | null;
+  reasoning: string[];
+  facts: PitwallFact[];
+  sampleSize: number;
+  source: 'measured' | 'derived' | 'modelled';
+  actual: Record<string, unknown>;
+}
+
+export interface OutcomeResponse extends PitwallResponse {
+  histogram: { position: number; probability: number }[];
+  raceLaps: number;
+  lap: number;
+  maxPosition: number;
+}
+
+export interface PitwallEvent {
+  type: 'SC' | 'VSC' | 'YELLOW' | 'DOUBLE_YELLOW' | 'RED' | 'OTHER' | 'UNKNOWN';
+  category: 'neutralisation' | 'flag';
+  deployedLap: number;
+  clearedLap: number | null;
+  laps: number[] | null;
+  scope?: string | null;
+}
+
+export interface PitwallDriverState {
+  driverId: string;
+  code: string | null;
+  name: string | null;
+  team: string | null;
+  teamColour: string;
+  position: number | null;
+  compound: string | null;
+  tyreLife: number | null;
+  stint: number | null;
+  pitStops: number;
+  gapAhead: number | null;
+  gapBehind: number | null;
+  asOfLap: number;
+}
+
+export interface RaceState {
+  raceId: string;
+  raceName: string | null;
+  sessionKey: number;
+  raceLaps: number;
+  lap: number;
+  drivers: PitwallDriverState[];
+  events: PitwallEvent[];
+  weather: { trackTemp: number | null; airTemp: number | null; isWet: boolean | null };
+}
+
+export const fetchRaceState = async (raceId: string, lap?: number): Promise<RaceState> => {
+  const { data } = await apiClient.get<RaceState>(`/api/strategy/state/${raceId}`, {
+    params: lap != null ? { lap } : undefined,
+  });
+  return data;
+};
+
+type PitwallModule = 'safety-car' | 'flags' | 'weather' | 'overtake' | 'defence';
+
+const fetchPitwall = async (
+  module: PitwallModule,
+  raceId: string,
+  driverId: string,
+  lap: number,
+): Promise<PitwallResponse> => {
+  const { data } = await apiClient.get<PitwallResponse>(`/api/strategy/${module}/${raceId}`, {
+    params: { driver_id: driverId, lap },
+  });
+  return data;
+};
+
+export const fetchSafetyCarCall = (raceId: string, driverId: string, lap: number) =>
+  fetchPitwall('safety-car', raceId, driverId, lap);
+
+export const fetchFlagsCall = (raceId: string, driverId: string, lap: number) =>
+  fetchPitwall('flags', raceId, driverId, lap);
+
+export const fetchWeatherCall = (raceId: string, driverId: string, lap: number) =>
+  fetchPitwall('weather', raceId, driverId, lap);
+
+export const fetchOvertakeCall = (raceId: string, driverId: string, lap: number) =>
+  fetchPitwall('overtake', raceId, driverId, lap);
+
+export const fetchDefenceCall = (raceId: string, driverId: string, lap: number) =>
+  fetchPitwall('defence', raceId, driverId, lap);
+
+export const fetchOutcomeCall = async (raceId: string, driverId: string, lap: number): Promise<OutcomeResponse> => {
+  const { data } = await apiClient.get<OutcomeResponse>(`/api/strategy/outcome/${raceId}`, {
+    params: { driver_id: driverId, lap },
+    timeout: 30000,
+  });
+  return data;
+};
+
+export const fetchRiskCall = async (raceId: string, driverId: string, lap: number): Promise<PitwallResponse> => {
+  const { data } = await apiClient.get<PitwallResponse>(`/api/strategy/risk/${raceId}`, {
+    params: { driver_id: driverId, lap },
+    timeout: 30000,
+  });
+  return data;
+};
+
+// ---------------------------------------------------------------------------
 // Assistant (Phase 4)
 // ---------------------------------------------------------------------------
 

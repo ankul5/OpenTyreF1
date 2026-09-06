@@ -10,7 +10,7 @@ from sqlalchemy.orm import Session as OrmSession
 
 from app.database import get_db
 from app.ml import predictor
-from app.services import simulation
+from app.services import pitwall, simulation
 
 router = APIRouter(prefix="/api/strategy", tags=["strategy"])
 
@@ -67,3 +67,52 @@ def reload_model(confirm: bool = Query(False, description="Must be true to act."
         return {"reloaded": False, "hint": "Call with ?confirm=true"}
     predictor.reload()
     return {"reloaded": True, "status": predictor.status()}
+
+
+# ---------------------------------------------------------------------------
+# Pitwall decision modules (Phase 1) — each answers "at this lap of this real
+# race, what was the right call, and what actually happened?". See
+# services/pitwall.py for the shared envelope every module returns.
+# ---------------------------------------------------------------------------
+
+@router.get("/state/{race_id}")
+def state(race_id: str, lap: int | None = Query(None, ge=1), db: OrmSession = Depends(get_db)):
+    """Shared scrubber snapshot: every driver's position/compound/gaps as of
+    a lap, plus the event timeline and as-of weather. Omit `lap` for the
+    final lap of the race."""
+    return pitwall.race_state(db, race_id, lap)
+
+
+@router.get("/safety-car/{race_id}")
+def safety_car(race_id: str, driver_id: str, lap: int = Query(..., ge=1), db: OrmSession = Depends(get_db)):
+    return pitwall.safety_car_call(db, race_id, driver_id, lap)
+
+
+@router.get("/flags/{race_id}")
+def flags(race_id: str, driver_id: str, lap: int = Query(..., ge=1), db: OrmSession = Depends(get_db)):
+    return pitwall.flags_call(db, race_id, driver_id, lap)
+
+
+@router.get("/weather/{race_id}")
+def weather(race_id: str, driver_id: str, lap: int = Query(..., ge=1), db: OrmSession = Depends(get_db)):
+    return pitwall.weather_call(db, race_id, driver_id, lap)
+
+
+@router.get("/overtake/{race_id}")
+def overtake(race_id: str, driver_id: str, lap: int = Query(..., ge=1), db: OrmSession = Depends(get_db)):
+    return pitwall.overtake_call(db, race_id, driver_id, lap)
+
+
+@router.get("/defence/{race_id}")
+def defence(race_id: str, driver_id: str, lap: int = Query(..., ge=1), db: OrmSession = Depends(get_db)):
+    return pitwall.defence_call(db, race_id, driver_id, lap)
+
+
+@router.get("/outcome/{race_id}")
+def outcome(race_id: str, driver_id: str, lap: int = Query(..., ge=1), db: OrmSession = Depends(get_db)):
+    return pitwall.outcome_call(db, race_id, driver_id, lap)
+
+
+@router.get("/risk/{race_id}")
+def risk(race_id: str, driver_id: str, lap: int = Query(..., ge=1), db: OrmSession = Depends(get_db)):
+    return pitwall.risk_call(db, race_id, driver_id, lap)

@@ -21,6 +21,7 @@ import { OpenTyreF1Theme } from '../constants/theme';
 import { AppMenuProvider } from '../context/app-menu';
 import { FlagSupportProvider } from '../context/flag-support';
 import { StrategyDraftProvider } from '../context/strategy-context';
+import { PitwallSelectionProvider } from '../context/pitwall-context';
 import { AppDrawer } from '../components/app-drawer';
 
 const queryClient = new QueryClient({
@@ -61,18 +62,20 @@ export default function RootLayout() {
     <QueryClientProvider client={queryClient}>
       <FlagSupportProvider>
         <StrategyDraftProvider>
-          <AppMenuProvider>
-            <StatusBar style="light" />
-            <Stack
-              screenOptions={{
-                headerShown: false,
-                contentStyle: { backgroundColor: OpenTyreF1Theme.colors.background },
-              }}
-            >
-              <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-            </Stack>
-            <AppDrawer />
-          </AppMenuProvider>
+          <PitwallSelectionProvider>
+            <AppMenuProvider>
+              <StatusBar style="light" />
+              <Stack
+                screenOptions={{
+                  headerShown: false,
+                  contentStyle: { backgroundColor: OpenTyreF1Theme.colors.background },
+                }}
+              >
+                <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+              </Stack>
+              <AppDrawer />
+            </AppMenuProvider>
+          </PitwallSelectionProvider>
         </StrategyDraftProvider>
       </FlagSupportProvider>
     </QueryClientProvider>
