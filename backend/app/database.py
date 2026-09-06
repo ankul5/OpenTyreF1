@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, text
+from sqlalchemy import create_engine, text, inspect
 from sqlalchemy.orm import sessionmaker, declarative_base
 from app.config import DATABASE_URL
 
@@ -32,9 +32,13 @@ def ensure_columns(table: str, columns: dict[str, str]) -> None:
     to a table that already has data (e.g. new fields on `races`), without
     Alembic and without losing the existing rows. Safe to call every startup:
     it only issues ALTER TABLE for columns that are actually missing.
+
+    Uses SQLAlchemy's inspector rather than `PRAGMA table_info` so this works
+    on both SQLite and Postgres — the raw SQL types passed in (TEXT, REAL) are
+    valid on both dialects, so no per-backend mapping is needed.
     """
+    existing = {col["name"] for col in inspect(engine).get_columns(table)}
     with engine.connect() as conn:
-        existing = {row[1] for row in conn.execute(text(f"PRAGMA table_info({table})"))}
         for name, sql_type in columns.items():
             if name not in existing:
                 conn.execute(text(f"ALTER TABLE {table} ADD COLUMN {name} {sql_type}"))

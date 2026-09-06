@@ -14,6 +14,11 @@ backend/app/*/__pycache__/
 *.db
 !backend/opentyref1.db
 
+# backend/.env holds the real DATABASE_URL once Supabase is wired up
+# (password included) — must never be committed. opentyref1/.env stays
+# tracked on purpose: it only holds a public API URL, nothing secret.
+backend/.env
+
 # FastF1 HTTP/pickle cache — regenerates on first run, don't ship it.
 backend/cache/
 
