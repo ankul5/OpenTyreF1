@@ -2,9 +2,12 @@
 
 ## Today — Live feed & database (in progress)
 
-Branch: `feature/strategy-pitwall-modules` (uncommitted, alongside the pitwall
-work below). Full plan with rationale, measured numbers, and file-level detail
-at `C:\Users\ankul\.claude\plans\breezy-riding-kurzweil.md`.
+Branch: `feature/strategy-pitwall-modules`. Phases 0–2 are committed
+(`ced2a2f`, `f591aa7`, `d34da6b`) — **not yet pushed anywhere**, see
+"How to deploy" below. The pitwall work further down stays uncommitted, as
+before; committing only touches what a commit lists, so it was never at risk.
+Full plan with rationale, measured numbers, and file-level detail at
+`C:\Users\ankul\.claude\plans\breezy-riding-kurzweil.md`.
 
 **Why:** the Live tab showed Zandvoort (Aug 23) after the Italian GP had already
 run — not a lag, the backend had no code path that ever fetched new data.
@@ -20,8 +23,6 @@ pre-2023 seasons), and 2018–2022 turned out to be backfillable via FastF1.
       Qualifying for every earlier 2026 race and created skeleton `Session`
       rows (zero laps, real `date_start`) for every remaining 2026 race through
       Abu Dhabi — a head start on Phase 2's countdown catalog.
-      **Remaining:** commit `opentyref1.db` and get it to whatever branch/
-      service Render actually deploys — see open question below.
 - [x] **Phase 1a — Postgres portability (code only).** `database.py`'s
       `ensure_columns()` rewritten off SQLite-only `PRAGMA table_info` onto
       `sqlalchemy.inspect()`, so it works on both backends. New
@@ -104,11 +105,80 @@ pre-2023 seasons), and 2018–2022 turned out to be backfillable via FastF1.
       retired SUPERSOFT/ULTRASOFT/HYPERSOFT compounds to the tyre-badge map so
       they don't collide on the same letter as SOFT/HARD.
 
-**Open question, not yet resolved:** the current branch and `main` are at the
-same commit (`a4a6e36`) — nothing has diverged. Committing the refreshed
-`opentyref1.db` here is safe and local, but getting Monza *live* on Render
-today means either a small hotfix commit on `main`, or merging this whole
-in-progress feature branch. Needs a call before pushing anything outward.
+---
+
+## How to deploy — commands to run yourself
+
+`main` and `origin/main` are still at `a4a6e36`, unchanged — the 3 commits
+above are 3 commits *ahead*, purely linear, nothing to merge or resolve.
+
+**This is two separate stages that do different things — worth doing both,
+but stage A alone already fixes what you'll see in the app:**
+
+- **Stage A (push code)** — `backend/opentyref1.db` is still committed (with
+  Monza's data now baked in), so the instant this reaches Render, the app
+  stops showing Zandvoort. That's true even before touching Stage B.
+- **Stage B (switch the database)** — is what makes the fix *permanent*. Until
+  Render's `DATABASE_URL` points at Supabase, the auto-sync thread (Phase 2)
+  writes into Render's own container filesystem — which Render wipes on every
+  redeploy. Skip Stage B and the very next `git push` silently undoes Phase 2,
+  resetting to whatever `opentyref1.db` was last committed. Stage B is what
+  the whole Postgres migration (Phase 1) was for.
+
+### Stage A — push to GitHub
+
+```bash
+# Backs up the branch as-is (useful regardless, e.g. for a PR later)
+git push origin feature/strategy-pitwall-modules
+
+# Fast-forwards origin's main by these 3 commits directly — safe, since main
+# hasn't diverged, so this can't produce a merge conflict
+git push origin feature/strategy-pitwall-modules:main
+
+# Bring your local main pointer in sync too (doesn't touch the working tree,
+# main isn't checked out right now, so your uncommitted pitwall edits are
+# untouched either way)
+git branch -f main feature/strategy-pitwall-modules
+```
+
+If Render is set to auto-deploy on push to `main` (its default for a
+GitHub-connected service), this alone triggers a redeploy. If nothing happens
+after a minute or two, go to the Render dashboard → your service → **Manual
+Deploy** → **Deploy latest commit**.
+
+Verify with:
+```bash
+curl https://opentyreapi.onrender.com/api/sessions/latest
+```
+`sessionName`/`location` should read Monza, not Zandvoort.
+
+### Stage B — point Render at Supabase
+
+1. Render dashboard → your backend service → **Environment** tab.
+2. Add or edit `DATABASE_URL`, value:
+   ```
+   postgresql://postgres.ycahkctebtuglxadtfkj:AnkulTiwari%4005@aws-0-ap-south-1.pooler.supabase.com:5432/postgres
+   ```
+   (Same string as `backend/.env` locally — password already URL-encoded,
+   `@` → `%40`.)
+3. Save. Render usually auto-redeploys on an env var change; use **Manual
+   Deploy** if it doesn't.
+4. *(Optional, enables `POST /api/admin/sync` in production)* also add
+   `ADMIN_SYNC_TOKEN` with any random string you generate yourself — it 503s
+   until this is set, which is safe, just means that one endpoint stays off
+   until you want it.
+
+Verify with:
+```bash
+curl https://opentyreapi.onrender.com/api/health
+# {"status":"ok","database":"connected"} confirms Render is reading Postgres,
+# not the baked SQLite file, the moment this differs from before Stage B.
+```
+
+**Not yet decided, no action needed today:** whether to stop committing
+`backend/opentyref1.db` now that Postgres is the real source of truth (the
+original Phase 1 plan called for this once the switch was live). Leaving it
+committed for now costs nothing and keeps it as a working seed/backup.
 
 ---
 
