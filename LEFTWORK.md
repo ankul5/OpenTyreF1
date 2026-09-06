@@ -24,23 +24,36 @@ pre-2023 seasons), and 2018–2022 turned out to be backfillable via FastF1.
       service Render actually deploys — see open question below.
 - [x] **Phase 1a — Postgres portability (code only).** `database.py`'s
       `ensure_columns()` rewritten off SQLite-only `PRAGMA table_info` onto
-      `sqlalchemy.inspect()`, so it works on both backends. Smoke-tested against
-      the local SQLite, unchanged behaviour. New
-      `app/ingestion/migrate_to_postgres.py` — dry-run tested, copies all 15
-      tables in FK-safe order, coerces SQLite's 0/1 to real booleans, resets
-      Postgres sequences after insert, skips any table already populated so
-      re-runs are safe. **Blocked:** needs the real Supabase DB password and
-      the session-pooler connection string (port 6543 — Render's egress is
-      IPv4, Supabase's direct 5432 host is IPv6-only). Get it from Supabase →
-      Project Settings → Database → Connection Pooling → "Session mode".
+      `sqlalchemy.inspect()`, so it works on both backends. New
+      `app/ingestion/migrate_to_postgres.py` — copies all 15 tables in FK-safe
+      order, coerces SQLite's 0/1 to real booleans, resets Postgres sequences
+      after insert, skips any table already populated so re-runs are safe.
 - [x] **Security fix, unplanned:** `backend/.env` was committed to git with no
       secret in it yet. Untracked it (`git rm --cached`) and added it to
-      `.gitignore` *before* any Supabase password goes near it —
+      `.gitignore` *before* any Supabase password went near it —
       `opentyref1/.env` stays tracked on purpose, it only holds a public URL.
-- [ ] **Phase 1b — Run the migration** once the pooler string + password
-      arrive: point `DATABASE_URL` at Supabase, run
-      `python -m app.ingestion.migrate_to_postgres`, verify row counts, redeploy
-      Render with the new `DATABASE_URL`.
+- [x] **Phase 1b — Migration run, done.** Supabase project
+      `ycahkctebtuglxadtfkj` (ap-south-1), connected via the session pooler
+      (port 5432 — the direct 5432 host is IPv6-only, unreachable from here or
+      from Render). All 15 tables migrated with **zero row-count mismatches**
+      (173,259 rows total: 105,826 laps, 22,717 overtakes, 10,803 race-control
+      messages, 10,068 results, the rest smaller). Verified beyond row counts:
+      inserted+deleted a throwaway row to prove sequences reset correctly (no
+      PK collision), and confirmed **FK enforcement is now actually active**
+      — Postgres rejected an orphan-row insert that SQLite would have silently
+      allowed. Actual database size: **47 MB** (9.4% of Supabase's 500 MB free
+      tier — the ~30 MB estimate in the plan undercounted Postgres's row
+      overhead, doesn't change the headroom conclusion).
+      Booted the real app against it and hit the actual endpoints:
+      `/api/sessions/latest` → **Monza** (the reported bug, fixed and verified
+      end-to-end, not just checked in the database directly).
+      `/api/races?limit=90` → all 4 seasons (2023–2026) come back once the
+      limit is raised past 60, confirming the Phase 5 diagnosis is exactly
+      right — pure pagination cutoff, no missing data.
+      `backend/.env` now holds the working `DATABASE_URL` (untracked).
+      **Not done:** Render's `DATABASE_URL` env var hasn't been touched — that
+      switches the live app's database and is a production change, left for
+      an explicit decision rather than done unasked.
 - [ ] **Phase 2 — Auto-sync.** Background thread so this never goes stale
       again: `sync_session_catalog()` writes every session (incl. future ones)
       up front, `sync_recent()` ingests anything that finished >35 min ago and
