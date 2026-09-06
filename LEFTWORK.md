@@ -54,10 +54,34 @@ pre-2023 seasons), and 2018–2022 turned out to be backfillable via FastF1.
       **Not done:** Render's `DATABASE_URL` env var hasn't been touched — that
       switches the live app's database and is a production change, left for
       an explicit decision rather than done unasked.
-- [ ] **Phase 2 — Auto-sync.** Background thread so this never goes stale
-      again: `sync_session_catalog()` writes every session (incl. future ones)
-      up front, `sync_recent()` ingests anything that finished >35 min ago and
-      has no laps yet, on a 15 min / 6 hr loop.
+- [x] **Phase 2 — Auto-sync, done.** New `app/services/session_sync.py`,
+      wired into `main.py` as a daemon thread on startup (confirmed
+      non-blocking: health/session requests served while the first sync pass
+      ran concurrently). `POST /api/admin/sync` (token-guarded via
+      `ADMIN_SYNC_TOKEN`, unset/503 by default) for forcing a pass without a
+      redeploy; `GET /api/admin/sync` reports last run time/error. All three
+      token paths tested (missing/wrong/correct → 403/403/200).
+      **Real bug caught and fixed during testing:** the first version called
+      `ingest_year()` for the "cheap" catalog step too, which has no concept
+      of "hasn't happened yet" — it attempted the full ~10-endpoint harvest
+      against 20 future 2026 sessions and tripped OpenF1's rate limiter twice
+      before finishing. Split into `sync_session_catalog()` (3 cheap requests,
+      writes only the catalog row, never calls `ingest_session()`) and
+      `sync_recent()` (the only step gated by the 35-min embargo window, reads
+      candidates from what the catalog step already wrote). Re-verified: full
+      pass now completes in seconds, idempotent (140 sessions, 105,826 laps,
+      stable across repeated runs), zero rate-limit hits.
+      **Also caught:** the catalog step initially stored sessions with no
+      matching race as `race_id=NULL` orphans (10 of them). Traced to a real
+      upstream gap — verified directly against Jolpica's raw API — **Jolpica's
+      2026 calendar only has 23 races and skips Bahrain + Saudi Arabia
+      entirely** (jumps straight from Japan, round 3, to Miami, round 4), even
+      though OpenF1 has session data for both. Fixed by skipping unmatched
+      sessions instead of half-storing them, matching `match_race()`'s own
+      "never fabricate what isn't there" discipline. **Not fixed** (needs a
+      call, not silently patched): the calendar gap itself, and a separate
+      naming oddity spotted in the same table — round 16 is stored as
+      "Bahrain Grand Prix in Malaysia" at Sepang (which is in Malaysia).
 - [ ] **Phase 3 — `GET /api/live/feed`.** One endpoint, three slots (featured /
       last completed / upcoming), a real session state machine
       (scheduled → running → awaiting_data → completed), reusing

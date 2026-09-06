@@ -8,6 +8,8 @@ from app.routers.races import router as races_router
 from app.routers.telemetry import router as telemetry_router
 from app.routers.strategy import router as strategy_router
 from app.routers.ai import router as ai_router
+from app.routers.admin import router as admin_router
+from app.services.session_sync import start_background_sync
 from app.config import HOST, PORT
 
 # Create database tables automatically if missing
@@ -47,6 +49,12 @@ app.include_router(races_router)
 app.include_router(telemetry_router)
 app.include_router(strategy_router)
 app.include_router(ai_router)
+app.include_router(admin_router)
+
+# Keeps the dataset current without a manual CLI run or redeploy — see
+# app/services/session_sync.py. Runs once immediately in a daemon thread,
+# then on its own schedule; never blocks the app from serving requests.
+start_background_sync()
 
 @app.get("/")
 def read_root():

@@ -349,7 +349,7 @@ def ingest_session(db: OrmSession, meta: dict, race: Race):
         db.commit()
 
 
-def ingest_year(year: int, session_types=("Race",)):
+def ingest_year(year: int, session_types=("Race", "Sprint", "Qualifying")):
     Base.metadata.create_all(bind=engine)
     db = SessionLocal()
     try:

@@ -10,3 +10,7 @@ if DATABASE_URL.startswith("postgres://"):
 
 HOST = os.getenv("HOST", "0.0.0.0")
 PORT = int(os.getenv("PORT", 8000))
+
+# Guards POST /api/admin/sync so it can't be triggered by anyone who finds
+# the URL. Unset by default — the endpoint 503s until this is configured.
+ADMIN_SYNC_TOKEN = os.getenv("ADMIN_SYNC_TOKEN")
